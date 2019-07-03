@@ -1,0 +1,21 @@
+testprops:
+  simpleProps: simplePropsValue
+  arrayProps: 1,2,3,4,5
+  listProp1:
+    - name: abc
+      value: abcValue
+    - name: efg
+      value: efgValue
+  listProp2:
+    - conifg2Value1
+    - config2Value2
+  mapProps:
+    key1: value1
+    key2: value2
+  myPoJos:
+    - name: mypojoname1
+      age: 18
+      description: zheshiwodepojo1
+    - name: mypojoname2
+      age: 19
+      description: zheshiwodepojo2
