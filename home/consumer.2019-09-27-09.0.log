@@ -1,0 +1,74 @@
+2019-09-27 09:43:13.152 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 80232 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-09-27 09:43:13.156 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-09-27 09:43:13.231 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-27 09:43:13.232 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-27 09:43:14.512 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-27 09:43:14.517 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-27 09:43:14.566 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-09-27 09:43:15.016 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a22add9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-27 09:43:15.677 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-09-27 09:43:15.696 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-09-27 09:43:15.713 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-27 09:43:15.713 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-27 09:43:15.881 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-27 09:43:15.881 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2649 ms
+2019-09-27 09:43:15.965 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-09-27 09:43:16.682 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-09-27 09:43:16.697 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-27 09:43:17.644 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-27 09:43:17.795 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-09-27 09:43:17.828 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-09-27 09:43:18.522 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-27 09:43:18.559 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-09-27 09:43:18.594 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-09-27 09:43:18.598 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.197 seconds (JVM running for 7.628)
+2019-09-27 09:52:56.055 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：初始化
+2019-09-27 09:52:56.061 [http-nio-4099-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-27 09:52:56.063 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-27 09:52:56.070 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-09-27 09:52:56.084 [http-nio-4099-exec-2] INFO  com.example.demo.config.filter.CustomFilter - doFilter   请求处理！！！
+2019-09-27 09:52:56.094 [http-nio-4099-exec-2] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - preHandle:请求前调用
+2019-09-27 09:53:14.386 [http-nio-4099-exec-2] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-2  reply is error 
+2019-09-27 09:53:15.687 [http-nio-4099-exec-2] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-2  reply is error 
+2019-09-27 09:53:17.023 [http-nio-4099-exec-2] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-2  reply is error 
+2019-09-27 09:53:18.234 [http-nio-4099-exec-2] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-2  reply is error 
+2019-09-27 09:53:19.488 [http-nio-4099-exec-2] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-2  reply is error 
+2019-09-27 09:53:20.812 [http-nio-4099-exec-2] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-2  reply is error 
+2019-09-27 09:53:22.060 [http-nio-4099-exec-2] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-2  reply is error 
+2019-09-27 09:55:47.750 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 9632 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-09-27 09:55:47.754 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-09-27 09:55:47.850 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-27 09:55:47.851 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-27 09:55:48.837 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-27 09:55:48.841 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-27 09:55:48.881 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-09-27 09:55:49.327 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$856c5823] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-27 09:55:49.934 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-09-27 09:55:49.951 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-09-27 09:55:49.963 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-27 09:55:49.964 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-27 09:55:50.118 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-27 09:55:50.118 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2267 ms
+2019-09-27 09:55:50.191 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-09-27 09:55:50.780 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-09-27 09:55:50.795 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-27 09:55:51.524 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-27 09:55:51.675 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-09-27 09:55:51.707 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-09-27 09:55:52.244 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-27 09:55:52.283 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-09-27 09:55:52.313 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-09-27 09:55:52.315 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.234 seconds (JVM running for 6.026)
+2019-09-27 09:56:01.838 [http-nio-4099-exec-1] INFO  com.example.demo.config.listener.Customlister - 监听器：初始化
+2019-09-27 09:56:01.847 [http-nio-4099-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-27 09:56:01.848 [http-nio-4099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-27 09:56:01.857 [http-nio-4099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-09-27 09:56:01.881 [http-nio-4099-exec-1] INFO  com.example.demo.config.filter.CustomFilter - doFilter   请求处理！！！
+2019-09-27 09:56:01.889 [http-nio-4099-exec-1] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - preHandle:请求前调用
+2019-09-27 09:56:18.550 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-1  reply is error 
+2019-09-27 09:56:19.900 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-1  reply is error 
+2019-09-27 09:56:21.312 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-1  reply is error 
+2019-09-27 09:56:22.694 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-1  reply is error 
+2019-09-27 09:56:23.936 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-1  reply is error 
+2019-09-27 09:56:25.265 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-1  reply is error 
+2019-09-27 09:56:26.533 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostAcquireServiceImpl - http-nio-4099-exec-1  reply is error 

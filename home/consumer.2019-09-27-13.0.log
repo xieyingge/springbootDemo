@@ -1,0 +1,57 @@
+2019-09-27 13:56:46.347 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 16756 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-09-27 13:56:46.354 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-09-27 13:56:46.439 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-27 13:56:46.439 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-27 13:56:47.456 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-27 13:56:47.460 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-27 13:56:47.502 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-09-27 13:56:47.979 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c51d9cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-27 13:56:48.628 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-09-27 13:56:48.646 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-09-27 13:56:48.659 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-27 13:56:48.659 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-27 13:56:48.827 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-27 13:56:48.827 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2387 ms
+2019-09-27 13:56:48.915 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-09-27 13:56:49.570 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-09-27 13:56:49.581 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-27 13:56:50.340 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-27 13:56:50.491 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-09-27 13:56:50.531 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-09-27 13:56:50.758 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-09-27 13:56:51.112 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-27 13:56:51.152 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-09-27 13:56:51.155 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:56:51
+2019-09-27 13:56:51.175 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-09-27 13:56:51.178 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.445 seconds (JVM running for 6.285)
+2019-09-27 13:56:56.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:56:56
+2019-09-27 13:57:01.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:01
+2019-09-27 13:57:06.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:06
+2019-09-27 13:57:11.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:11
+2019-09-27 13:57:16.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:16
+2019-09-27 13:57:21.151 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:21
+2019-09-27 13:57:26.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:26
+2019-09-27 13:57:31.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:31
+2019-09-27 13:57:36.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:36
+2019-09-27 13:57:41.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:41
+2019-09-27 13:57:46.151 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:46
+2019-09-27 13:57:51.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:51
+2019-09-27 13:57:56.151 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:57:56
+2019-09-27 13:58:01.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:01
+2019-09-27 13:58:06.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:06
+2019-09-27 13:58:11.151 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:11
+2019-09-27 13:58:16.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:16
+2019-09-27 13:58:21.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:21
+2019-09-27 13:58:26.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:26
+2019-09-27 13:58:31.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:31
+2019-09-27 13:58:36.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:36
+2019-09-27 13:58:41.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:41
+2019-09-27 13:58:46.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:46
+2019-09-27 13:58:51.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:51
+2019-09-27 13:58:56.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:58:56
+2019-09-27 13:59:01.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:59:01
+2019-09-27 13:59:06.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:59:06
+2019-09-27 13:59:11.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:59:11
+2019-09-27 13:59:16.150 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:59:16
+2019-09-27 13:59:21.149 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:59:21
+2019-09-27 13:59:26.151 [scheduling-1] INFO  c.e.demo.scheduling.ShippingCostAcquireScheduling - 2019-09-27 13:59:26

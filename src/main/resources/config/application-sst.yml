@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@szoraqa01.skystartrade.com:1521/sstqa01
+    username: skystar
+    password: skystar2018
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    maxConnectionsPerPartition: 15
+    minConnectionsPerPartition : 5
+    partitionCount : 3
+    acquireIncrement : 5
+    statementsCacheSize : 100
+
+server:
+  port: 4099
+
+mybatis:
+    type-aliases-package: com.example.demo.entity
+    mapper-locations: classpath:mapper/*.xml
+    config-location: classpath:mybatis-config.xml

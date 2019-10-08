@@ -1,0 +1,185 @@
+2019-09-26 13:49:31.381 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 73860 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-09-26 13:49:31.384 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-09-26 13:49:31.463 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-26 13:49:31.463 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-26 13:49:32.490 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-26 13:49:32.494 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-26 13:49:32.552 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-09-26 13:49:33.114 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$569b71b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-26 13:49:33.768 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-09-26 13:49:33.783 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-09-26 13:49:33.797 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-26 13:49:33.798 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-26 13:49:33.946 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-26 13:49:33.947 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2483 ms
+2019-09-26 13:49:34.035 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-09-26 13:49:34.638 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-09-26 13:49:34.651 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-26 13:49:34.654 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.654 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.654 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.655 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.655 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.655 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.656 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.657 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.657 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.657 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.657 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.657 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.657 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.657 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.658 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.659 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.659 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.659 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.659 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.659 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.659 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.660 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.660 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.660 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.660 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.660 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.660 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.660 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.660 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.661 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:49:34.661 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:50:04.662 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:50:34.665 [Druid-ConnectionPool-Create-456838135] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/xyg, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:mysql://127.0.0.1:3306/xyg, driverClass oracle.jdbc.driver.OracleDriver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1481)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1998)
+2019-09-26 13:50:46.122 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 73532 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-09-26 13:50:46.125 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-09-26 13:50:46.194 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-26 13:50:46.195 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-26 13:50:47.140 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-26 13:50:47.144 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-26 13:50:47.178 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-09-26 13:50:47.630 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5a1748] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-26 13:50:48.258 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-09-26 13:50:48.275 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-09-26 13:50:48.288 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-26 13:50:48.289 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-26 13:50:48.426 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-26 13:50:48.426 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2231 ms
+2019-09-26 13:50:48.506 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-09-26 13:50:49.080 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-09-26 13:50:49.090 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-26 13:50:49.849 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-26 13:50:49.991 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-09-26 13:50:50.025 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-09-26 13:50:50.492 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-26 13:50:50.526 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-09-26 13:50:50.553 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-09-26 13:50:50.555 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.012 seconds (JVM running for 5.806)
+2019-09-26 13:51:36.323 [http-nio-4099-exec-1] INFO  com.example.demo.config.listener.Customlister - 监听器：初始化
+2019-09-26 13:51:36.330 [http-nio-4099-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-26 13:51:36.331 [http-nio-4099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-26 13:51:36.339 [http-nio-4099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-09-26 13:51:36.353 [http-nio-4099-exec-1] INFO  com.example.demo.config.filter.CustomFilter - doFilter   请求处理！！！
+2019-09-26 13:51:36.362 [http-nio-4099-exec-1] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - preHandle:请求前调用
+2019-09-26 13:51:36.587 [http-nio-4099-exec-1] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - postHandle:请求后调用
+2019-09-26 13:51:37.064 [http-nio-4099-exec-1] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+2019-09-26 13:51:37.066 [http-nio-4099-exec-1] INFO  com.example.demo.config.listener.Customlister - 监听器：销毁
+2019-09-26 13:51:37.104 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：初始化
+2019-09-26 13:51:37.105 [http-nio-4099-exec-2] INFO  com.example.demo.config.filter.CustomFilter - doFilter   请求处理！！！
+2019-09-26 13:51:37.141 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：销毁

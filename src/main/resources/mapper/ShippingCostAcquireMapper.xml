@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.ShippingCostAcquireDao">
+
+    <resultMap id="baseResultMap" type="com.example.demo.entity.ShippingCostAcquire">
+        <id column="SHIPPING_COST_ACQUIRE_ID" property="shippingCostAcquireId"/>
+        <result column="SHIPPING_COMPANY" property="shippingCompany" />
+        <result column="SHIPPING_METHOD" property="shippingMethod" />
+        <result column="WEIGHT_FROM" property="weightFrom" />
+        <result column="WEIGHT_TO" property="weightTo" />
+        <result column="SHIPPING_FEE" property="shippingFee" />
+        <result column="SHIPPING_FROM_COUNTRY" property="shippingFromCountry" />
+        <result column="SHIPPING_FROM_STATE" property="shippingFromState" />
+        <result column="SHIPPING_FROM_CITY" property="shippingFromCity" />
+        <result column="SHIPPING_FROM_ZIPCODE" property="shippingFromZipcode" />
+        <result column="SHIPPING_TO_COUNTRY" property="shippingToCountry" />
+        <result column="SHIPPING_TO_STATE" property="shippingToState" />
+        <result column="SHIPPING_TO_CITY" property="shippingToCity" />
+        <result column="SHIPPING_TO_ZIPCODE" property="shippingToZipcode" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="UPDATE_TIME" property="updateTime" />
+        <result column="ERROR_CODE" property="errorCode" />
+        <result column="ERROR_MESSAGE" property="errorMessage" />
+    </resultMap>
+
+    <insert id="insert">
+        <selectKey resultType="long" order="BEFORE" keyProperty="shippingCostAcquireId" keyColumn="SHIPPING_COST_ACQUIRE_ID">
+            select SEQ_SHIPPING_COST_ACQUIRE.nextval as shippingCostAcquireId from dual
+        </selectKey>
+        insert into SHIPPING_COST_ACQUIRE  (
+            SHIPPING_COST_ACQUIRE_ID,
+            SHIPPING_COMPANY,
+            SHIPPING_METHOD,
+            WEIGHT_FROM,
+            WEIGHT_TO,
+            SHIPPING_FEE,
+            SHIPPING_FROM_COUNTRY,
+            SHIPPING_FROM_STATE,
+            SHIPPING_FROM_CITY,
+            SHIPPING_FROM_ZIPCODE,
+            SHIPPING_TO_COUNTRY,
+            SHIPPING_TO_STATE,
+            SHIPPING_TO_CITY,
+            SHIPPING_TO_ZIPCODE,
+            CREATE_TIME,
+            UPDATE_TIME,
+            ERROR_CODE,
+            ERROR_MESSAGE
+        )
+        values (
+            #{shippingCostAcquireId,jdbcType=NUMERIC},
+            #{shippingCompany,jdbcType=NUMERIC},
+            #{shippingMethod, jdbcType=NUMERIC},
+            #{weightFrom,jdbcType=VARCHAR},
+            #{weightTo,jdbcType=VARCHAR},
+            #{shippingFee,jdbcType=VARCHAR},
+            #{shippingFromCountry,jdbcType=VARCHAR},
+            #{shippingFromState,jdbcType=VARCHAR},
+            #{shippingFromCity,jdbcType=VARCHAR},
+            #{shippingFromZipcode,jdbcType=VARCHAR},
+            #{shippingToCountry,jdbcType=VARCHAR},
+            #{shippingToState,jdbcType=VARCHAR},
+            #{shippingToCity,jdbcType=VARCHAR},
+            #{shippingToZipcode,jdbcType=VARCHAR},
+            sysdate,
+            #{updateTime, jdbcType=DATE},
+            #{errorCode, jdbcType=VARCHAR},
+            #{errorMessage,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <insert id="insertBatch">
+        insert into SHIPPING_COST_ACQUIRE  (
+            SHIPPING_COST_ACQUIRE_ID,
+            SHIPPING_COMPANY,
+            SHIPPING_METHOD,
+            WEIGHT_FROM,
+            WEIGHT_TO,
+            SHIPPING_FEE,
+            SHIPPING_FROM_COUNTRY,
+            SHIPPING_FROM_STATE,
+            SHIPPING_FROM_CITY,
+            SHIPPING_FROM_ZIPCODE,
+            SHIPPING_TO_COUNTRY,
+            SHIPPING_TO_STATE,
+            SHIPPING_TO_CITY,
+            SHIPPING_TO_ZIPCODE,
+            CREATE_TIME,
+            UPDATE_TIME,
+            ERROR_CODE,
+            ERROR_MESSAGE
+        )
+        select SEQ_SHIPPING_COST_ACQUIRE.nextval,temp.* from
+        (
+        <foreach collection="params" separator="union all" item="item">
+            select
+                #{item.shippingCompany,jdbcType=NUMERIC},
+                #{item.shippingMethod, jdbcType=NUMERIC},
+                #{item.weightFrom,jdbcType=VARCHAR},
+                #{item.weightTo,jdbcType=VARCHAR},
+                #{item.shippingFee,jdbcType=VARCHAR},
+                #{item.shippingFromCountry,jdbcType=VARCHAR},
+                #{item.shippingFromState,jdbcType=VARCHAR},
+                #{item.shippingFromCity,jdbcType=VARCHAR},
+                #{item.shippingFromZipcode,jdbcType=VARCHAR},
+                #{item.shippingToCountry,jdbcType=VARCHAR},
+                #{item.shippingToState,jdbcType=VARCHAR},
+                #{item.shippingToCity,jdbcType=VARCHAR},
+                #{item.shippingToZipcode,jdbcType=VARCHAR},
+                sysdate,
+                #{item.updateTime, jdbcType=DATE},
+                #{item.errorCode, jdbcType=VARCHAR},
+                #{item.errorMessage,jdbcType=VARCHAR}
+            from
+              dual
+        </foreach>
+        ) temp
+    </insert>
+
+
+</mapper>
