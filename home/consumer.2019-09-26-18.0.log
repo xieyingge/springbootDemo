@@ -1504,7 +1504,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.demo
 2019-09-26 18:45:36.648 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:45:36.710 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:45:36.714 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-68} inited
-2019-09-26 18:45:36.839 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:45:36.839 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:45:36.842 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-68} closed
 2019-09-26 18:45:36.843 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:45:36.843 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1519,7 +1519,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1527,7 +1527,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:45:42.556 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:45:42.556 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1544,7 +1544,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:45:42.962 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:45:43.014 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:45:43.015 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-69} inited
-2019-09-26 18:45:43.081 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:45:43.081 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:45:43.088 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-69} closed
 2019-09-26 18:45:43.090 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:45:43.090 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1559,7 +1559,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1567,7 +1567,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:46:01.837 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:46:01.837 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1584,7 +1584,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:46:02.285 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:46:02.347 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:46:02.349 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-70} inited
-2019-09-26 18:46:02.432 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:46:02.432 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:46:02.466 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-70} closed
 2019-09-26 18:46:02.467 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:46:02.467 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1599,7 +1599,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1607,7 +1607,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:46:08.797 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:46:08.797 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1624,7 +1624,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:46:10.039 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:46:10.095 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:46:10.101 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-71} inited
-2019-09-26 18:46:10.172 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:46:10.172 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:46:10.181 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-71} closed
 2019-09-26 18:46:10.183 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:46:10.183 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1639,7 +1639,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1647,7 +1647,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:46:15.790 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:46:15.790 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1690,7 +1690,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:46:33.462 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:46:33.504 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:46:33.505 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-73} inited
-2019-09-26 18:46:33.884 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:46:33.884 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:46:33.890 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-73} closed
 2019-09-26 18:46:33.891 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:46:33.891 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1705,7 +1705,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1713,7 +1713,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:46:40.081 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:46:40.081 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1730,7 +1730,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:46:40.567 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:46:40.612 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:46:40.612 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-74} inited
-2019-09-26 18:46:40.702 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:46:40.702 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:46:40.705 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-74} closed
 2019-09-26 18:46:40.706 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:46:40.707 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1745,7 +1745,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1753,7 +1753,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:47:02.388 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:47:02.388 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1770,7 +1770,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:47:02.928 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:47:02.986 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:47:02.987 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-75} inited
-2019-09-26 18:47:03.048 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:47:03.048 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:47:03.053 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-75} closed
 2019-09-26 18:47:03.055 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:47:03.055 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1785,7 +1785,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1793,7 +1793,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:47:12.826 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:47:12.826 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1810,7 +1810,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:47:13.423 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:47:13.517 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:47:13.625 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-76} inited
-2019-09-26 18:47:13.710 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:47:13.710 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:47:13.714 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-76} closed
 2019-09-26 18:47:13.715 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:47:13.715 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1825,7 +1825,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1833,7 +1833,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:49:41.848 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:49:41.848 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1850,7 +1850,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:49:42.340 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:49:42.411 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:49:42.435 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-77} inited
-2019-09-26 18:49:42.613 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:49:42.613 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:49:42.644 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-77} closed
 2019-09-26 18:49:42.646 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:49:42.646 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1865,7 +1865,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1873,7 +1873,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:49:48.561 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:49:48.561 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1890,7 +1890,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:49:49.070 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:49:49.150 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:49:49.187 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-78} inited
-2019-09-26 18:49:49.402 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:49:49.402 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:49:49.418 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-78} closed
 2019-09-26 18:49:49.419 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:49:49.419 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1905,7 +1905,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1913,7 +1913,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:49:56.716 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:49:56.716 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1930,7 +1930,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:49:58.276 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:49:58.404 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:49:58.436 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-79} inited
-2019-09-26 18:49:58.519 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:49:58.519 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:49:58.523 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-79} closed
 2019-09-26 18:49:58.524 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:49:58.525 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1945,7 +1945,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1953,7 +1953,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:50:06.439 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:50:06.439 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -1970,7 +1970,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:50:07.029 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:50:07.114 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:50:07.397 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-80} inited
-2019-09-26 18:50:09.389 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:50:09.389 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:50:09.738 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-80} closed
 2019-09-26 18:50:09.757 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:50:09.757 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -1985,7 +1985,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1993,7 +1993,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:50:15.167 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:50:15.167 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -2010,7 +2010,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:50:16.253 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:50:16.390 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:50:16.416 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-81} inited
-2019-09-26 18:50:16.538 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:50:16.538 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:50:16.993 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-81} closed
 2019-09-26 18:50:16.994 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:50:17.048 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -2025,7 +2025,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -2033,7 +2033,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:50:20.811 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:50:20.811 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -2050,7 +2050,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:50:21.552 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:50:21.646 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:50:21.712 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-82} inited
-2019-09-26 18:50:21.947 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:50:21.947 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:50:21.968 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-82} closed
 2019-09-26 18:50:22.063 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:50:22.064 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -2065,7 +2065,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -2073,7 +2073,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 
 2019-09-26 18:50:31.822 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 11348 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
 2019-09-26 18:50:31.822 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
@@ -2090,7 +2090,7 @@ Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireSe
 2019-09-26 18:50:32.425 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
 2019-09-26 18:50:32.640 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 2019-09-26 18:50:33.157 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-83} inited
-2019-09-26 18:50:33.273 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAcquireService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-26 18:50:33.273 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shippingCostAcquireController': Unsatisfied dependency expressed through field 'shippingCostAcquireService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.service.ShippingCostAreaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2019-09-26 18:50:33.298 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-83} closed
 2019-09-26 18:50:33.299 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2019-09-26 18:50:33.299 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
@@ -2105,7 +2105,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAcquireService' that could not be found.
+Field shippingCostAcquireService in com.example.demo.controller.ShippingCostAcquireController required a bean of type 'com.example.demo.service.ShippingCostAreaService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -2113,5 +2113,5 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.example.demo.service.ShippingCostAcquireService' in your configuration.
+Consider defining a bean of type 'com.example.demo.service.ShippingCostAreaService' in your configuration.
 

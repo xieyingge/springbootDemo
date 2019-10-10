@@ -2,9 +2,9 @@ package com.example.demo.controller;
 
 
 import com.example.demo.service.CountryPostalCodeService;
-import com.example.demo.service.ShippingCostAcquireService;
-import com.fedex.rate.stub.Address;
-import com.fedex.rate.stub.Party;
+import com.example.demo.service.ShippingCostAreaService;
+import com.example.demo.fedex.rate.stub.Address;
+import com.example.demo.fedex.rate.stub.Party;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,7 +18,7 @@ public class ShippingCostAcquireController {
     private CountryPostalCodeService countryPostalCodeService;
 
     @Autowired
-    private ShippingCostAcquireService shippingCostAcquireService;
+    private ShippingCostAreaService shippingCostAcquireService;
 
     @RequestMapping("/multiProcessGetShippingCost")
     @ResponseBody

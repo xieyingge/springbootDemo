@@ -1,0 +1,303 @@
+2019-10-10 12:02:20.052 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2019-10-10 12:02:20.057 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:02:20.069 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-10 12:02:20.246 [Thread-6] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
+2019-10-10 12:02:20.524 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 57620 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-10 12:02:20.525 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-10-10 12:02:21.246 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:02:21.246 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:02:21.315 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 0 repository interfaces.
+2019-10-10 12:02:21.479 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4539d548] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:02:21.657 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-10 12:02:21.658 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:02:21.661 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 12:02:21.661 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-10 12:02:21.694 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-10 12:02:21.694 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1166 ms
+2019-10-10 12:02:21.718 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-10 12:02:21.832 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-10-10 12:02:21.834 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-10-10 12:02:22.137 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:02:22.199 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-10 12:02:22.208 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-10 12:02:22.281 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:02:22.740 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-10 12:02:22.897 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:02:22.903 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-10 12:02:22.918 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.437 seconds (JVM running for 244.567)
+2019-10-10 12:02:22.922 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-10-10 12:02:29.853 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 89592 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-10 12:02:29.857 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-10-10 12:02:29.922 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 12:02:29.922 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 12:02:31.192 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:02:31.197 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:02:31.294 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 repository interfaces.
+2019-10-10 12:02:31.891 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c8855199] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:02:32.539 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-10 12:02:32.558 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:02:32.573 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 12:02:32.573 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-10 12:02:32.737 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-10 12:02:32.737 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2815 ms
+2019-10-10 12:02:32.822 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-10 12:02:33.567 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-10-10 12:02:33.585 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-10 12:02:34.555 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:02:34.748 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-10 12:02:34.793 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-10 12:02:35.053 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:02:35.403 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-10 12:02:35.454 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:02:35.487 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-10 12:02:35.491 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.227 seconds (JVM running for 7.966)
+2019-10-10 12:02:39.025 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：初始化
+2019-10-10 12:02:39.033 [http-nio-4099-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 12:02:39.034 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-10 12:02:39.047 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-10-10 12:02:39.081 [http-nio-4099-exec-2] INFO  com.example.demo.config.filter.CustomFilter - doFilter   请求处理！！！
+2019-10-10 12:02:39.092 [http-nio-4099-exec-2] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - preHandle:请求前调用
+2019-10-10 12:06:54.573 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 69048 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-10 12:06:54.576 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-10-10 12:06:54.645 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 12:06:54.645 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 12:06:55.974 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:06:55.978 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:06:56.089 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95ms. Found 0 repository interfaces.
+2019-10-10 12:06:56.703 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b037828e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:06:57.430 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-10 12:06:57.453 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:06:57.469 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 12:06:57.470 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-10 12:06:57.638 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-10 12:06:57.639 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2994 ms
+2019-10-10 12:06:57.729 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-10 12:06:58.433 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-10-10 12:06:58.447 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-10 12:06:59.446 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:06:59.634 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-10 12:06:59.679 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-10 12:06:59.942 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:07:00.294 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-10 12:07:00.334 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:07:00.363 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-10 12:07:00.368 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.379 seconds (JVM running for 8.21)
+2019-10-10 12:07:20.694 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：初始化
+2019-10-10 12:07:20.702 [http-nio-4099-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 12:07:20.704 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-10 12:07:20.714 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-10-10 12:07:20.727 [http-nio-4099-exec-2] INFO  com.example.demo.config.filter.CustomFilter - doFilter   请求处理！！！
+2019-10-10 12:07:20.737 [http-nio-4099-exec-2] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - preHandle:请求前调用
+2019-10-10 12:07:33.804 [http-nio-4099-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+### The error may exist in file [C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes\mapper\ShippingCostAreaDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into SHIPPING_COST_AREA (         ID,         SHIPPING_COMPANY_ID,         SHIPPING_METHOD_ID,         SHIPPING_FROM_COUNTRY,         SHIPPING_FROM_STATE,         SHIPPING_FROM_CITY,         SHIPPING_FROM_ZIPCODE,         SHIPPING_TO_COUNTRY,         SHIPPING_TO_STATE,         SHIPPING_TO_CITY,         SHIPPING_TO_ZIPCODE,         CREATE_DATE,         UPDATE_DATE,         ERROR_CODE,         ERROR_MESSAGE,         CREATE_BY,         UPDATE_BY         )         select SEQ_SHIPPING_COST_AREA.nextval,temp.* from         (         select temp1.* from (                        select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual                   ) temp1 where not exists (         select 1 from SHIPPING_COST_AREA b         where temp.SHIPPING_COMPANY_ID = b.SHIPPING_COMPANY_ID and temp.SHIPPING_METHOD_ID = b.SHIPPING_METHOD_ID         temp.SHIPPING_FROM_ZIPCODE = b.SHIPPING_FROM_ZIPCODE and temp.SHIPPING_TO_ZIPCODE = b.SHIPPING_TO_ZIPCODE         )       ) temp
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+]
+2019-10-10 12:07:33.807 [http-nio-4099-exec-2] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+2019-10-10 12:07:33.808 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：销毁
+2019-10-10 12:08:02.173 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2019-10-10 12:08:02.175 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:08:02.185 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-10 12:08:02.386 [Thread-6] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
+2019-10-10 12:08:02.670 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 69048 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-10 12:08:02.670 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-10-10 12:08:03.378 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:08:03.378 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:08:03.446 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 0 repository interfaces.
+2019-10-10 12:08:03.637 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b037828e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:08:03.823 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-10 12:08:03.824 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:08:03.832 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 12:08:03.835 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-10 12:08:03.885 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-10 12:08:03.885 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1210 ms
+2019-10-10 12:08:03.929 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-10 12:08:04.088 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-10-10 12:08:04.091 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-10-10 12:08:04.389 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:08:04.440 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-10 12:08:04.447 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-10 12:08:04.525 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:08:05.001 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-10 12:08:05.023 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:08:05.029 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-10 12:08:05.031 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.423 seconds (JVM running for 72.872)
+2019-10-10 12:08:05.034 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-10-10 12:08:53.803 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 78980 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-10 12:08:53.807 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-10-10 12:08:53.881 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 12:08:53.882 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 12:08:55.262 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:08:55.267 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:08:55.374 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90ms. Found 0 repository interfaces.
+2019-10-10 12:08:55.975 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdfae656] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:08:56.738 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-10 12:08:56.761 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:08:56.775 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 12:08:56.776 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-10 12:08:56.974 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-10 12:08:56.975 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3093 ms
+2019-10-10 12:08:57.062 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-10 12:08:57.791 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-10-10 12:08:57.807 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-10 12:08:58.681 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:08:58.846 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-10 12:08:58.880 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-10 12:08:59.112 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:08:59.465 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-10 12:08:59.513 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:08:59.547 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-10 12:08:59.552 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.356 seconds (JVM running for 8.172)
+2019-10-10 12:09:02.924 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：初始化
+2019-10-10 12:09:02.947 [http-nio-4099-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 12:09:02.948 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-10 12:09:02.962 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-10-10 12:09:02.978 [http-nio-4099-exec-2] INFO  com.example.demo.config.filter.CustomFilter - doFilter   请求处理！！！
+2019-10-10 12:09:02.993 [http-nio-4099-exec-2] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - preHandle:请求前调用
+2019-10-10 12:09:18.823 [http-nio-4099-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+### The error may exist in file [C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes\mapper\ShippingCostAreaDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into SHIPPING_COST_AREA (         ID,         SHIPPING_COMPANY_ID,         SHIPPING_METHOD_ID,         SHIPPING_FROM_COUNTRY,         SHIPPING_FROM_STATE,         SHIPPING_FROM_CITY,         SHIPPING_FROM_ZIPCODE,         SHIPPING_TO_COUNTRY,         SHIPPING_TO_STATE,         SHIPPING_TO_CITY,         SHIPPING_TO_ZIPCODE,         CREATE_DATE,         UPDATE_DATE,         ERROR_CODE,         ERROR_MESSAGE,         CREATE_BY,         UPDATE_BY         )         select SEQ_SHIPPING_COST_AREA.nextval,temp.* from         (         select temp1.* from (                        select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual                   ) temp1 where not exists (         select 1 from SHIPPING_COST_AREA b         where temp1.SHIPPING_COMPANY_ID = b.SHIPPING_COMPANY_ID and temp1.SHIPPING_METHOD_ID = b.SHIPPING_METHOD_ID         temp1.SHIPPING_FROM_ZIPCODE = b.SHIPPING_FROM_ZIPCODE and temp1.SHIPPING_TO_ZIPCODE = b.SHIPPING_TO_ZIPCODE         )       ) temp
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+]
+2019-10-10 12:09:18.823 [http-nio-4099-exec-2] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+2019-10-10 12:09:18.824 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：销毁
+2019-10-10 12:24:44.560 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2019-10-10 12:24:44.562 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:24:44.595 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-10 12:24:44.830 [Thread-6] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
+2019-10-10 12:24:45.164 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 78980 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-10 12:24:45.164 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-10-10 12:24:45.752 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:24:45.753 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:24:45.822 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 0 repository interfaces.
+2019-10-10 12:24:45.950 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdfae656] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:24:46.100 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-10 12:24:46.104 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:24:46.106 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 12:24:46.106 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-10 12:24:46.143 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-10 12:24:46.150 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 981 ms
+2019-10-10 12:24:46.256 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-10 12:24:46.407 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-10-10 12:24:46.410 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-10-10 12:24:46.671 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:24:46.719 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-10 12:24:46.727 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-10 12:24:46.784 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:24:47.161 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-10 12:24:47.181 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:24:47.187 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-10 12:24:47.188 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.066 seconds (JVM running for 955.807)
+2019-10-10 12:24:47.191 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-10-10 12:25:01.803 [Thread-10] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2019-10-10 12:25:01.804 [Thread-10] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:25:01.816 [Thread-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-10-10 12:25:01.956 [Thread-10] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
+2019-10-10 12:25:02.189 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 78980 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-10 12:25:02.189 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-10-10 12:25:02.686 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:25:02.686 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:25:02.749 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 0 repository interfaces.
+2019-10-10 12:25:02.880 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdfae656] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:25:02.987 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-10 12:25:02.988 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:25:02.989 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 12:25:02.989 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-10 12:25:03.018 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-10 12:25:03.019 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 827 ms
+2019-10-10 12:25:03.040 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-10 12:25:03.121 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-10-10 12:25:03.122 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2019-10-10 12:25:03.449 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:25:03.490 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-10 12:25:03.497 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-10 12:25:03.544 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:25:03.850 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-10 12:25:03.866 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:25:03.872 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-10 12:25:03.872 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.729 seconds (JVM running for 972.492)
+2019-10-10 12:25:03.874 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-10-10 12:25:12.184 [Thread-16] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2019-10-10 12:25:12.187 [Thread-16] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:25:12.192 [Thread-16] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2019-10-10 12:25:12.347 [Thread-16] INFO  com.example.demo.config.filter.CustomFilter - filter  销毁~！！！
+2019-10-10 12:25:12.577 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 78980 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-10 12:25:12.578 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-10-10 12:25:12.972 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:25:12.972 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:25:13.032 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59ms. Found 0 repository interfaces.
+2019-10-10 12:25:13.136 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdfae656] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:25:13.243 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-10 12:25:13.244 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:25:13.245 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 12:25:13.245 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-10 12:25:13.264 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-10 12:25:13.264 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 681 ms
+2019-10-10 12:25:13.278 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-10 12:25:13.350 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-10-10 12:25:13.352 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+2019-10-10 12:25:13.543 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:25:13.573 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-10 12:25:13.579 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-10 12:25:13.614 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:25:13.899 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-10 12:25:13.911 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:25:13.915 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-10 12:25:13.916 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.374 seconds (JVM running for 982.536)
+2019-10-10 12:25:13.917 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-10-10 12:26:06.632 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 51240 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-10 12:26:06.636 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-10-10 12:26:06.702 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 12:26:06.702 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 12:26:08.012 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:26:08.016 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:26:08.113 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81ms. Found 0 repository interfaces.
+2019-10-10 12:26:08.737 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$82dbff09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:26:09.434 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-10 12:26:09.455 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:26:09.471 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 12:26:09.472 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-10 12:26:09.618 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-10 12:26:09.619 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2917 ms
+2019-10-10 12:26:09.704 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-10 12:26:10.421 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-10-10 12:26:10.438 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-10 12:26:11.268 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:26:11.437 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-10 12:26:11.482 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-10 12:26:11.715 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:26:12.070 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-10 12:26:12.125 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-10 12:26:12.161 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-10 12:26:12.165 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.123 seconds (JVM running for 7.863)
+2019-10-10 12:26:36.976 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：初始化
+2019-10-10 12:26:36.992 [http-nio-4099-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 12:26:36.993 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-10 12:26:37.009 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-10-10 12:26:37.025 [http-nio-4099-exec-2] INFO  com.example.demo.config.filter.CustomFilter - doFilter   请求处理！！！
+2019-10-10 12:26:37.040 [http-nio-4099-exec-2] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - preHandle:请求前调用
+2019-10-10 12:26:53.103 [http-nio-4099-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00904: "TEMP1"."SHIPPING_TO_ZIPCODE": invalid identifier
+
+### The error may exist in file [C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes\mapper\ShippingCostAreaDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into SHIPPING_COST_AREA (         ID,         SHIPPING_COMPANY_ID,         SHIPPING_METHOD_ID,         SHIPPING_FROM_COUNTRY,         SHIPPING_FROM_STATE,         SHIPPING_FROM_CITY,         SHIPPING_FROM_ZIPCODE,         SHIPPING_TO_COUNTRY,         SHIPPING_TO_STATE,         SHIPPING_TO_CITY,         SHIPPING_TO_ZIPCODE,         CREATE_DATE,         UPDATE_DATE,         ERROR_CODE,         ERROR_MESSAGE,         CREATE_BY,         UPDATE_BY         )         select SEQ_SHIPPING_COST_AREA.nextval,temp.* from         (         select temp1.* from (                        select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual          union all              select             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             sysdate,             ?,             ?,             ?,             ?,             ?             from             dual                   ) temp1 where not exists (             select 1 from SHIPPING_COST_AREA b             where temp1.SHIPPING_COMPANY_ID = b.SHIPPING_COMPANY_ID and temp1.SHIPPING_METHOD_ID = b.SHIPPING_METHOD_ID             and temp1.SHIPPING_FROM_ZIPCODE = b.SHIPPING_FROM_ZIPCODE and temp1.SHIPPING_TO_ZIPCODE = b.SHIPPING_TO_ZIPCODE         )       ) temp
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00904: "TEMP1"."SHIPPING_TO_ZIPCODE": invalid identifier
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00904: "TEMP1"."SHIPPING_TO_ZIPCODE": invalid identifier
+]
+2019-10-10 12:26:53.104 [http-nio-4099-exec-2] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+2019-10-10 12:26:53.105 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：销毁

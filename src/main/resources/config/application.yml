@@ -10,7 +10,7 @@ spring:
   driver-class-name: com.mysql.cj.jdbc.Driver
 #  driver-class-name: oracle.jdbc.driver.OracleDriver
   filters: stat
-  maxActive: 20
+  maxActive: 200
   initialSize: 1
   maxWait: 60000
   minIdle: 1

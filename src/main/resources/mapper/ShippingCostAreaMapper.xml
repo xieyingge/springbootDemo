@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.ShippingCostAreaDao">
+
+    <resultMap id="baseResultMap" type="com.example.demo.entity.ShippingCostArea">
+        <id column="ID" property="id"/>
+        <result column="SHIPPING_COMPANY_ID" property="shippingCompanyId"/>
+        <result column="SHIPPING_METHOD_ID" property="shippingMethodId"/>
+        <result column="SHIPPING_FROM_COUNTRY" property="shippingFromCountry"/>
+        <result column="SHIPPING_FROM_STATE" property="shippingFromState"/>
+        <result column="SHIPPING_FROM_CITY" property="shippingFromCity"/>
+        <result column="SHIPPING_FROM_ZIPCODE" property="shippingFromZipcode"/>
+        <result column="SHIPPING_TO_COUNTRY" property="shippingToCountry"/>
+        <result column="SHIPPING_TO_STATE" property="shippingToState"/>
+        <result column="SHIPPING_TO_CITY" property="shippingToCity"/>
+        <result column="SHIPPING_TO_ZIPCODE" property="shippingToZipcode"/>
+        <result column="CREATE_DATE" property="createDate"/>
+        <result column="UPDATE_DATE" property="updateDate"/>
+        <result column="ERROR_CODE" property="errorCode"/>
+        <result column="ERROR_MESSAGE" property="errorMessage"/>
+        <result column="CREATE_BY" property="createBy"/>
+        <result column="UPDATE_BY" property="updateBy"/>
+    </resultMap>
+
+    <sql id="baseSql">
+            a.ID,
+            a.SHIPPING_COMPANY_ID,
+            a.SHIPPING_METHOD_ID,
+            a.SHIPPING_FROM_COUNTRY,
+            a.SHIPPING_FROM_STATE,
+            a.SHIPPING_FROM_CITY,
+            a.SHIPPING_FROM_ZIPCODE,
+            a.SHIPPING_TO_COUNTRY,
+            a.SHIPPING_TO_STATE,
+            a.SHIPPING_TO_CITY,
+            a.SHIPPING_TO_ZIPCODE,
+            a.CREATE_DATE,
+            a.UPDATE_DATE,
+            a.ERROR_CODE,
+            a.ERROR_MESSAGE,
+            a.CREATE_BY,
+            a.UPDATE_BY
+    </sql>
+
+    <insert id="insert">
+        <selectKey resultType="long" order="BEFORE" keyProperty="id" keyColumn="ID">
+            select SEQ_SHIPPING_COST_AREA.nextval as id from dual
+        </selectKey>
+        insert into SHIPPING_COST_AREA as a(
+                a.ID,
+                a.SHIPPING_COMPANY_ID,
+                a.SHIPPING_METHOD_ID,
+                a.SHIPPING_FROM_COUNTRY,
+                a.SHIPPING_FROM_STATE,
+                a.SHIPPING_FROM_CITY,
+                a.SHIPPING_FROM_ZIPCODE,
+                a.SHIPPING_TO_COUNTRY,
+                a.SHIPPING_TO_STATE,
+                a.SHIPPING_TO_CITY,
+                a.SHIPPING_TO_ZIPCODE,
+                a.CREATE_DATE,
+                a.UPDATE_DATE,
+                a.ERROR_CODE,
+                a.ERROR_MESSAGE,
+                a.CREATE_BY,
+                a.UPDATE_BY
+        )
+        values (
+        #{id,jdbcType=NUMERIC},
+        #{shippingCompanyId,jdbcType=NUMERIC},
+        #{shippingMethodId, jdbcType=NUMERIC},
+        #{shippingFromCountry,jdbcType=VARCHAR},
+        #{shippingFromState,jdbcType=VARCHAR},
+        #{shippingFromCity,jdbcType=VARCHAR},
+        #{shippingFromZipcode,jdbcType=VARCHAR},
+        #{shippingToCountry,jdbcType=VARCHAR},
+        #{shippingToState,jdbcType=VARCHAR},
+        #{shippingToCity,jdbcType=VARCHAR},
+        #{shippingToZipcode,jdbcType=VARCHAR},
+        sysdate,
+        #{updateDate, jdbcType=DATE},
+        #{errorCode, jdbcType=VARCHAR},
+        #{errorMessage,jdbcType=VARCHAR},
+        #{createBy,jdbcType=NUMERIC},
+        #{updateBy,jdbcType=NUMERIC}
+        )
+    </insert>
+
+    <insert id="insertBatch">
+        insert into SHIPPING_COST_AREA (
+        ID,
+        SHIPPING_COMPANY_ID,
+        SHIPPING_METHOD_ID,
+        SHIPPING_FROM_COUNTRY,
+        SHIPPING_FROM_STATE,
+        SHIPPING_FROM_CITY,
+        SHIPPING_FROM_ZIPCODE,
+        SHIPPING_TO_COUNTRY,
+        SHIPPING_TO_STATE,
+        SHIPPING_TO_CITY,
+        SHIPPING_TO_ZIPCODE,
+        CREATE_DATE,
+        UPDATE_DATE,
+        ERROR_CODE,
+        ERROR_MESSAGE,
+        CREATE_BY,
+        UPDATE_BY
+        )
+        select SEQ_SHIPPING_COST_AREA.nextval,temp.* from
+        (
+        select temp1.* from (
+        <foreach collection="params" separator="union all" item="item">
+            select
+            #{item.shippingCompanyId,jdbcType=NUMERIC} as SHIPPING_COMPANY_ID,
+            #{item.shippingMethodId, jdbcType=NUMERIC} as SHIPPING_METHOD_ID,
+            #{item.shippingFromCountry,jdbcType=VARCHAR} as SHIPPING_FROM_COUNTRY,
+            #{item.shippingFromState,jdbcType=VARCHAR} as SHIPPING_FROM_STATE,
+            #{item.shippingFromCity,jdbcType=VARCHAR} as SHIPPING_FROM_CITY,
+            #{item.shippingFromZipcode,jdbcType=VARCHAR} as SHIPPING_FROM_ZIPCODE,
+            #{item.shippingToCountry,jdbcType=VARCHAR} as SHIPPING_TO_COUNTRY,
+            #{item.shippingToState,jdbcType=VARCHAR} as SHIPPING_TO_STATE,
+            #{item.shippingToCity,jdbcType=VARCHAR} as SHIPPING_TO_CITY,
+            #{item.shippingToZipcode,jdbcType=VARCHAR} as SHIPPING_TO_ZIPCODE,
+            sysdate as CREATE_DATE,
+            #{item.updateDate, jdbcType=DATE} as UPDATE_DATE,
+            #{item.errorCode, jdbcType=VARCHAR} as ERROR_CODE,
+            #{item.errorMessage,jdbcType=VARCHAR} as ERROR_MESSAGE,
+            #{item.createBy,jdbcType=NUMERIC} as CREATE_BY,
+            #{item.updateBy,jdbcType=NUMERIC} as UPDATE_BY
+            from
+            dual
+        </foreach>
+        ) temp1 where not exists (
+            select 1 from SHIPPING_COST_AREA b
+            where temp1.SHIPPING_COMPANY_ID = b.SHIPPING_COMPANY_ID and temp1.SHIPPING_METHOD_ID = b.SHIPPING_METHOD_ID
+            and temp1.SHIPPING_FROM_ZIPCODE = b.SHIPPING_FROM_ZIPCODE and temp1.SHIPPING_TO_ZIPCODE = b.SHIPPING_TO_ZIPCODE
+        )
+      ) temp
+    </insert>
+
+    <update id="updateErrorCodeAndMesage">
+        update SHIPPING_COST_AREA set ERROR_CODE = #{errorCode},ERROR_MESSAGE = #{errorMessage} where id = #{id}
+    </update>
+
+    <select id="selectByShippingCompany" resultType="com.example.demo.entity.ShippingCostArea">
+        select
+          <include refid="baseSql"/>
+        from
+          SHIPPING_COST_AREA a
+        where a.SHIPPING_COMPANY_ID = #{shippingCompany}
+    </select>
+
+
+</mapper>

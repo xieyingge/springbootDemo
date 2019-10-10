@@ -1,15 +1,16 @@
 package com.example.demo.util;
 
 
-import com.example.demo.entity.ShippingCostAcquire;
-import com.fedex.rate.stub.*;
+import com.example.demo.entity.ShippingCostArea;
+import com.example.demo.fedex.rate.stub.*;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.axis.types.NonNegativeInteger;
 
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-
+@Slf4j
 public class ShippingCostUtil {
 
     public static final Map<String, Integer> FEDEX_SERVICE_TYPE_LOCAL = new HashMap<>();
@@ -35,7 +36,7 @@ public class ShippingCostUtil {
      * @param recipient     收件人的地址信息同寄件人
      * @param huowushu
      */
-    public static RateReply getShippingCostByParams(String serviceType, String packagingType, Party shipper, Party recipient, RequestedPackageLineItem... huowushu) {
+    public static RateReply getShippingCostReply(String serviceType, String packagingType, Party shipper, Party recipient, RequestedPackageLineItem... huowushu) {
         RateRequest request = new RateRequest();
         request.setClientDetail(createClientDetail());
         request.setWebAuthenticationDetail(createWebAuthenticationDetail());
@@ -97,10 +98,10 @@ public class ShippingCostUtil {
 
         Party from = from();
         Party to = to();
-        List<ShippingCostAcquire> result = new ArrayList<>();
+        List<ShippingCostArea> result = new ArrayList<>();
         for (; ; ) {
-            RateReply reply = getShippingCostByParams(serviceType, "YOUR_PACKAGING", from, to, addLineItem(weight));
-            BigDecimal shippingCost = getShippingCost(reply);
+            RateReply reply = getShippingCostReply(serviceType, "YOUR_PACKAGING", from, to, addLineItem(weight));
+            BigDecimal shippingCost = (BigDecimal) getShippingCost(reply);
             System.out.println("star weight: " + startW + " current weight: " + weight);
 
             if (++time == 3) {
@@ -120,12 +121,12 @@ public class ShippingCostUtil {
                 System.out.println("区间： [ " + startW + " , " + endW + " ]");
 
 
-                ShippingCostAcquire build = ShippingCostAcquire.builder()
-                        .shippingMethod(FEDEX_SERVICE_TYPE_LOCAL.get(serviceType))
-                        .shippingCompany(1)
-                        .weightFrom(startW.toPlainString())
-                        .weightTo(endW.toPlainString())
-                        .shippingFee(preShippingCost.toPlainString())
+                ShippingCostArea build = ShippingCostArea.builder()
+//                        .shippingMethod(FEDEX_SERVICE_TYPE.get(serviceType))
+//                        .shippingCompany(1)
+//                        .weightFrom(startW.toPlainString())
+//                        .weightTo(endW.toPlainString())
+//                        .shippingFee(preShippingCost.toPlainString())
                         .shippingFromCountry(from.getAddress().getCountryCode())
                         .shippingFromState(from.getAddress().getStateOrProvinceCode())
                         .shippingFromCity(from.getAddress().getCity())
@@ -158,16 +159,44 @@ public class ShippingCostUtil {
         System.out.println("end!!!");
     }
 
-    public static BigDecimal getShippingCost(RateReply reply) {
-        RateReplyDetail[] rrds = reply.getRateReplyDetails();
-//                System.out.println("RateReplyDetail length:  " + rrds.length);
+    public static Map<String, BigDecimal> getShippingCost(RateReply reply) {
+        try {
+            RateReplyDetail[] rrds = reply.getRateReplyDetails();
+            RateReplyDetail rrd = rrds[0];
 
-        RateReplyDetail rrd = rrds[0];
-        RatedShipmentDetail[] rsds = rrd.getRatedShipmentDetails();
+            RatedShipmentDetail[] rsds = rrd.getRatedShipmentDetails();
+            RatedShipmentDetail rsd = rsds[0];
 
-        RatedShipmentDetail rsd = rsds[0];
-        ShipmentRateDetail srd = rsd.getShipmentRateDetail();
-        return srd.getTotalNetCharge().getAmount();
+            ShipmentRateDetail srd = rsd.getShipmentRateDetail();
+            Map<String, BigDecimal> map = new HashMap<>();
+            map.put("totalNetCharge", srd.getTotalNetCharge().getAmount());
+
+            RatedPackageDetail[] rpds = rsd.getRatedPackages();
+            RatedPackageDetail rpd = rpds[0];
+
+            PackageRateDetail prd = rpd.getPackageRateDetail();
+            map.put("BaseCharge", prd.getBaseCharge().getAmount());
+            Surcharge[] surcharges = prd.getSurcharges();
+            StringBuilder fcsb = new StringBuilder();
+            BigDecimal sumSb = new BigDecimal(0);
+            for (int i = 0; i < surcharges.length; i++) {
+                Surcharge surcharge = surcharges[i];
+                if (surcharge.getDescription().contains("Fuel")) {
+                    map.put("FuelSurcharge", surcharge.getAmount().getAmount());
+                } else {
+                    fcsb.append(surcharge.getDescription()).append("+");
+                    sumSb = sumSb.add(surcharge.getAmount().getAmount());
+                }
+            }
+            if (fcsb.length() > 0) {
+                fcsb.delete(fcsb.length() - 1, fcsb.length());
+                map.put(fcsb.toString(), sumSb);
+            }
+            return map;
+        } catch (Exception e) {
+            log.error("get shipping cost map exception!");
+        }
+        return new HashMap<>();
     }
 
     private static RequestedPackageLineItem addLineItem(BigDecimal weight) {

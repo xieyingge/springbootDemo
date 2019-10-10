@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.ShippingCostCrawlerDao">
+
+    <resultMap id="baseResultMap" type="com.example.demo.entity.ShippingCostCrawler">
+        <id column="ID" property="id"/>
+        <result column="SHIPPING_COST_AREA_ID" property="shippingCostAreaId"/>
+        <result column="WEIGHT_FROM" property="weightFrom"/>
+        <result column="WEIGHT_TO" property="weightTo"/>
+        <result column="SHIPPING_FEE" property="shippingFee"/>
+        <result column="FEE_A_NAME" property="feeAName"/>
+        <result column="FEE_A" property="feeA"/>
+        <result column="FEE_B_NAME" property="feeBName"/>
+        <result column="FEE_B" property="feeB"/>
+        <result column="FEE_C_NAME" property="feeCName"/>
+        <result column="FEE_C" property="feeC"/>
+        <result column="CREATE_DATE" property="createDate"/>
+        <result column="UPDATE_DATE" property="updateDate"/>
+        <result column="CREATE_BY" property="createBy"/>
+        <result column="UPDATE_BY" property="updateBy"/>
+    </resultMap>
+
+    <sql id="baseSql">
+            a.ID,
+            a.SHIPPING_COST_AREA_ID,
+            a.WEIGHT_FROM,
+            a.WEIGHT_TO,
+            a.SHIPPING_FEE,
+            a.FEE_A_NAME,
+            a.FEE_A,
+            a.FEE_B_NAME,
+            a.FEE_B,
+            a.FEE_C_NAME,
+            a.FEE_C,
+            a.CREATE_DATE,
+            a.UPDATE_DATE,
+            a.CREATE_BY,
+            a.UPDATE_BY
+    </sql>
+
+    <insert id="insert">
+        <selectKey resultType="long" order="BEFORE" keyProperty="id" keyColumn="ID">
+            select SEQ_SHIPPING_COST_CRAWLER.nextval as id from dual
+        </selectKey>
+        insert into SHIPPING_COST_CRAWLER (
+                ID,
+                SHIPPING_COST_AREA_ID,
+                WEIGHT_FROM,
+                WEIGHT_TO,
+                SHIPPING_FEE,
+                FEE_A_NAME,
+                FEE_A,
+                FEE_B_NAME,
+                FEE_B,
+                FEE_C_NAME,
+                FEE_C,
+                CREATE_DATE,
+                UPDATE_DATE,
+                CREATE_BY,
+                UPDATE_BY
+        )
+        values (
+        #{id,jdbcType=NUMERIC},
+        #{shippingCostAreaId,jdbcType=NUMERIC},
+        #{weightFrom, jdbcType=DECIMAL},
+        #{weightTo,jdbcType=DECIMAL},
+        #{shippingFee,jdbcType=DECIMAL},
+        #{feeAName,jdbcType=VARCHAR},
+        #{feeA,jdbcType=DECIMAL},
+        #{feeBName,jdbcType=VARCHAR},
+        #{feeB,jdbcType=DECIMAL},
+        #{feeCName,jdbcType=VARCHAR},
+        #{feeC,jdbcType=DECIMAL},
+        sysdate,
+        #{updateDate, jdbcType=DATE},
+        #{createBy,jdbcType=NUMERIC},
+        #{updateBy,jdbcType=NUMERIC}
+        )
+    </insert>
+
+    <insert id="insertBatch">
+        insert into SHIPPING_COST_CRAWLER (
+        ID,
+        SHIPPING_COST_AREA_ID,
+        WEIGHT_FROM,
+        WEIGHT_TO,
+        SHIPPING_FEE,
+        FEE_A_NAME,
+        FEE_A,
+        FEE_B_NAME,
+        FEE_B,
+        FEE_C_NAME,
+        FEE_C,
+        CREATE_DATE,
+        UPDATE_DATE,
+        CREATE_BY,
+        UPDATE_BY
+        )
+        select SEQ_SHIPPING_COST_CRAWLER.nextval,temp.* from
+        (
+        select temp1.* from (
+        <foreach collection="params" separator="union all" item="item">
+            select
+            #{item.shippingCostAreaId,jdbcType=NUMERIC} as SHIPPING_COST_AREA_ID,
+            #{item.weightFrom, jdbcType=DECIMAL} as WEIGHT_FROM,
+            #{item.weightTo,jdbcType=DECIMAL} as WEIGHT_TO,
+            #{item.shippingFee,jdbcType=DECIMAL} as SHIPPING_FEE,
+            #{item.feeAName,jdbcType=VARCHAR} as FEE_A_NAME,
+            #{item.feeA,jdbcType=DECIMAL} as FEE_A,
+            #{item.feeBName,jdbcType=VARCHAR} as FEE_B_NAME,
+            #{item.feeB,jdbcType=DECIMAL} as FEE_B,
+            #{item.feeCName,jdbcType=VARCHAR} as FEE_C_NAME,
+            #{item.feeC,jdbcType=DECIMAL} as FEE_C,
+            sysdate as CREATE_DATE,
+            #{item.updateDate, jdbcType=DATE} as UPDATE_DATE,
+            #{item.createBy,jdbcType=NUMERIC} as CREATE_BY,
+            #{item.updateBy,jdbcType=NUMERIC} as UPDATE_BY
+            from
+            dual
+        </foreach>
+        ) temp1 where not exists (
+            select 1 from SHIPPING_COST_CRAWLER b
+            where temp1.SHIPPING_COST_AREA_ID = b.SHIPPING_COST_AREA_ID and temp1.WEIGHT_FROM = b.WEIGHT_FROM
+            and temp1.WEIGHT_TO = b.WEIGHT_TO
+        )
+      ) temp
+    </insert>
+
+
+
+</mapper>

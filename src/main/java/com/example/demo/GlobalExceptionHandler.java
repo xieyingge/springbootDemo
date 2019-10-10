@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import com.example.demo.entity.Result;
+import com.example.demo.enun.CodeMessage;
 import com.example.demo.exception.BusinessException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -9,6 +11,8 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
+
+import static com.example.demo.entity.Result.toResult;
 
 @ControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
@@ -20,12 +24,11 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
      */
     @ExceptionHandler(Exception.class)
     @ResponseBody
-    public Map<String,Object> exceptionHandler(Exception e){
-        Map<String,Object> result = new HashMap<String,Object>();
-        result.put("respCode", "9999");
-        result.put("respMsg", e.getMessage());
+    public Result exceptionHandler(Exception e){
+        e.printStackTrace();
+
         //正常开发中，可创建一个统一响应实体，如CommonResp
-        return result;
+        return toResult(CodeMessage.SERVER_ERROR, e.getMessage());
     }
 
 

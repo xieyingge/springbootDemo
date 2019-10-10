@@ -4,7 +4,7 @@ spring:
     username: skystar
     password: skystar2018
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    maxConnectionsPerPartition: 15
+    maxConnectionsPerPartition: 150
     minConnectionsPerPartition : 5
     partitionCount : 3
     acquireIncrement : 5
