@@ -3,12 +3,13 @@ package com.example.demo.service.impl;
 import com.example.demo.dao.ShippingCostAreaDao;
 import com.example.demo.entity.CountryPostalCode;
 import com.example.demo.entity.ShippingCostArea;
+import com.example.demo.fedex.rate.stub.*;
 import com.example.demo.service.CountryPostalCodeService;
 import com.example.demo.service.ShippingCostAreaService;
 import com.example.demo.util.ThreadPoolUtil;
-import com.example.demo.fedex.rate.stub.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.axis.types.NonNegativeInteger;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -95,59 +96,59 @@ public class ShippingCostAreaServiceImpl implements ShippingCostAreaService {
 
     @Override
     public void getShippingCostAndInsert(final BigDecimal destination, final BigDecimal increment, BigDecimal startWeight, String serviceType, Party from, Party to) {
-        if (startWeight.compareTo(BigDecimal.valueOf(0.0)) < 0) {
-            return;
-        }
-        BigDecimal weight = startWeight;
-        BigDecimal preShippingCost = null;
-        BigDecimal startW = weight;
-
-        List<ShippingCostArea> result = new ArrayList<>();
-        for (; ; ) {
-            if (weight.compareTo(destination) == 0) {
-                break;
-            }
-
-            RateReply reply = getShippingCostReply(serviceType, "YOUR_PACKAGING", from, to, addLineItem(weight));
-            BigDecimal shippingCost = null;
-            if (isResponseOk(reply.getHighestSeverity())) {
-                shippingCost = (BigDecimal) getShippingCost(reply);
-            } else {
-                dealErrorReply(serviceType, from, to, reply);
-            }
-//            System.out.println("star weight: " + startW + " current weight: " + weight);
-
-            if (shippingCost == null) {
-                log.error(Thread.currentThread().getName() + "  reply is error ");
-                break;
-            }
-
-//            System.out.println("preShippingCost: " + preShippingCost + " currentShippingCost: " + shippingCost);
-//            System.out.println();
-
-            //fist time pre is null bigdecimal compare will exception
-            if (preShippingCost != null && shippingCost.compareTo(preShippingCost) != 0) {
-                BigDecimal endW = weight.subtract(increment);
-//                System.out.println("区间： [ " + startW + " , " + endW + " ]");
-
-                ShippingCostArea build = getShippingCostAcquire(serviceType, preShippingCost, startW, endW, to, from);
-                result.add(build);
-                if (result.size() >= 10 || weight.compareTo(destination) == 0) {
-                    dao.insertBatch(result);
-                    log.info(Thread.currentThread().getName() + " 插入10 条成功！！");
-                    result.clear();
-                }
-
-                startW = weight;
-                preShippingCost = shippingCost;
-            }
-            // first time set value
-            if (preShippingCost == null) {
-                preShippingCost = shippingCost;
-            }
-
-            weight = weight.add(increment);
-        }
+//        if (startWeight.compareTo(BigDecimal.valueOf(0.0)) < 0) {
+//            return;
+//        }
+//        BigDecimal weight = startWeight;
+//        BigDecimal preShippingCost = null;
+//        BigDecimal startW = weight;
+//
+//        List<ShippingCostArea> result = new ArrayList<>();
+//        for (; ; ) {
+//            if (weight.compareTo(destination) == 0) {
+//                break;
+//            }
+//
+//            RateReply reply = getShippingCostReply(serviceType, "YOUR_PACKAGING", from, to, addLineItem(weight));
+//            BigDecimal shippingCost = null;
+//            if (isResponseOk(reply.getHighestSeverity())) {
+//                shippingCost = (BigDecimal) getShippingCost(reply);
+//            } else {
+//                dealErrorReply(serviceType, from, to, reply);
+//            }
+////            System.out.println("star weight: " + startW + " current weight: " + weight);
+//
+//            if (shippingCost == null) {
+//                log.error(Thread.currentThread().getName() + "  reply is error ");
+//                break;
+//            }
+//
+////            System.out.println("preShippingCost: " + preShippingCost + " currentShippingCost: " + shippingCost);
+////            System.out.println();
+//
+//            //fist time pre is null bigdecimal compare will exception
+//            if (preShippingCost != null && shippingCost.compareTo(preShippingCost) != 0) {
+//                BigDecimal endW = weight.subtract(increment);
+////                System.out.println("区间： [ " + startW + " , " + endW + " ]");
+//
+//                ShippingCostArea build = getShippingCostAcquire(serviceType, preShippingCost, startW, endW, to, from);
+//                result.add(build);
+//                if (result.size() >= 10 || weight.compareTo(destination) == 0) {
+//                    dao.insertBatch(result);
+//                    log.info(Thread.currentThread().getName() + " 插入10 条成功！！");
+//                    result.clear();
+//                }
+//
+//                startW = weight;
+//                preShippingCost = shippingCost;
+//            }
+//            // first time set value
+//            if (preShippingCost == null) {
+//                preShippingCost = shippingCost;
+//            }
+//
+//            weight = weight.add(increment);
+//        }
 //        System.out.println("end!!!");
     }
 
@@ -296,35 +297,50 @@ public class ShippingCostAreaServiceImpl implements ShippingCostAreaService {
 
     private void generateAreaByFedexCompany(List<Long> fedexCompany) {
         List<CountryPostalCode> allDemosticDestination = countryPostalCodeService.selectAll();
-        List<ShippingCostArea> contain = new ArrayList<>(100);
+        List<ShippingCostArea> container = new ArrayList<>(120);
 
         for (CountryPostalCode des : allDemosticDestination) {
             for (Long companyId : fedexCompany) {
-                contain.add(getShippingCostArea(des, companyId));
-                if (contain.size() == 100) {
-                    dao.insertBatch(contain);
-                    contain.clear();
+                addAceptableCities(container, des, companyId);
+                container.add(getShippingCostArea(des, companyId));
+                if (container.size() >= 100) {
+                    dao.insertBatch(container);
+                    container.clear();
                 }
             }
         }
-        if (!contain.isEmpty()) {
-            dao.insertBatch(contain);
+        if (!container.isEmpty()) {
+            dao.insertBatch(container);
         }
     }
 
-    private ShippingCostArea getShippingCostArea(CountryPostalCode des, Long companyId) {
+    private void addAceptableCities(List<ShippingCostArea> container, CountryPostalCode des, Long companyId) {
+        String acceptableCities = des.getAcceptableCities();
+        if (StringUtils.isNotBlank(acceptableCities)) {
+            String[] cities = acceptableCities.split(",");
+            for (String city : cities) {
+                container.add(getShippingCostArea(des, companyId, city));
+            }
+        }
+    }
+
+    private ShippingCostArea getShippingCostArea(CountryPostalCode des, Long companyId, String toCity) {
         return ShippingCostArea.builder()
-                            .shippingCompanyId(FEDEX)
-                            .shippingMethodId(companyId)
-                            .shippingFromCountry(FROM_COUNTRY)
-                            .shippingFromState(FROM_STATE)
-                            .shippingFromCity(FROM_CITY)
-                            .shippingFromZipcode(FROM_POSTAL_CODE)
-                            .shippingToCountry(des.getCountry())
-                            .shippingToState(des.getState())
-                            .shippingToCity(des.getCity())
-                            .shippingToZipcode(des.getZip())
-                            .build();
+                .shippingCompanyId(FEDEX)
+                .shippingMethodId(companyId)
+                .shippingFromCountry(FROM_COUNTRY)
+                .shippingFromState(FROM_STATE)
+                .shippingFromCity(FROM_CITY)
+                .shippingFromZipcode(FROM_POSTAL_CODE)
+                .shippingToCountry(des.getCountry())
+                .shippingToState(des.getState())
+                .shippingToCity(toCity)
+                .shippingToZipcode(des.getZip())
+                .build();
+    }
+
+    private ShippingCostArea getShippingCostArea(CountryPostalCode des, Long companyId) {
+        return getShippingCostArea(des, companyId, des.getCity());
     }
 
 

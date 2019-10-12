@@ -1,14 +1,17 @@
 package com.example.demo.util;
 
 
-import com.example.demo.entity.ShippingCostArea;
+import com.example.demo.entity.ShippingCostFeeDetail;
 import com.example.demo.fedex.rate.stub.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.axis.types.NonNegativeInteger;
 
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TimeZone;
 
 @Slf4j
 public class ShippingCostUtil {
@@ -83,83 +86,84 @@ public class ShippingCostUtil {
 
 
     public static void main(String[] args) {
-        processShippingCostWweightRange(BigDecimal.valueOf(100), BigDecimal.valueOf(0.1), BigDecimal.valueOf(0.1), "FEDEX_2_DAY");
+//        processShippingCostWweightRange(BigDecimal.valueOf(100), BigDecimal.valueOf(0.1), BigDecimal.valueOf(0.1), "FEDEX_2_DAY");
     }
 
-    public static void processShippingCostWweightRange(final BigDecimal destination, final BigDecimal increment, BigDecimal startWeight, String serviceType) {
-        if (startWeight.compareTo(BigDecimal.valueOf(0.0)) < 0) {
-            return;
-        }
-        BigDecimal weight = startWeight;
-        int time = 0;
-        BigDecimal preShippingCost = null;
-        BigDecimal startW = weight;
-        BigDecimal endW = null;
+//    public static void processShippingCostWweightRange(final BigDecimal destination, final BigDecimal increment, BigDecimal startWeight, String serviceType) {
+//        if (startWeight.compareTo(BigDecimal.valueOf(0.0)) < 0) {
+//            return;
+//        }
+//        BigDecimal weight = startWeight;
+//        int time = 0;
+//        BigDecimal preShippingCost = null;
+//        BigDecimal startW = weight;
+//        BigDecimal endW = null;
+//
+//        Party from = from();
+//        Party to = to();
+//        List<ShippingCostArea> result = new ArrayList<>();
+//        for (; ; ) {
+//            RateReply reply = getShippingCostReply(serviceType, "YOUR_PACKAGING", from, to, addLineItem(weight));
+//            ShippingCostFeeDetail shippingCost =  getShippingCost(reply);
+//            System.out.println("star weight: " + startW + " current weight: " + weight);
+//
+//            if (++time == 3) {
+//                break;
+//            }
+//            // if return is error retry 3 times
+//            if (shippingCost == null) {
+//                System.out.println("reply is error, retry....,  " + time);
+//                continue;
+//            }
+//            time = 0;
+//            System.out.println("preShippingCost: " + preShippingCost + " currentShippingCost: " + shippingCost);
+//            System.out.println();
+//            //fist time pre is null bigdecimal compare will exception
+//            if (preShippingCost != null && shippingCost.compareTo(preShippingCost) != 0) {
+//                endW = weight.subtract(increment);
+//                System.out.println("区间： [ " + startW + " , " + endW + " ]");
+//
+//
+//                ShippingCostArea build = ShippingCostArea.builder()
+////                        .shippingMethod(FEDEX_SERVICE_TYPE.get(serviceType))
+////                        .shippingCompany(1)
+////                        .weightFrom(startW.toPlainString())
+////                        .weightTo(endW.toPlainString())
+////                        .shippingFee(preShippingCost.toPlainString())
+//                        .shippingFromCountry(from.getAddress().getCountryCode())
+//                        .shippingFromState(from.getAddress().getStateOrProvinceCode())
+//                        .shippingFromCity(from.getAddress().getCity())
+//                        .shippingFromZipcode(from.getAddress().getPostalCode())
+//                        .shippingToCountry(to.getAddress().getCountryCode())
+//                        .shippingToState(to.getAddress().getStateOrProvinceCode())
+//                        .shippingToCity(to.getAddress().getCity())
+//                        .shippingToZipcode(to.getAddress().getPostalCode())
+//                        .build();
+//
+//                result.add(build);
+//
+//                if (result.size() >= 100 || weight.compareTo(destination) == 0) {
+//
+//                }
+//
+//                startW = weight;
+//                preShippingCost = shippingCost;
+//            }
+//            // first time set value
+//            if (preShippingCost == null) {
+//                preShippingCost = shippingCost;
+//            }
+//
+//            if (weight.compareTo(destination) == 0) {
+//                break;
+//            }
+//            weight = weight.add(increment);
+//        }
+//        System.out.println("end!!!");
+//    }
 
-        Party from = from();
-        Party to = to();
-        List<ShippingCostArea> result = new ArrayList<>();
-        for (; ; ) {
-            RateReply reply = getShippingCostReply(serviceType, "YOUR_PACKAGING", from, to, addLineItem(weight));
-            BigDecimal shippingCost = (BigDecimal) getShippingCost(reply);
-            System.out.println("star weight: " + startW + " current weight: " + weight);
-
-            if (++time == 3) {
-                break;
-            }
-            // if return is error retry 3 times
-            if (shippingCost == null) {
-                System.out.println("reply is error, retry....,  " + time);
-                continue;
-            }
-            time = 0;
-            System.out.println("preShippingCost: " + preShippingCost + " currentShippingCost: " + shippingCost);
-            System.out.println();
-            //fist time pre is null bigdecimal compare will exception
-            if (preShippingCost != null && shippingCost.compareTo(preShippingCost) != 0) {
-                endW = weight.subtract(increment);
-                System.out.println("区间： [ " + startW + " , " + endW + " ]");
-
-
-                ShippingCostArea build = ShippingCostArea.builder()
-//                        .shippingMethod(FEDEX_SERVICE_TYPE.get(serviceType))
-//                        .shippingCompany(1)
-//                        .weightFrom(startW.toPlainString())
-//                        .weightTo(endW.toPlainString())
-//                        .shippingFee(preShippingCost.toPlainString())
-                        .shippingFromCountry(from.getAddress().getCountryCode())
-                        .shippingFromState(from.getAddress().getStateOrProvinceCode())
-                        .shippingFromCity(from.getAddress().getCity())
-                        .shippingFromZipcode(from.getAddress().getPostalCode())
-                        .shippingToCountry(to.getAddress().getCountryCode())
-                        .shippingToState(to.getAddress().getStateOrProvinceCode())
-                        .shippingToCity(to.getAddress().getCity())
-                        .shippingToZipcode(to.getAddress().getPostalCode())
-                        .build();
-
-                result.add(build);
-
-                if (result.size() >= 100 || weight.compareTo(destination) == 0) {
-
-                }
-
-                startW = weight;
-                preShippingCost = shippingCost;
-            }
-            // first time set value
-            if (preShippingCost == null) {
-                preShippingCost = shippingCost;
-            }
-
-            if (weight.compareTo(destination) == 0) {
-                break;
-            }
-            weight = weight.add(increment);
-        }
-        System.out.println("end!!!");
-    }
-
-    public static Map<String, BigDecimal> getShippingCost(RateReply reply) {
+    public static ShippingCostFeeDetail getShippingCost(RateReply reply) {
+        ShippingCostFeeDetail result = ShippingCostFeeDetail.builder().build();
         try {
             RateReplyDetail[] rrds = reply.getRateReplyDetails();
             RateReplyDetail rrd = rrds[0];
@@ -168,35 +172,32 @@ public class ShippingCostUtil {
             RatedShipmentDetail rsd = rsds[0];
 
             ShipmentRateDetail srd = rsd.getShipmentRateDetail();
-            Map<String, BigDecimal> map = new HashMap<>();
-            map.put("totalNetCharge", srd.getTotalNetCharge().getAmount());
+
+            result.setTotalNetCharge(srd.getTotalNetCharge().getAmount());
 
             RatedPackageDetail[] rpds = rsd.getRatedPackages();
             RatedPackageDetail rpd = rpds[0];
 
             PackageRateDetail prd = rpd.getPackageRateDetail();
-            map.put("BaseCharge", prd.getBaseCharge().getAmount());
+
+            result.setBaseCharge(prd.getBaseCharge().getAmount());
+
             Surcharge[] surcharges = prd.getSurcharges();
-            StringBuilder fcsb = new StringBuilder();
-            BigDecimal sumSb = new BigDecimal(0);
+            BigDecimal sumOther = new BigDecimal(0);
             for (int i = 0; i < surcharges.length; i++) {
                 Surcharge surcharge = surcharges[i];
                 if (surcharge.getDescription().contains("Fuel")) {
-                    map.put("FuelSurcharge", surcharge.getAmount().getAmount());
+                    result.setFuelSurcharge(surcharge.getAmount().getAmount());
                 } else {
-                    fcsb.append(surcharge.getDescription()).append("+");
-                    sumSb = sumSb.add(surcharge.getAmount().getAmount());
+                    sumOther = sumOther.add(surcharge.getAmount().getAmount());
                 }
             }
-            if (fcsb.length() > 0) {
-                fcsb.delete(fcsb.length() - 1, fcsb.length());
-                map.put(fcsb.toString(), sumSb);
-            }
-            return map;
+            result.setOther(sumOther);
+            return result;
         } catch (Exception e) {
             log.error("get shipping cost map exception!");
         }
-        return new HashMap<>();
+        return ShippingCostFeeDetail.builder().build();
     }
 
     private static RequestedPackageLineItem addLineItem(BigDecimal weight) {

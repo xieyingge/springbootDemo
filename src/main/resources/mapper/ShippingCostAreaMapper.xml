@@ -134,12 +134,13 @@
             select 1 from SHIPPING_COST_AREA b
             where temp1.SHIPPING_COMPANY_ID = b.SHIPPING_COMPANY_ID and temp1.SHIPPING_METHOD_ID = b.SHIPPING_METHOD_ID
             and temp1.SHIPPING_FROM_ZIPCODE = b.SHIPPING_FROM_ZIPCODE and temp1.SHIPPING_TO_ZIPCODE = b.SHIPPING_TO_ZIPCODE
+            and temp1.SHIPPING_FROM_CITY = b.SHIPPING_FROM_CITY and temp1.SHIPPING_TO_CITY = b.SHIPPING_TO_CITY
         )
       ) temp
     </insert>
 
     <update id="updateErrorCodeAndMesage">
-        update SHIPPING_COST_AREA set ERROR_CODE = #{errorCode},ERROR_MESSAGE = #{errorMessage} where id = #{id}
+        update SHIPPING_COST_AREA set ERROR_CODE = #{errorCode},ERROR_MESSAGE = #{errorMessage},UPDATE_DATE = sysdate where id = #{id}
     </update>
 
     <select id="selectByShippingCompany" resultType="com.example.demo.entity.ShippingCostArea">
@@ -147,7 +148,9 @@
           <include refid="baseSql"/>
         from
           SHIPPING_COST_AREA a
-        where a.SHIPPING_COMPANY_ID = #{shippingCompany}
+        where a.SHIPPING_COMPANY_ID = #{shippingCompany} and not exists (
+          select 1 from SHIPPING_COST_CRAWLER b where a.id = b.SHIPPING_COST_AREA_ID
+        )
     </select>
 
 

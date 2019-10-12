@@ -3,6 +3,7 @@ package com.example.demo.service.impl;
 import com.example.demo.dao.ShippingCostCrawlerDao;
 import com.example.demo.entity.ShippingCostArea;
 import com.example.demo.entity.ShippingCostCrawler;
+import com.example.demo.entity.ShippingCostFeeDetail;
 import com.example.demo.fedex.rate.stub.*;
 import com.example.demo.service.ShippingCostAreaService;
 import com.example.demo.service.ShippingCostCrawlerService;
@@ -15,11 +16,10 @@ import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 import static com.example.demo.entity.ShippingCompany.FEDEX;
 import static com.example.demo.entity.ShippingCompany.FEDEX_SERVICE_TYPE;
+import static com.example.demo.entity.ShippingCostFeeDetail.*;
 import static com.example.demo.util.ShippingCostUtil.getShippingCost;
 import static com.example.demo.util.ShippingCostUtil.isResponseOk;
 
@@ -50,6 +50,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
 
     @Override
     public void nomalProcessGetShippingCostAndInsert() {
+        //  已经爬过的不要取到
         List<ShippingCostArea> shippingCostAreaList = shippingCostAreaService.selectByShippingCompany(FEDEX);
         for (ShippingCostArea area : shippingCostAreaList) {
             getShippingCostAndInsert(
@@ -90,74 +91,80 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
         Party shipper = getFromParty(area);
         Party recipient = getToParty(area);
         BigDecimal weight = START_WEIGHT;
-        BigDecimal preShippingCost = null;
         BigDecimal startW = weight;
+
+        ShippingCostFeeDetail currentFeeDetail;
+        ShippingCostFeeDetail preFeeDetail = null;
+
 
         List<ShippingCostCrawler> result = new ArrayList<>();
         for (; ; ) {
-            if (weight.compareTo(DESTINATION) == 0) {
+            if (weight.compareTo(DESTINATION) > 0) {
                 if (!result.isEmpty()) {
                     insertBatch(result);
                     result.clear();
                 }
                 break;
             }
-
             RateReply reply = ShippingCostUtil.getShippingCostReply(serviceType, "YOUR_PACKAGING", shipper, recipient, addLineItem(weight));
             if (reply == null) {
+                area.setErrorCode("999");
+                area.setErrorMessage("reply is null, get data exception");
+                shippingCostAreaService.updateErrorCodeAndMesage(area);
                 break;
             }
-            BigDecimal shippingCost = null;
-            Map<String, BigDecimal> shippingCostMap = null;
+
             if (isResponseOk(reply.getHighestSeverity())) {
-                shippingCostMap = getShippingCost(reply);
-                shippingCost = shippingCostMap.get("totalNetCharge");
+                currentFeeDetail = getShippingCost(reply);
+//                log.error(currentFeeDetail.toString());
             } else {
                 dealErrorReply(area, reply);
+                break;
             }
 
-            if (shippingCost == null) {
+            if (currentFeeDetail.getTotalNetCharge() == null) {
                 break;
             }
 
             //fist time pre is null bigdecimal compare will exception
-            if (preShippingCost != null && shippingCost.compareTo(preShippingCost) != 0) {
+            if (preFeeDetail != null && isPriceChange(currentFeeDetail, preFeeDetail)) {
                 BigDecimal endW = weight.subtract(INCREMENT);
 
-                ShippingCostCrawler build = getShippingCostCrawler(area, preShippingCost, startW, shippingCostMap, endW);
+                ShippingCostCrawler build = getShippingCostCrawler(area, preFeeDetail, startW, endW);
                 result.add(build);
                 if (result.size() >= 1) {
                     insertBatch(result);
                     result.clear();
                 }
                 startW = weight;
-                preShippingCost = shippingCost;
+                preFeeDetail = currentFeeDetail;
             }
             // first time set value
-            if (preShippingCost == null) {
-                preShippingCost = shippingCost;
+            if (preFeeDetail == null) {
+                preFeeDetail = currentFeeDetail;
             }
 
             weight = weight.add(INCREMENT);
         }
     }
 
-    private ShippingCostCrawler getShippingCostCrawler(ShippingCostArea area, BigDecimal preShippingCost, BigDecimal startW, Map<String, BigDecimal> shippingCostMap, BigDecimal endW) {
-        Set<String> keySet = shippingCostMap.keySet();
-        keySet.remove("BaseCharge");
-        keySet.remove("FuelSurcharge");
-        String keyC = keySet.iterator().next();
+    private boolean isPriceChange(ShippingCostFeeDetail currentShippingCost, ShippingCostFeeDetail preShippingCost) {
+        return preShippingCost.getTotalNetCharge() != null && currentShippingCost.getTotalNetCharge().compareTo(preShippingCost.getTotalNetCharge()) != 0;
+    }
+
+    private ShippingCostCrawler getShippingCostCrawler(ShippingCostArea area, ShippingCostFeeDetail preShippingCost, BigDecimal startW, BigDecimal endW) {
+
         return ShippingCostCrawler.builder()
                 .shippingCostAreaId(area.getId())
                 .weightFrom(startW)
                 .weightTo(endW)
-                .shippingFee(preShippingCost)
-                .feeAName("BaseCharge")
-                .feeA(shippingCostMap.get("BaseCharge"))
-                .feeBName("FuelSurcharge")
-                .feeB(shippingCostMap.get("FuelSurcharge"))
-                .feeCName(keyC)
-                .feeC(shippingCostMap.get(keyC)).build();
+                .shippingFee(preShippingCost.getTotalNetCharge())
+                .feeAName(FEE_A_NAME)
+                .feeA(preShippingCost.getBaseCharge())
+                .feeBName(FEE_B_NAME)
+                .feeB(preShippingCost.getFuelSurcharge())
+                .feeCName(FEE_C_NAME)
+                .feeC(preShippingCost.getOther()).build();
     }
 
     private static RequestedPackageLineItem addLineItem(BigDecimal weight) {
@@ -187,7 +194,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
                 }
             }
         } catch (Exception ignore) {
-            log.error("deal error exception!");
+            log.error("deal error exception, area id is: " + area.getId());
         }
     }
 
