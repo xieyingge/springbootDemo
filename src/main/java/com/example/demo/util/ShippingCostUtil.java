@@ -12,12 +12,14 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TimeZone;
+import java.util.concurrent.TimeUnit;
 
 @Slf4j
 public class ShippingCostUtil {
 
     public static final Map<String, Integer> FEDEX_SERVICE_TYPE_LOCAL = new HashMap<>();
     public static final Map<String, Integer> FEDEX_SERVICE_TYPE_INTERNATIONAL = new HashMap<>();
+    private static int countServiceTimes = 0;
 
 
     static {
@@ -75,11 +77,16 @@ public class ShippingCostUtil {
             updateEndPoint(service);
             port = service.getRateServicePort();
             // This is the call to the web service passing in a RateRequest and returning a RateReply
+            countServiceTimes++;
             RateReply reply = port.getRates(request); // Service call
 
             return reply;
         } catch (Exception e) {
+            //这里exception，可能是掉接口被封掉了，暂停一小时。
             e.printStackTrace();
+            log.error("service bei diao yong: " + countServiceTimes  + "ci");
+            log.error("service unvailable sleep one hour!");
+            sleep(1, TimeUnit.HOURS);
         }
         return null;
     }
@@ -543,6 +550,14 @@ public class ShippingCostUtil {
         String endPoint = System.getProperty("endPoint");
         if (endPoint != null) {
             serviceLocator.setRateServicePortEndpointAddress(endPoint);
+        }
+    }
+
+    public static void sleep(long time, TimeUnit timeUnit) {
+        try {
+            timeUnit.sleep(time);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 

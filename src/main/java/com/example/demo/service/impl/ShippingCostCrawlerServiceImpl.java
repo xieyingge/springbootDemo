@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static com.example.demo.entity.ShippingCompany.FEDEX;
 import static com.example.demo.entity.ShippingCompany.FEDEX_SERVICE_TYPE;
@@ -27,8 +28,8 @@ import static com.example.demo.util.ShippingCostUtil.isResponseOk;
 @Service
 @Slf4j
 public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerService {
-    private static final BigDecimal DESTINATION = BigDecimal.valueOf(100);
-    private static final BigDecimal INCREMENT = BigDecimal.valueOf(0.1);
+    private static final BigDecimal DESTINATION = BigDecimal.valueOf(101);
+    private static final BigDecimal INCREMENT = BigDecimal.valueOf(1);
     private static final BigDecimal START_WEIGHT = BigDecimal.valueOf(0.1);
 
     @Autowired
@@ -91,7 +92,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
         Party shipper = getFromParty(area);
         Party recipient = getToParty(area);
         BigDecimal weight = START_WEIGHT;
-        BigDecimal startW = weight;
+        BigDecimal startW = BigDecimal.valueOf(0);
 
         ShippingCostFeeDetail currentFeeDetail;
         ShippingCostFeeDetail preFeeDetail = null;
@@ -106,25 +107,10 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
                 }
                 break;
             }
+
             RateReply reply = ShippingCostUtil.getShippingCostReply(serviceType, "YOUR_PACKAGING", shipper, recipient, addLineItem(weight));
-            if (reply == null) {
-                area.setErrorCode("999");
-                area.setErrorMessage("reply is null, get data exception");
-                shippingCostAreaService.updateErrorCodeAndMesage(area);
-                break;
-            }
-
-            if (isResponseOk(reply.getHighestSeverity())) {
-                currentFeeDetail = getShippingCost(reply);
-//                log.error(currentFeeDetail.toString());
-            } else {
-                dealErrorReply(area, reply);
-                break;
-            }
-
-            if (currentFeeDetail.getTotalNetCharge() == null) {
-                break;
-            }
+            currentFeeDetail = dealReply(area, reply);
+            if (currentFeeDetail == null) break;
 
             //fist time pre is null bigdecimal compare will exception
             if (preFeeDetail != null && isPriceChange(currentFeeDetail, preFeeDetail)) {
@@ -136,7 +122,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
                     insertBatch(result);
                     result.clear();
                 }
-                startW = weight;
+                startW = endW;
                 preFeeDetail = currentFeeDetail;
             }
             // first time set value
@@ -144,8 +130,38 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
                 preFeeDetail = currentFeeDetail;
             }
 
-            weight = weight.add(INCREMENT);
+            if (weight.compareTo(START_WEIGHT) == 0) {
+                weight = BigDecimal.valueOf(1);
+            } else {
+                weight = weight.add(INCREMENT);
+            }
         }
+    }
+
+    private ShippingCostFeeDetail dealReply(ShippingCostArea area, RateReply reply) {
+        ShippingCostFeeDetail currentFeeDetail;
+        if (reply == null) {
+            area.setErrorCode("999");
+            area.setErrorMessage("reply is null, get data exception");
+            shippingCostAreaService.updateErrorCodeAndMesage(area);
+            return null;
+        }
+
+        if (isResponseOk(reply.getHighestSeverity())) {
+            currentFeeDetail = getShippingCost(reply);
+        } else {
+            boolean isServiceUnvailable = dealErrorReply(area, reply);
+            if (isServiceUnvailable) {
+                log.error("service unvailable sleep one hour!");
+                ShippingCostUtil.sleep(1, TimeUnit.HOURS);
+            }
+            return null;
+        }
+
+        if (currentFeeDetail.getTotalNetCharge() == null) {
+            return null;
+        }
+        return currentFeeDetail;
     }
 
     private boolean isPriceChange(ShippingCostFeeDetail currentShippingCost, ShippingCostFeeDetail preShippingCost) {
@@ -176,7 +192,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
         return lineItem;
     }
 
-    private void dealErrorReply(ShippingCostArea area, RateReply reply) {
+    private boolean dealErrorReply(ShippingCostArea area, RateReply reply) {
         try {
             Notification[] notifications = reply.getNotifications();
             if (notifications != null && notifications.length > 0) {
@@ -190,12 +206,16 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
                     area.setErrorCode(code);
                     area.setErrorMessage(message);
                     shippingCostAreaService.updateErrorCodeAndMesage(area);
+                    if (message.contains("temporarily unavailable")) {
+                        return true;
+                    }
                     break;
                 }
             }
         } catch (Exception ignore) {
             log.error("deal error exception, area id is: " + area.getId());
         }
+        return false;
     }
 
 
