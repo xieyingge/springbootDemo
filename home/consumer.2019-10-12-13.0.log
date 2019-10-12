@@ -1,0 +1,2 @@
+2019-10-12 13:12:35.319 [http-nio-4099-exec-2] ERROR com.example.demo.util.ShippingCostUtil - service bei diao yong: 2578ci
+2019-10-12 13:12:35.321 [http-nio-4099-exec-2] ERROR com.example.demo.util.ShippingCostUtil - service unvailable sleep one hour!

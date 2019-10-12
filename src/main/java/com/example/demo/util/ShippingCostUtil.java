@@ -83,10 +83,12 @@ public class ShippingCostUtil {
             return reply;
         } catch (Exception e) {
             //这里exception，可能是掉接口被封掉了，暂停一小时。
-            e.printStackTrace();
-            log.error("service bei diao yong: " + countServiceTimes  + "ci");
+            log.error("request exception", e);
+            log.error("service bei diao yong: " + countServiceTimes + "ci");
             log.error("service unvailable sleep one hour!");
-            sleep(1, TimeUnit.HOURS);
+            countServiceTimes = 0;
+            sleep(10, TimeUnit.MINUTES);
+            log.error("service restart after sleep one hour!");
         }
         return null;
     }

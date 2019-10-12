@@ -54,10 +54,14 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
         //  已经爬过的不要取到
         List<ShippingCostArea> shippingCostAreaList = shippingCostAreaService.selectByShippingCompany(FEDEX);
         for (ShippingCostArea area : shippingCostAreaList) {
-            getShippingCostAndInsert(
-                    FEDEX_SERVICE_TYPE.get(area.getShippingMethodId()),
-                    area
-            );
+            try {
+                getShippingCostAndInsert(
+                        FEDEX_SERVICE_TYPE.get(area.getShippingMethodId()),
+                        area
+                );
+            } catch (Exception e) {
+                log.error("databaseException",e);
+            }
         }
     }
 
@@ -118,7 +122,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
 
                 ShippingCostCrawler build = getShippingCostCrawler(area, preFeeDetail, startW, endW);
                 result.add(build);
-                if (result.size() >= 1) {
+                if (result.size() >= 20) {
                     insertBatch(result);
                     result.clear();
                 }
@@ -154,6 +158,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
             if (isServiceUnvailable) {
                 log.error("service unvailable sleep one hour!");
                 ShippingCostUtil.sleep(1, TimeUnit.HOURS);
+                log.error("service restart after sleep one hour!");
             }
             return null;
         }
