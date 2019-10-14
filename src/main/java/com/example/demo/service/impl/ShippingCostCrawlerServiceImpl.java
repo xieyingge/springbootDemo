@@ -8,29 +8,37 @@ import com.example.demo.fedex.rate.stub.*;
 import com.example.demo.service.ShippingCostAreaService;
 import com.example.demo.service.ShippingCostCrawlerService;
 import com.example.demo.util.ShippingCostUtil;
+import com.example.demo.util.ThreadPoolUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.axis.types.NonNegativeInteger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 
 import static com.example.demo.entity.ShippingCompany.FEDEX;
 import static com.example.demo.entity.ShippingCompany.FEDEX_SERVICE_TYPE;
 import static com.example.demo.entity.ShippingCostFeeDetail.*;
-import static com.example.demo.util.ShippingCostUtil.getShippingCost;
-import static com.example.demo.util.ShippingCostUtil.isResponseOk;
+import static com.example.demo.util.ShippingCostUtil.*;
 
 
 @Service
 @Slf4j
 public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerService {
-    private static final BigDecimal DESTINATION = BigDecimal.valueOf(101);
+    private static final BigDecimal DESTINATION = BigDecimal.valueOf(31);
     private static final BigDecimal INCREMENT = BigDecimal.valueOf(1);
     private static final BigDecimal START_WEIGHT = BigDecimal.valueOf(0.1);
+
+    private static final int PROCESS_NUM = Runtime.getRuntime().availableProcessors();
+    private static final ThreadFactory THREAD_FACTORY = ThreadPoolUtil.getNamedThreadFactory("shipping-crawler-%d");
+    private ExecutorService pool = ThreadPoolUtil.getPool(2 * PROCESS_NUM, THREAD_FACTORY);
 
     @Autowired
     private ShippingCostAreaService shippingCostAreaService;
@@ -40,29 +48,29 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
 
 
     @Override
-    public void insertBatch(List<ShippingCostCrawler> params) {
-        dao.insertBatch(params);
-    }
-
-    @Override
-    public void insert(ShippingCostCrawler param) {
-        dao.insert(param);
+    public void multiProcessGetShippingCostAndInsert() {
+        List<ShippingCostArea> shippingCostAreaList = shippingCostAreaService.selectByShippingCompany(FEDEX);
+        List<List<ShippingCostArea>> splitDatas = splitData(shippingCostAreaList, 5000);
+        for (List<ShippingCostArea> costAreaList : splitDatas) {
+            pool.submit(new Task(costAreaList));
+        }
     }
 
     @Override
     public void nomalProcessGetShippingCostAndInsert() {
         //  已经爬过的不要取到
+        log.error("start crawler fedex rate data: " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
         List<ShippingCostArea> shippingCostAreaList = shippingCostAreaService.selectByShippingCompany(FEDEX);
         for (ShippingCostArea area : shippingCostAreaList) {
+            log.info(area.getId() + "  area start time: " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
             try {
-                getShippingCostAndInsert(
-                        FEDEX_SERVICE_TYPE.get(area.getShippingMethodId()),
-                        area
-                );
+                getShippingCostAndInsert(area);
             } catch (Exception e) {
-                log.error("databaseException",e);
+                log.error("databaseException " + e);
             }
+            log.info(area.getId() + " area end time: " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")) + " success");
         }
+        log.error("end crawler fedex rate data: " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
     }
 
     private Party getToParty(ShippingCostArea area) {
@@ -89,7 +97,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
     }
 
 
-    private void getShippingCostAndInsert(String serviceType, ShippingCostArea area) {
+    private void getShippingCostAndInsert(ShippingCostArea area) {
         if (START_WEIGHT.compareTo(BigDecimal.valueOf(0.0)) < 0) {
             return;
         }
@@ -112,7 +120,13 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
                 break;
             }
 
-            RateReply reply = ShippingCostUtil.getShippingCostReply(serviceType, "YOUR_PACKAGING", shipper, recipient, addLineItem(weight));
+            RateReply reply = ShippingCostUtil.getShippingCostReply(
+                    FEDEX_SERVICE_TYPE.get(area.getShippingMethodId()),
+                    "YOUR_PACKAGING",
+                    shipper,
+                    recipient,
+                    addLineItem(weight)
+            );
             currentFeeDetail = dealReply(area, reply);
             if (currentFeeDetail == null) break;
 
@@ -122,7 +136,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
 
                 ShippingCostCrawler build = getShippingCostCrawler(area, preFeeDetail, startW, endW);
                 result.add(build);
-                if (result.size() >= 20) {
+                if (result.size() >= 5) {
                     insertBatch(result);
                     result.clear();
                 }
@@ -147,6 +161,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
         if (reply == null) {
             area.setErrorCode("999");
             area.setErrorMessage("reply is null, get data exception");
+            log.info(area.getId() + " reply is null, get data exception");
             shippingCostAreaService.updateErrorCodeAndMesage(area);
             return null;
         }
@@ -156,9 +171,9 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
         } else {
             boolean isServiceUnvailable = dealErrorReply(area, reply);
             if (isServiceUnvailable) {
-                log.error("service unvailable sleep one hour!");
-                ShippingCostUtil.sleep(1, TimeUnit.HOURS);
-                log.error("service restart after sleep one hour!");
+                log.error("service unvailable sleep ten minutes!");
+                sleep(10, TimeUnit.MINUTES);
+                log.error("service restart after sleep ten minutes!");
             }
             return null;
         }
@@ -210,6 +225,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
                     String message = n.getMessage();
                     area.setErrorCode(code);
                     area.setErrorMessage(message);
+                    log.info(area.getId() + " reply is error, message: " + message);
                     shippingCostAreaService.updateErrorCodeAndMesage(area);
                     if (message.contains("temporarily unavailable")) {
                         return true;
@@ -224,4 +240,32 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
     }
 
 
+    @Override
+    public void insertBatch(List<ShippingCostCrawler> params) {
+        dao.insertBatch(params);
+    }
+
+    @Override
+    public void insert(ShippingCostCrawler param) {
+        dao.insert(param);
+    }
+
+    private class Task implements Runnable {
+        private List<ShippingCostArea> costAreaList;
+
+        @Override
+        public void run() {
+            for (ShippingCostArea area : costAreaList) {
+                try {
+                    getShippingCostAndInsert(area);
+                } catch (Exception e) {
+                    log.error(Thread.currentThread().getName() + " databaseException " + e);
+                }
+            }
+        }
+
+        public Task(List<ShippingCostArea> costAreaList) {
+            this.costAreaList = costAreaList;
+        }
+    }
 }

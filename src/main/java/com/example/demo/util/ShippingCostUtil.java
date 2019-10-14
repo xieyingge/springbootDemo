@@ -8,10 +8,7 @@ import org.apache.axis.types.NonNegativeInteger;
 
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TimeZone;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 @Slf4j
@@ -83,12 +80,13 @@ public class ShippingCostUtil {
             return reply;
         } catch (Exception e) {
             //这里exception，可能是掉接口被封掉了，暂停一小时。
-            log.error("request exception", e);
-            log.error("service bei diao yong: " + countServiceTimes + "ci");
-            log.error("service unvailable sleep one hour!");
+            e.printStackTrace();
+            log.error("request exception" +  e);
+            log.error("service bei diao yong: " + countServiceTimes + " ci");
+            log.error("service unvailable sleep ten minutes!");
             countServiceTimes = 0;
             sleep(10, TimeUnit.MINUTES);
-            log.error("service restart after sleep one hour!");
+            log.error("service restart after sleep ten minutes!");
         }
         return null;
     }
@@ -561,6 +559,34 @@ public class ShippingCostUtil {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * 每组n个元素
+     *
+     * @param source 要分组的数据源
+     * @param n      每组n个元素
+     * @param <T>
+     * @return
+     */
+    public static <T> List<List<T>> splitData(List<T> source, int n) {
+
+        if (null == source || source.size() == 0 || n <= 0)
+            return null;
+        List<List<T>> result = new ArrayList<List<T>>();
+        int remainder = source.size() % n;
+        int size = (source.size() / n);
+        for (int i = 0; i < size; i++) {
+            List<T> subset = null;
+            subset = source.subList(i * n, (i + 1) * n);
+            result.add(subset);
+        }
+        if (remainder > 0) {
+            List<T> subset = null;
+            subset = source.subList(size * n, size * n + remainder);
+            result.add(subset);
+        }
+        return result;
     }
 
 }

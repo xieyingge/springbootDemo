@@ -150,7 +150,9 @@
           SHIPPING_COST_AREA a
         where a.SHIPPING_COMPANY_ID = #{shippingCompany} and not exists (
           select 1 from SHIPPING_COST_CRAWLER b where a.id = b.SHIPPING_COST_AREA_ID
-        )
+        ) and not exists (
+          select 1 from SHIPPING_COST_AREA c where  c.error_code is not null and c.id = a.id
+        ) and rownum &lt; 50
     </select>
 
 

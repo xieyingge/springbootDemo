@@ -1,0 +1,69 @@
+2019-10-12 15:02:04.165 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3684 one area end time: 2019-10-12 15:02:04
+2019-10-12 15:02:04.168 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3685 one area start time: 2019-10-12 15:02:04
+2019-10-12 15:08:17.908 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 14652 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-12 15:08:17.911 [restartedMain] INFO  com.example.demo.DemoApplication - The following profiles are active: sst
+2019-10-12 15:08:17.991 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-12 15:08:17.991 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-12 15:08:19.312 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-12 15:08:19.316 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-12 15:08:19.426 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96ms. Found 0 repository interfaces.
+2019-10-12 15:08:19.936 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$29776056] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-12 15:08:20.563 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-12 15:08:20.584 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-12 15:08:20.595 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-12 15:08:20.595 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-12 15:08:20.742 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-12 15:08:20.742 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2750 ms
+2019-10-12 15:08:20.819 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-12 15:08:21.429 [restartedMain] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+2019-10-12 15:08:21.443 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-12 15:08:22.208 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-12 15:08:22.349 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-12 15:08:22.381 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-12 15:08:22.574 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-12 15:08:22.915 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-12 15:08:22.962 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-12 15:08:22.992 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-12 15:08:22.996 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.785 seconds (JVM running for 6.68)
+2019-10-12 15:08:27.094 [http-nio-4099-exec-2] INFO  com.example.demo.config.listener.Customlister - 监听器：初始化
+2019-10-12 15:08:27.100 [http-nio-4099-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-12 15:08:27.101 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-12 15:08:27.112 [http-nio-4099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-10-12 15:08:27.122 [http-nio-4099-exec-2] INFO  com.example.demo.config.filter.CustomFilter - doFilter   请求处理！！！
+2019-10-12 15:08:27.133 [http-nio-4099-exec-2] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - preHandle:请求前调用
+2019-10-12 15:08:27.149 [http-nio-4099-exec-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl - start crawler fedex rate data: 2019-10-12 15:08:27
+2019-10-12 15:09:41.820 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3686  area start time: 2019-10-12 15:09:41
+2019-10-12 15:13:26.051 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3686 area end time: 2019-10-12 15:13:26 success
+2019-10-12 15:13:26.052 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3687  area start time: 2019-10-12 15:13:26
+2019-10-12 15:17:15.176 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3687 area end time: 2019-10-12 15:17:15 success
+2019-10-12 15:17:15.178 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3688  area start time: 2019-10-12 15:17:15
+2019-10-12 15:17:16.580 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3688 reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-12 15:17:16.597 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3688 area end time: 2019-10-12 15:17:16 success
+2019-10-12 15:17:16.597 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3689  area start time: 2019-10-12 15:17:16
+2019-10-12 15:17:17.843 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3689 reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-12 15:17:17.860 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3689 area end time: 2019-10-12 15:17:17 success
+2019-10-12 15:17:17.861 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3690  area start time: 2019-10-12 15:17:17
+2019-10-12 15:20:47.069 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3690 area end time: 2019-10-12 15:20:47 success
+2019-10-12 15:20:47.069 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3691  area start time: 2019-10-12 15:20:47
+2019-10-12 15:24:25.096 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3691 area end time: 2019-10-12 15:24:25 success
+2019-10-12 15:24:25.097 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3692  area start time: 2019-10-12 15:24:25
+2019-10-12 15:27:52.303 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3692 area end time: 2019-10-12 15:27:52 success
+2019-10-12 15:27:52.305 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3693  area start time: 2019-10-12 15:27:52
+2019-10-12 15:31:20.940 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3693 area end time: 2019-10-12 15:31:20 success
+2019-10-12 15:31:20.941 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3694  area start time: 2019-10-12 15:31:20
+2019-10-12 15:35:14.774 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3694 area end time: 2019-10-12 15:35:14 success
+2019-10-12 15:35:14.775 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3695  area start time: 2019-10-12 15:35:14
+2019-10-12 15:38:47.827 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3695 area end time: 2019-10-12 15:38:47 success
+2019-10-12 15:38:47.827 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3696  area start time: 2019-10-12 15:38:47
+2019-10-12 15:42:20.032 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3696 area end time: 2019-10-12 15:42:20 success
+2019-10-12 15:42:20.032 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3697  area start time: 2019-10-12 15:42:20
+2019-10-12 15:45:30.333 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3697 area end time: 2019-10-12 15:45:30 success
+2019-10-12 15:45:30.333 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3698  area start time: 2019-10-12 15:45:30
+2019-10-12 15:48:54.264 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3698 area end time: 2019-10-12 15:48:54 success
+2019-10-12 15:48:54.264 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3699  area start time: 2019-10-12 15:48:54
+2019-10-12 15:52:22.557 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3699 area end time: 2019-10-12 15:52:22 success
+2019-10-12 15:52:22.559 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3700  area start time: 2019-10-12 15:52:22
+2019-10-12 15:55:44.179 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3700 area end time: 2019-10-12 15:55:44 success
+2019-10-12 15:55:44.179 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3701  area start time: 2019-10-12 15:55:44
+2019-10-12 15:59:08.165 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3701 area end time: 2019-10-12 15:59:08 success
+2019-10-12 15:59:08.166 [http-nio-4099-exec-2] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - 3702  area start time: 2019-10-12 15:59:08

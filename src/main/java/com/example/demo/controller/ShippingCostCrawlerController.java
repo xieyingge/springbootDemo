@@ -21,8 +21,20 @@ public class ShippingCostCrawlerController {
     @RequestMapping("/normalGetShippingCost")
     @ResponseBody
     public Object normalGetShippingCost() {
-
         shippingCostCrawlerService.nomalProcessGetShippingCostAndInsert();
+        return toResult();
+    }
+
+    @RequestMapping("/multiProcessGetShippingCost")
+    @ResponseBody
+    public Object multiProcessGetShippingCost(){
+        try {
+            shippingCostCrawlerService.multiProcessGetShippingCostAndInsert();
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw e;
+        }
+
         return toResult();
     }
 

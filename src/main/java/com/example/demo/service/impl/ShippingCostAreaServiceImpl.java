@@ -37,7 +37,7 @@ public class ShippingCostAreaServiceImpl implements ShippingCostAreaService {
 
     private static final int PROCESS_NUM = Runtime.getRuntime().availableProcessors();
     private static final ThreadFactory THREAD_FACTORY = ThreadPoolUtil.getNamedThreadFactory("shipping-cost-%d");
-    private ExecutorService pool = ThreadPoolUtil.getPool(2 * PROCESS_NUM, 4 * PROCESS_NUM, 60L, THREAD_FACTORY);
+    private ExecutorService pool = ThreadPoolUtil.getPool(2 * PROCESS_NUM, 4 * PROCESS_NUM, 60L, THREAD_FACTORY,2000);
     private static final BigDecimal DESTINATION = BigDecimal.valueOf(100);
     private static final BigDecimal INCREMENT = BigDecimal.valueOf(0.1);
     private static final BigDecimal START_WEIGHT = BigDecimal.valueOf(0.1);
@@ -230,33 +230,7 @@ public class ShippingCostAreaServiceImpl implements ShippingCostAreaService {
     }
 
 
-    /**
-     * 每组n个元素
-     *
-     * @param source 要分组的数据源
-     * @param n      每组n个元素
-     * @param <T>
-     * @return
-     */
-    public static <T> List<List<T>> splitData(List<T> source, int n) {
 
-        if (null == source || source.size() == 0 || n <= 0)
-            return null;
-        List<List<T>> result = new ArrayList<List<T>>();
-        int remainder = source.size() % n;
-        int size = (source.size() / n);
-        for (int i = 0; i < size; i++) {
-            List<T> subset = null;
-            subset = source.subList(i * n, (i + 1) * n);
-            result.add(subset);
-        }
-        if (remainder > 0) {
-            List<T> subset = null;
-            subset = source.subList(size * n, size * n + remainder);
-            result.add(subset);
-        }
-        return result;
-    }
 
 
     @Override
