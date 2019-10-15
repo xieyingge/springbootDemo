@@ -8,4 +8,6 @@ public interface CountryPostalCodeService {
 
     List<CountryPostalCode> selectAll();
 
+    List<CountryPostalCode> selectNotCrawlerPostalCode();
+
 }

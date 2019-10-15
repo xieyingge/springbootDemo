@@ -8,4 +8,7 @@ public interface CountryPostalCodeDao {
 
 
     List<CountryPostalCode> selectAll();
+
+    List<CountryPostalCode> selectNotCrawlerPostalCode();
+
 }

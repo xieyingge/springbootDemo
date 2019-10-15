@@ -11,6 +11,11 @@ import java.util.Date;
 @ToString
 public class ShippingCostArea {
 
+    public static final String FROM_COUNTRY = "US";
+    public static final String FROM_STATE = "CA";
+    public static final String FROM_CITY = "Daly City";
+    public static final String FROM_POSTAL_CODE = "94014";
+
     private Long id;
     private Long shippingCompanyId;
     private Long shippingMethodId;

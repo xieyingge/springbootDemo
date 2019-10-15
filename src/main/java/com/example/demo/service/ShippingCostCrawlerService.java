@@ -14,4 +14,8 @@ public interface ShippingCostCrawlerService {
 
     void multiProcessGetShippingCostAndInsert();
 
+    void normalGetShippingCostAllServiceType();
+
+    void multiProcessGetShippingCostAllServiceType();
+
 }

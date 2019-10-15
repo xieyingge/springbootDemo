@@ -19,4 +19,9 @@ public class CountryPostalCodeServiceImpl implements CountryPostalCodeService {
     public List<CountryPostalCode> selectAll() {
         return dao.selectAll();
     }
+
+    @Override
+    public List<CountryPostalCode> selectNotCrawlerPostalCode() {
+        return dao.selectNotCrawlerPostalCode();
+    }
 }

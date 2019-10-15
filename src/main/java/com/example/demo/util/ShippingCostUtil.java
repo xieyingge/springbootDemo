@@ -10,26 +10,13 @@ import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @Slf4j
 public class ShippingCostUtil {
 
-    public static final Map<String, Integer> FEDEX_SERVICE_TYPE_LOCAL = new HashMap<>();
-    public static final Map<String, Integer> FEDEX_SERVICE_TYPE_INTERNATIONAL = new HashMap<>();
-    private static int countServiceTimes = 0;
+    private static AtomicInteger countServiceTimes = new AtomicInteger(0);
 
-
-    static {
-        FEDEX_SERVICE_TYPE_LOCAL.put("PRIORITY_OVERNIGHT", 4);
-        FEDEX_SERVICE_TYPE_LOCAL.put("STANDARD_OVERNIGHT", 5);
-        FEDEX_SERVICE_TYPE_LOCAL.put("FEDEX_2_DAY_AM", 41);
-        FEDEX_SERVICE_TYPE_LOCAL.put("FEDEX_2_DAY", 3);
-        FEDEX_SERVICE_TYPE_LOCAL.put("FEDEX_EXPRESS_SAVER", 1);
-        FEDEX_SERVICE_TYPE_LOCAL.put("FEDEX_GROUND", 9);
-
-        FEDEX_SERVICE_TYPE_INTERNATIONAL.put("INTERNATIONAL_PRIORITY", 7);
-        FEDEX_SERVICE_TYPE_INTERNATIONAL.put("INTERNATIONAL_ECONOMY", 8);
-    }
 
     /**
      * @param serviceType   FIRST_OVERNIGHT   PRIORITY_OVERNIGHT   STANDARD_OVERNIGHT   FEDEX_2_DAY_AM   FEDEX_2_DAY   FEDEX_EXPRESS_SAVER    FEDEX_GROUND
@@ -74,17 +61,15 @@ public class ShippingCostUtil {
             updateEndPoint(service);
             port = service.getRateServicePort();
             // This is the call to the web service passing in a RateRequest and returning a RateReply
-            countServiceTimes++;
+            countServiceTimes.incrementAndGet();
             RateReply reply = port.getRates(request); // Service call
 
             return reply;
         } catch (Exception e) {
             //这里exception，可能是掉接口被封掉了，暂停一小时。
-            e.printStackTrace();
-            log.error("request exception" +  e);
-            log.error("service bei diao yong: " + countServiceTimes + " ci");
+            log.error("request exception: {}", e);
+            log.error("service bei diao yong: {} ci", countServiceTimes.get());
             log.error("service unvailable sleep ten minutes!");
-            countServiceTimes = 0;
             sleep(10, TimeUnit.MINUTES);
             log.error("service restart after sleep ten minutes!");
         }
@@ -169,6 +154,56 @@ public class ShippingCostUtil {
 //        System.out.println("end!!!");
 //    }
 
+
+    public static Map<String, ShippingCostFeeDetail> getAllServiceTypeShippingCost(RateReply reply) {
+        Map<String, ShippingCostFeeDetail> resultMap = new HashMap<>();
+        RateReplyDetail[] rrds = reply.getRateReplyDetails();
+        for (int i = 0; i < rrds.length; i++) {
+            ShippingCostFeeDetail result = ShippingCostFeeDetail.builder().build();
+            RateReplyDetail rrd = rrds[i];
+            if ("FIRST_OVERNIGHT".equals(rrd.getServiceType())) {
+                continue;
+            }
+            resultMap.put(rrd.getServiceType(), result);
+
+            RatedShipmentDetail[] rsds = rrd.getRatedShipmentDetails();
+            for (int j = 0; j < rsds.length; j++) {
+                RatedShipmentDetail rsd = rsds[j];
+                ShipmentRateDetail srd = rsd.getShipmentRateDetail();
+
+                result.setTotalNetCharge(srd.getTotalNetCharge().getAmount());
+
+                RatedPackageDetail[] rpds = rsd.getRatedPackages();
+                if (rpds != null && rpds.length > 0) {
+                    for (int k = 0; k < rpds.length; k++) {
+                        RatedPackageDetail rpd = rpds[k];
+                        PackageRateDetail prd = rpd.getPackageRateDetail();
+                        if (prd != null) {
+
+                            result.setBaseCharge(prd.getBaseCharge().getAmount());
+
+                            Surcharge[] surcharges = prd.getSurcharges();
+                            if (surcharges != null && surcharges.length > 0) {
+                                BigDecimal sumOther = new BigDecimal(0);
+                                for (int m = 0; m < surcharges.length; m++) {
+                                    Surcharge surcharge = surcharges[m];
+                                    if (surcharge.getDescription().contains("Fuel")) {
+                                        result.setFuelSurcharge(surcharge.getAmount().getAmount());
+                                    } else {
+                                        sumOther = sumOther.add(surcharge.getAmount().getAmount());
+                                    }
+                                }
+                                result.setOther(sumOther);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return resultMap;
+    }
+
+
     public static ShippingCostFeeDetail getShippingCost(RateReply reply) {
         ShippingCostFeeDetail result = ShippingCostFeeDetail.builder().build();
         try {
@@ -191,12 +226,14 @@ public class ShippingCostUtil {
 
             Surcharge[] surcharges = prd.getSurcharges();
             BigDecimal sumOther = new BigDecimal(0);
-            for (int i = 0; i < surcharges.length; i++) {
-                Surcharge surcharge = surcharges[i];
-                if (surcharge.getDescription().contains("Fuel")) {
-                    result.setFuelSurcharge(surcharge.getAmount().getAmount());
-                } else {
-                    sumOther = sumOther.add(surcharge.getAmount().getAmount());
+            if (surcharges != null && surcharges.length > 0) {
+                for (int i = 0; i < surcharges.length; i++) {
+                    Surcharge surcharge = surcharges[i];
+                    if (surcharge.getDescription().contains("Fuel")) {
+                        result.setFuelSurcharge(surcharge.getAmount().getAmount());
+                    } else {
+                        sumOther = sumOther.add(surcharge.getAmount().getAmount());
+                    }
                 }
             }
             result.setOther(sumOther);

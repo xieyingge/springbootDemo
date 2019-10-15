@@ -13,11 +13,17 @@ public interface ShippingCostAreaDao {
     int insertBatch(@Param("params") List<ShippingCostArea> params);
 
     /**
-     *  select area by company  not include in crawler table
+     * select area by company  not include in crawler table
+     *
      * @param shippingCompany
      * @return
      */
     List<ShippingCostArea> selectByShippingCompany(@Param("shippingCompany") Long shippingCompany);
 
     void updateErrorCodeAndMesage(ShippingCostArea area);
+
+    List<ShippingCostArea> selectByShippingCompanyAndZipcode(@Param("shippingCompany") Long shippingCompany, @Param("zipcode") String zipcode);
+
+
+    void updateNoSupportErrorMessage(ShippingCostArea notSupportServiceArea);
 }

@@ -1,5 +1,7 @@
 package com.example.demo.entity;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.*;
 
 public class ShippingCompany {
@@ -32,6 +34,17 @@ public class ShippingCompany {
 
     public static final Map<Long, String> FEDEX_SERVICE_TYPE = new HashMap<>();
 
+    public static Long getFedexServiceTypeIdByName(String serviceName) {
+        if (StringUtils.isBlank(serviceName)) {
+            return null;
+        }
+        for (Map.Entry<Long, String> entry : FEDEX_SERVICE_TYPE.entrySet()) {
+            if (entry.getValue().equals(serviceName)) {
+                return entry.getKey();
+            }
+        }
+        return null;
+    }
 
     static {
         FEDEX_SERVICE_TYPE.put(4L, "PRIORITY_OVERNIGHT");

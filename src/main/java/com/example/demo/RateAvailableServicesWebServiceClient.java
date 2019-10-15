@@ -123,7 +123,6 @@ public class RateAvailableServicesWebServiceClient {
             if (++time == 3) {
                 break;
             }
-            // if return is error retry 3 times
             if (shippingCost == null) {
                 System.out.println("reply is error, retry....,  " + time);
                 continue;

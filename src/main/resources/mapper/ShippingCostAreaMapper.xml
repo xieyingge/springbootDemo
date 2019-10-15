@@ -143,6 +143,18 @@
         update SHIPPING_COST_AREA set ERROR_CODE = #{errorCode},ERROR_MESSAGE = #{errorMessage},UPDATE_DATE = sysdate where id = #{id}
     </update>
 
+    <update id="updateNoSupportErrorMessage">
+        update
+         SHIPPING_COST_AREA
+          set
+            ERROR_CODE = #{errorCode},
+            ERROR_MESSAGE = #{errorMessage},
+             UPDATE_DATE = sysdate
+          where
+             SHIPPING_TO_ZIPCODE = #{shippingToZipcode} and SHIPPING_TO_CITY = #{shippingToCity} and SHIPPING_METHOD_ID = #{shippingMethodId}
+    </update>
+
+
     <select id="selectByShippingCompany" resultType="com.example.demo.entity.ShippingCostArea">
         select
           <include refid="baseSql"/>
@@ -152,7 +164,19 @@
           select 1 from SHIPPING_COST_CRAWLER b where a.id = b.SHIPPING_COST_AREA_ID
         ) and not exists (
           select 1 from SHIPPING_COST_AREA c where  c.error_code is not null and c.id = a.id
-        ) and rownum &lt; 50
+        )
+    </select>
+
+    <select id="selectByShippingCompanyAndZipcode" resultType="com.example.demo.entity.ShippingCostArea">
+        select
+          <include refid="baseSql"/>
+        from
+            SHIPPING_COST_AREA a
+        where a.SHIPPING_COMPANY_ID = #{shippingCompany} and a.SHIPPING_TO_ZIPCODE = #{zipcode} and not exists (
+            select 1 from SHIPPING_COST_CRAWLER b where a.id = b.SHIPPING_COST_AREA_ID
+        ) and not exists (
+            select 1 from SHIPPING_COST_AREA c where  c.error_code is not null and c.id = a.id
+        )
     </select>
 
 

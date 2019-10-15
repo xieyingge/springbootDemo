@@ -1,0 +1,41 @@
+2019-10-14 17:59:08.691 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on SST-OCHO with PID 10976 (C:\MrX\springbootDemo\first\mavenDemoForSpringBoot\target\classes started by yxie in C:\MrX\springbootDemo\first\mavenDemoForSpringBoot)
+2019-10-14 17:59:08.695 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-14 17:59:08.782 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 17:59:08.782 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 17:59:09.986 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-14 17:59:09.990 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 17:59:10.084 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80ms. Found 0 repository interfaces.
+2019-10-14 17:59:10.586 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b913ac52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 17:59:11.227 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4099 (http)
+2019-10-14 17:59:11.244 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4099"]
+2019-10-14 17:59:11.255 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-14 17:59:11.256 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-14 17:59:11.390 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-14 17:59:11.390 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2607 ms
+2019-10-14 17:59:11.469 [restartedMain] INFO  com.example.demo.config.filter.CustomFilter - filter 初始化！！！！
+2019-10-14 17:59:12.012 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting...
+2019-10-14 17:59:12.016 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-10-14 17:59:12.243 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - MyHikariCP - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-10-14 17:59:12.253 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed.
+2019-10-14 17:59:12.850 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 17:59:13.044 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-10-14 17:59:13.283 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-14 17:59:13.604 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-14 17:59:13.643 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4099"]
+2019-10-14 17:59:13.677 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4099 (http) with context path ''
+2019-10-14 17:59:13.680 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.606 seconds (JVM running for 6.474)
+2019-10-14 17:59:29.737 [http-nio-4099-exec-1] INFO  com.example.demo.config.listener.Customlister - 监听器：初始化
+2019-10-14 17:59:29.746 [http-nio-4099-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 17:59:29.747 [http-nio-4099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-14 17:59:29.758 [http-nio-4099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-10-14 17:59:29.772 [http-nio-4099-exec-1] INFO  com.example.demo.config.filter.CustomFilter - doFilter   请求处理！！！
+2019-10-14 17:59:29.784 [http-nio-4099-exec-1] INFO  c.e.d.config.interceptor.CustomHandlerInterceptor - preHandle:请求前调用
+2019-10-14 17:59:44.601 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl - Destination postal code missing or invalid. **************************************************************
+2019-10-14 17:59:46.181 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl - Destination postal code missing or invalid. **************************************************************
+2019-10-14 17:59:47.689 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl - Destination postal code missing or invalid. **************************************************************
+2019-10-14 17:59:49.480 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl - Destination postal code missing or invalid. **************************************************************
+2019-10-14 17:59:51.601 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl - Destination postal code missing or invalid. **************************************************************
+2019-10-14 17:59:53.957 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl - Destination postal code missing or invalid. **************************************************************
+2019-10-14 17:59:55.266 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl - Destination postal code missing or invalid. **************************************************************
+2019-10-14 17:59:57.834 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl - Destination postal code missing or invalid. **************************************************************
+2019-10-14 17:59:59.069 [http-nio-4099-exec-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl - Destination postal code missing or invalid. **************************************************************

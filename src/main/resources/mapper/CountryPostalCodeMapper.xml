@@ -19,5 +19,12 @@
         select * from COUNTRYPOSTALCODE
     </select>
 
+    <select id="selectNotCrawlerPostalCode" resultType="com.example.demo.entity.CountryPostalCode">
+        select * from COUNTRYPOSTALCODE a where not exists (
+            select 1 from SHIPPING_COST_CRAWLER b left join SHIPPING_COST_AREA c on b.SHIPPING_COST_AREA_ID = c.ID
+            where a.ZIP = c.SHIPPING_TO_ZIPCODE and a.CITY = c.SHIPPING_TO_CITY
+        )
+    </select>
+
 
 </mapper>

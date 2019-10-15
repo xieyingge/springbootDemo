@@ -34,7 +34,25 @@ public class ShippingCostCrawlerController {
             e.printStackTrace();
             throw e;
         }
+        return toResult();
+    }
 
+    @RequestMapping("/normalGetAllServiceType")
+    @ResponseBody
+    public Object normalGetShippingCostAllServiceType() {
+        shippingCostCrawlerService.normalGetShippingCostAllServiceType();
+        return toResult();
+    }
+
+    @RequestMapping("/multiProcessGetAllServiceType")
+    @ResponseBody
+    public Object multiProcessGetShippingCostAllServiceType(){
+        try {
+            shippingCostCrawlerService.multiProcessGetShippingCostAllServiceType();
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw e;
+        }
         return toResult();
     }
 

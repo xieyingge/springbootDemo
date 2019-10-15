@@ -330,7 +330,7 @@ org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis
 	at com.sun.proxy.$Proxy75.updateErrorCodeAndMesage(Unknown Source)
 	at com.example.demo.service.impl.ShippingCostAreaServiceImpl.updateErrorCodeAndMesage(ShippingCostAreaServiceImpl.java:355)
 	at com.example.demo.service.impl.ShippingCostCrawlerServiceImpl.dealReply(ShippingCostCrawlerServiceImpl.java:157)
-	at com.example.demo.service.impl.ShippingCostCrawlerServiceImpl.getShippingCostAndInsert(ShippingCostCrawlerServiceImpl.java:123)
+	at getShippingCostAndInsertByServiceType(ShippingCostCrawlerServiceImpl.java:123)
 	at com.example.demo.service.impl.ShippingCostCrawlerServiceImpl.nomalProcessGetShippingCostAndInsert(ShippingCostCrawlerServiceImpl.java:63)
 	at com.example.demo.controller.ShippingCostCrawlerController.normalGetShippingCost(ShippingCostCrawlerController.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

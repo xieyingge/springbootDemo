@@ -1,0 +1,1334 @@
+2019-10-14 11:00:25.756 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80668, end time: 2019-10-14 11:00:25
+2019-10-14 11:00:25.759 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80669, start time: 2019-10-14 11:00:25
+2019-10-14 11:00:47.103 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7331, end time: 2019-10-14 11:00:47
+2019-10-14 11:00:47.103 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7332, start time: 2019-10-14 11:00:47
+2019-10-14 11:00:47.437 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3745, end time: 2019-10-14 11:00:47
+2019-10-14 11:00:47.437 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3746, start time: 2019-10-14 11:00:47
+2019-10-14 11:01:04.189 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36209, end time: 2019-10-14 11:01:04
+2019-10-14 11:01:04.190 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36210, start time: 2019-10-14 11:01:04
+2019-10-14 11:01:12.141 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49235, end time: 2019-10-14 11:01:12
+2019-10-14 11:01:12.142 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49236, start time: 2019-10-14 11:01:12
+2019-10-14 11:01:15.223 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17143, end time: 2019-10-14 11:01:15
+2019-10-14 11:01:15.224 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17144, start time: 2019-10-14 11:01:15
+2019-10-14 11:01:19.862 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70106, end time: 2019-10-14 11:01:19
+2019-10-14 11:01:19.863 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70107, start time: 2019-10-14 11:01:19
+2019-10-14 11:01:21.718 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29768, end time: 2019-10-14 11:01:21
+2019-10-14 11:01:21.718 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29769, start time: 2019-10-14 11:01:21
+2019-10-14 11:01:35.065 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17566, end time: 2019-10-14 11:01:35
+2019-10-14 11:01:35.066 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17567, start time: 2019-10-14 11:01:35
+2019-10-14 11:01:38.708 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45445, end time: 2019-10-14 11:01:38
+2019-10-14 11:01:38.709 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45446, start time: 2019-10-14 11:01:38
+2019-10-14 11:01:40.072 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54588, end time: 2019-10-14 11:01:40
+2019-10-14 11:01:40.073 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54589, start time: 2019-10-14 11:01:40
+2019-10-14 11:01:40.921 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11630, end time: 2019-10-14 11:01:40
+2019-10-14 11:01:40.922 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11631, start time: 2019-10-14 11:01:40
+2019-10-14 11:01:43.794 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 23894, end time: 2019-10-14 11:01:43
+2019-10-14 11:01:43.795 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 23895, start time: 2019-10-14 11:01:43
+2019-10-14 11:01:45.457 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58011, end time: 2019-10-14 11:01:45
+2019-10-14 11:01:45.457 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58012, start time: 2019-10-14 11:01:45
+2019-10-14 11:01:53.824 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64430, end time: 2019-10-14 11:01:53
+2019-10-14 11:01:53.826 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64431, start time: 2019-10-14 11:01:53
+2019-10-14 11:01:54.499 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55965, end time: 2019-10-14 11:01:54
+2019-10-14 11:01:54.499 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55966, start time: 2019-10-14 11:01:54
+2019-10-14 11:01:55.957 [shipping-crawler-13] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 55966, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:01:56.015 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55966, end time: 2019-10-14 11:01:56
+2019-10-14 11:01:56.016 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55967, start time: 2019-10-14 11:01:56
+2019-10-14 11:01:57.653 [shipping-crawler-13] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 55967, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:01:57.686 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55967, end time: 2019-10-14 11:01:57
+2019-10-14 11:01:57.686 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55968, start time: 2019-10-14 11:01:57
+2019-10-14 11:02:12.995 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80669, end time: 2019-10-14 11:02:12
+2019-10-14 11:02:12.995 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80670, start time: 2019-10-14 11:02:12
+2019-10-14 11:02:23.121 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7332, end time: 2019-10-14 11:02:23
+2019-10-14 11:02:23.121 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7333, start time: 2019-10-14 11:02:23
+2019-10-14 11:02:25.650 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36210, end time: 2019-10-14 11:02:25
+2019-10-14 11:02:25.651 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36211, start time: 2019-10-14 11:02:25
+2019-10-14 11:02:35.126 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3746, end time: 2019-10-14 11:02:35
+2019-10-14 11:02:35.127 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3747, start time: 2019-10-14 11:02:35
+2019-10-14 11:02:44.005 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17144, end time: 2019-10-14 11:02:44
+2019-10-14 11:02:44.006 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17145, start time: 2019-10-14 11:02:44
+2019-10-14 11:02:44.569 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29769, end time: 2019-10-14 11:02:44
+2019-10-14 11:02:44.569 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29770, start time: 2019-10-14 11:02:44
+2019-10-14 11:02:51.148 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49236, end time: 2019-10-14 11:02:51
+2019-10-14 11:02:51.149 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49237, start time: 2019-10-14 11:02:51
+2019-10-14 11:02:53.900 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70107, end time: 2019-10-14 11:02:53
+2019-10-14 11:02:53.901 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70108, start time: 2019-10-14 11:02:53
+2019-10-14 11:03:01.619 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11631, end time: 2019-10-14 11:03:01
+2019-10-14 11:03:01.620 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11632, start time: 2019-10-14 11:03:01
+2019-10-14 11:03:06.315 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54589, end time: 2019-10-14 11:03:06
+2019-10-14 11:03:06.315 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54590, start time: 2019-10-14 11:03:06
+2019-10-14 11:03:06.636 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45446, end time: 2019-10-14 11:03:06
+2019-10-14 11:03:06.637 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45447, start time: 2019-10-14 11:03:06
+2019-10-14 11:03:15.185 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 23895, end time: 2019-10-14 11:03:15
+2019-10-14 11:03:15.186 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 23896, start time: 2019-10-14 11:03:15
+2019-10-14 11:03:18.498 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58012, end time: 2019-10-14 11:03:18
+2019-10-14 11:03:18.499 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58013, start time: 2019-10-14 11:03:18
+2019-10-14 11:03:20.080 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17567, end time: 2019-10-14 11:03:20
+2019-10-14 11:03:20.080 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17568, start time: 2019-10-14 11:03:20
+2019-10-14 11:03:22.131 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64431, end time: 2019-10-14 11:03:22
+2019-10-14 11:03:22.132 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64432, start time: 2019-10-14 11:03:22
+2019-10-14 11:03:24.037 [shipping-crawler-11] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 64432, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:03:24.178 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64432, end time: 2019-10-14 11:03:24
+2019-10-14 11:03:24.179 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64433, start time: 2019-10-14 11:03:24
+2019-10-14 11:03:28.256 [shipping-crawler-11] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 64433, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:03:28.298 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64433, end time: 2019-10-14 11:03:28
+2019-10-14 11:03:28.299 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64434, start time: 2019-10-14 11:03:28
+2019-10-14 11:03:33.113 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55968, end time: 2019-10-14 11:03:33
+2019-10-14 11:03:33.113 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55969, start time: 2019-10-14 11:03:33
+2019-10-14 11:03:41.508 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80670, end time: 2019-10-14 11:03:41
+2019-10-14 11:03:41.510 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80671, start time: 2019-10-14 11:03:41
+2019-10-14 11:03:43.350 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36211, end time: 2019-10-14 11:03:43
+2019-10-14 11:03:43.350 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36212, start time: 2019-10-14 11:03:43
+2019-10-14 11:03:51.064 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7333, end time: 2019-10-14 11:03:51
+2019-10-14 11:03:51.065 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7334, start time: 2019-10-14 11:03:51
+2019-10-14 11:04:00.147 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3747, end time: 2019-10-14 11:04:00
+2019-10-14 11:04:00.147 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3748, start time: 2019-10-14 11:04:00
+2019-10-14 11:04:09.492 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17145, end time: 2019-10-14 11:04:09
+2019-10-14 11:04:09.492 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17146, start time: 2019-10-14 11:04:09
+2019-10-14 11:04:14.176 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70108, end time: 2019-10-14 11:04:14
+2019-10-14 11:04:14.176 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70109, start time: 2019-10-14 11:04:14
+2019-10-14 11:04:16.154 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49237, end time: 2019-10-14 11:04:16
+2019-10-14 11:04:16.155 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49238, start time: 2019-10-14 11:04:16
+2019-10-14 11:04:19.594 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29770, end time: 2019-10-14 11:04:19
+2019-10-14 11:04:19.595 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29771, start time: 2019-10-14 11:04:19
+2019-10-14 11:04:27.283 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45447, end time: 2019-10-14 11:04:27
+2019-10-14 11:04:27.284 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45448, start time: 2019-10-14 11:04:27
+2019-10-14 11:04:31.819 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54590, end time: 2019-10-14 11:04:31
+2019-10-14 11:04:31.820 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54591, start time: 2019-10-14 11:04:31
+2019-10-14 11:04:32.048 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58013, end time: 2019-10-14 11:04:32
+2019-10-14 11:04:32.048 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58014, start time: 2019-10-14 11:04:32
+2019-10-14 11:04:36.183 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 23896, end time: 2019-10-14 11:04:36
+2019-10-14 11:04:36.183 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 23897, start time: 2019-10-14 11:04:36
+2019-10-14 11:04:39.836 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64434, end time: 2019-10-14 11:04:39
+2019-10-14 11:04:39.837 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64435, start time: 2019-10-14 11:04:39
+2019-10-14 11:04:47.635 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11632, end time: 2019-10-14 11:04:47
+2019-10-14 11:04:47.637 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11633, start time: 2019-10-14 11:04:47
+2019-10-14 11:04:49.645 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17568, end time: 2019-10-14 11:04:49
+2019-10-14 11:04:49.645 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17569, start time: 2019-10-14 11:04:49
+2019-10-14 11:04:54.251 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80671, end time: 2019-10-14 11:04:54
+2019-10-14 11:04:54.251 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80672, start time: 2019-10-14 11:04:54
+2019-10-14 11:05:00.919 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55969, end time: 2019-10-14 11:05:00
+2019-10-14 11:05:00.920 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55970, start time: 2019-10-14 11:05:00
+2019-10-14 11:05:02.782 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36212, end time: 2019-10-14 11:05:02
+2019-10-14 11:05:02.783 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36213, start time: 2019-10-14 11:05:02
+2019-10-14 11:05:15.538 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7334, end time: 2019-10-14 11:05:15
+2019-10-14 11:05:15.539 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7335, start time: 2019-10-14 11:05:15
+2019-10-14 11:05:26.257 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3748, end time: 2019-10-14 11:05:26
+2019-10-14 11:05:26.258 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3749, start time: 2019-10-14 11:05:26
+2019-10-14 11:05:34.887 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17146, end time: 2019-10-14 11:05:34
+2019-10-14 11:05:34.888 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17147, start time: 2019-10-14 11:05:34
+2019-10-14 11:05:38.857 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70109, end time: 2019-10-14 11:05:38
+2019-10-14 11:05:38.857 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70110, start time: 2019-10-14 11:05:38
+2019-10-14 11:05:42.072 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49238, end time: 2019-10-14 11:05:42
+2019-10-14 11:05:42.072 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49239, start time: 2019-10-14 11:05:42
+2019-10-14 11:05:48.294 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45448, end time: 2019-10-14 11:05:48
+2019-10-14 11:05:48.295 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45449, start time: 2019-10-14 11:05:48
+2019-10-14 11:05:54.639 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 23897, end time: 2019-10-14 11:05:54
+2019-10-14 11:05:54.639 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25404, start time: 2019-10-14 11:05:54
+2019-10-14 11:05:56.894 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58014, end time: 2019-10-14 11:05:56
+2019-10-14 11:05:56.894 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58015, start time: 2019-10-14 11:05:56
+2019-10-14 11:06:01.806 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29771, end time: 2019-10-14 11:06:01
+2019-10-14 11:06:01.806 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29772, start time: 2019-10-14 11:06:01
+2019-10-14 11:06:02.747 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54591, end time: 2019-10-14 11:06:02
+2019-10-14 11:06:02.748 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54592, start time: 2019-10-14 11:06:02
+2019-10-14 11:06:06.714 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54592, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:06:06.776 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54592, end time: 2019-10-14 11:06:06
+2019-10-14 11:06:06.778 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54593, start time: 2019-10-14 11:06:06
+2019-10-14 11:06:09.178 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54593, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:06:09.236 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54593, end time: 2019-10-14 11:06:09
+2019-10-14 11:06:09.236 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54594, start time: 2019-10-14 11:06:09
+2019-10-14 11:06:11.465 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64435, end time: 2019-10-14 11:06:11
+2019-10-14 11:06:11.466 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64436, start time: 2019-10-14 11:06:11
+2019-10-14 11:06:17.274 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11633, end time: 2019-10-14 11:06:17
+2019-10-14 11:06:17.274 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11634, start time: 2019-10-14 11:06:17
+2019-10-14 11:06:29.047 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17569, end time: 2019-10-14 11:06:29
+2019-10-14 11:06:29.048 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17570, start time: 2019-10-14 11:06:29
+2019-10-14 11:06:29.453 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80672, end time: 2019-10-14 11:06:29
+2019-10-14 11:06:29.453 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80673, start time: 2019-10-14 11:06:29
+2019-10-14 11:06:32.853 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36213, end time: 2019-10-14 11:06:32
+2019-10-14 11:06:32.854 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36214, start time: 2019-10-14 11:06:32
+2019-10-14 11:06:34.761 [shipping-crawler-6] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 36214, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:06:34.840 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36214, end time: 2019-10-14 11:06:34
+2019-10-14 11:06:34.841 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36215, start time: 2019-10-14 11:06:34
+2019-10-14 11:06:36.343 [shipping-crawler-6] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 36215, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:06:36.366 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36215, end time: 2019-10-14 11:06:36
+2019-10-14 11:06:36.366 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36216, start time: 2019-10-14 11:06:36
+2019-10-14 11:06:41.035 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55970, end time: 2019-10-14 11:06:41
+2019-10-14 11:06:41.035 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55971, start time: 2019-10-14 11:06:41
+2019-10-14 11:06:41.250 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3749, end time: 2019-10-14 11:06:41
+2019-10-14 11:06:41.250 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3750, start time: 2019-10-14 11:06:41
+2019-10-14 11:06:46.738 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7335, end time: 2019-10-14 11:06:46
+2019-10-14 11:06:46.738 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7336, start time: 2019-10-14 11:06:46
+2019-10-14 11:06:55.510 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17147, end time: 2019-10-14 11:06:55
+2019-10-14 11:06:55.511 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17148, start time: 2019-10-14 11:06:55
+2019-10-14 11:07:05.047 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70110, end time: 2019-10-14 11:07:05
+2019-10-14 11:07:05.047 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70111, start time: 2019-10-14 11:07:05
+2019-10-14 11:07:14.357 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45449, end time: 2019-10-14 11:07:14
+2019-10-14 11:07:14.358 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45450, start time: 2019-10-14 11:07:14
+2019-10-14 11:07:14.718 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49239, end time: 2019-10-14 11:07:14
+2019-10-14 11:07:14.718 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49240, start time: 2019-10-14 11:07:14
+2019-10-14 11:07:22.436 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29772, end time: 2019-10-14 11:07:22
+2019-10-14 11:07:22.437 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29773, start time: 2019-10-14 11:07:22
+2019-10-14 11:07:27.345 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25404, end time: 2019-10-14 11:07:27
+2019-10-14 11:07:27.346 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25405, start time: 2019-10-14 11:07:27
+2019-10-14 11:07:33.889 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54594, end time: 2019-10-14 11:07:33
+2019-10-14 11:07:33.890 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54595, start time: 2019-10-14 11:07:33
+2019-10-14 11:07:36.005 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58015, end time: 2019-10-14 11:07:36
+2019-10-14 11:07:36.006 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58016, start time: 2019-10-14 11:07:36
+2019-10-14 11:07:43.646 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64436, end time: 2019-10-14 11:07:43
+2019-10-14 11:07:43.646 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64437, start time: 2019-10-14 11:07:43
+2019-10-14 11:07:44.293 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11634, end time: 2019-10-14 11:07:44
+2019-10-14 11:07:44.294 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11635, start time: 2019-10-14 11:07:44
+2019-10-14 11:07:51.041 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80673, end time: 2019-10-14 11:07:51
+2019-10-14 11:07:51.043 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80674, start time: 2019-10-14 11:07:51
+2019-10-14 11:07:57.406 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17570, end time: 2019-10-14 11:07:57
+2019-10-14 11:07:57.406 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17571, start time: 2019-10-14 11:07:57
+2019-10-14 11:08:00.605 [shipping-crawler-4] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 17571, reply is error, message: Destination address not found. 
+2019-10-14 11:08:00.620 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17571, end time: 2019-10-14 11:08:00
+2019-10-14 11:08:00.621 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17572, start time: 2019-10-14 11:08:00
+2019-10-14 11:08:02.128 [shipping-crawler-4] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 17572, reply is error, message: Destination address not found. 
+2019-10-14 11:08:02.145 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17572, end time: 2019-10-14 11:08:02
+2019-10-14 11:08:02.145 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17573, start time: 2019-10-14 11:08:02
+2019-10-14 11:08:04.809 [shipping-crawler-4] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 17573, reply is error, message: Destination address not found. 
+2019-10-14 11:08:04.844 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17573, end time: 2019-10-14 11:08:04
+2019-10-14 11:08:04.845 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17574, start time: 2019-10-14 11:08:04
+2019-10-14 11:08:06.645 [shipping-crawler-4] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 17574, reply is error, message: Destination address not found. 
+2019-10-14 11:08:06.723 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17574, end time: 2019-10-14 11:08:06
+2019-10-14 11:08:06.723 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17575, start time: 2019-10-14 11:08:06
+2019-10-14 11:08:08.320 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36216, end time: 2019-10-14 11:08:08
+2019-10-14 11:08:08.321 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36217, start time: 2019-10-14 11:08:08
+2019-10-14 11:08:08.573 [shipping-crawler-4] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 17575, reply is error, message: Destination address not found. 
+2019-10-14 11:08:08.624 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17575, end time: 2019-10-14 11:08:08
+2019-10-14 11:08:08.625 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17576, start time: 2019-10-14 11:08:08
+2019-10-14 11:08:09.840 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3750, end time: 2019-10-14 11:08:09
+2019-10-14 11:08:09.841 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3751, start time: 2019-10-14 11:08:09
+2019-10-14 11:08:12.617 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55971, end time: 2019-10-14 11:08:12
+2019-10-14 11:08:12.617 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55972, start time: 2019-10-14 11:08:12
+2019-10-14 11:08:15.135 [shipping-crawler-13] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 55972, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:08:15.155 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55972, end time: 2019-10-14 11:08:15
+2019-10-14 11:08:15.155 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55973, start time: 2019-10-14 11:08:15
+2019-10-14 11:08:17.490 [shipping-crawler-13] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 55973, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:08:17.567 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55973, end time: 2019-10-14 11:08:17
+2019-10-14 11:08:17.567 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55974, start time: 2019-10-14 11:08:17
+2019-10-14 11:08:20.623 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7336, end time: 2019-10-14 11:08:20
+2019-10-14 11:08:20.624 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7337, start time: 2019-10-14 11:08:20
+2019-10-14 11:08:22.162 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17148, end time: 2019-10-14 11:08:22
+2019-10-14 11:08:22.162 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17149, start time: 2019-10-14 11:08:22
+2019-10-14 11:08:33.823 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70111, end time: 2019-10-14 11:08:33
+2019-10-14 11:08:33.823 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70112, start time: 2019-10-14 11:08:33
+2019-10-14 11:08:41.554 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29773, end time: 2019-10-14 11:08:41
+2019-10-14 11:08:41.554 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29774, start time: 2019-10-14 11:08:41
+2019-10-14 11:09:00.920 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49240, end time: 2019-10-14 11:09:00
+2019-10-14 11:09:00.921 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49241, start time: 2019-10-14 11:09:00
+2019-10-14 11:09:02.320 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58016, end time: 2019-10-14 11:09:02
+2019-10-14 11:09:02.321 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58017, start time: 2019-10-14 11:09:02
+2019-10-14 11:09:12.876 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54595, end time: 2019-10-14 11:09:12
+2019-10-14 11:09:12.877 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54596, start time: 2019-10-14 11:09:12
+2019-10-14 11:09:16.906 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11635, end time: 2019-10-14 11:09:16
+2019-10-14 11:09:16.907 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11636, start time: 2019-10-14 11:09:16
+2019-10-14 11:09:19.104 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45450, end time: 2019-10-14 11:09:19
+2019-10-14 11:09:19.105 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45451, start time: 2019-10-14 11:09:19
+2019-10-14 11:09:25.706 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25405, end time: 2019-10-14 11:09:25
+2019-10-14 11:09:25.706 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25406, start time: 2019-10-14 11:09:25
+2019-10-14 11:09:35.487 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80674, end time: 2019-10-14 11:09:35
+2019-10-14 11:09:35.487 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80675, start time: 2019-10-14 11:09:35
+2019-10-14 11:09:42.699 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64437, end time: 2019-10-14 11:09:42
+2019-10-14 11:09:42.700 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64438, start time: 2019-10-14 11:09:42
+2019-10-14 11:09:49.490 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17576, end time: 2019-10-14 11:09:49
+2019-10-14 11:09:49.490 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17577, start time: 2019-10-14 11:09:49
+2019-10-14 11:09:57.639 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17149, end time: 2019-10-14 11:09:57
+2019-10-14 11:09:57.640 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17150, start time: 2019-10-14 11:09:57
+2019-10-14 11:10:05.624 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36217, end time: 2019-10-14 11:10:05
+2019-10-14 11:10:05.626 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36218, start time: 2019-10-14 11:10:05
+2019-10-14 11:10:06.583 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55974, end time: 2019-10-14 11:10:06
+2019-10-14 11:10:06.584 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55975, start time: 2019-10-14 11:10:06
+2019-10-14 11:10:16.220 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3751, end time: 2019-10-14 11:10:16
+2019-10-14 11:10:16.220 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3752, start time: 2019-10-14 11:10:16
+2019-10-14 11:10:18.797 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29774, end time: 2019-10-14 11:10:18
+2019-10-14 11:10:18.797 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29775, start time: 2019-10-14 11:10:18
+2019-10-14 11:10:21.766 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49241, end time: 2019-10-14 11:10:21
+2019-10-14 11:10:21.766 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49242, start time: 2019-10-14 11:10:21
+2019-10-14 11:10:24.101 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70112, end time: 2019-10-14 11:10:24
+2019-10-14 11:10:24.101 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70113, start time: 2019-10-14 11:10:24
+2019-10-14 11:10:34.907 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7337, end time: 2019-10-14 11:10:34
+2019-10-14 11:10:34.908 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7338, start time: 2019-10-14 11:10:34
+2019-10-14 11:10:38.336 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54596, end time: 2019-10-14 11:10:38
+2019-10-14 11:10:38.337 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54597, start time: 2019-10-14 11:10:38
+2019-10-14 11:10:55.685 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58017, end time: 2019-10-14 11:10:55
+2019-10-14 11:10:55.686 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58018, start time: 2019-10-14 11:10:55
+2019-10-14 11:11:03.122 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25406, end time: 2019-10-14 11:11:03
+2019-10-14 11:11:03.123 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25407, start time: 2019-10-14 11:11:03
+2019-10-14 11:11:07.248 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11636, end time: 2019-10-14 11:11:07
+2019-10-14 11:11:07.249 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11637, start time: 2019-10-14 11:11:07
+2019-10-14 11:11:09.076 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80675, end time: 2019-10-14 11:11:09
+2019-10-14 11:11:09.078 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80676, start time: 2019-10-14 11:11:09
+2019-10-14 11:11:13.028 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45451, end time: 2019-10-14 11:11:13
+2019-10-14 11:11:13.029 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45452, start time: 2019-10-14 11:11:13
+2019-10-14 11:11:27.459 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17577, end time: 2019-10-14 11:11:27
+2019-10-14 11:11:27.460 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17578, start time: 2019-10-14 11:11:27
+2019-10-14 11:11:29.471 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17150, end time: 2019-10-14 11:11:29
+2019-10-14 11:11:29.471 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17151, start time: 2019-10-14 11:11:29
+2019-10-14 11:11:40.183 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64438, end time: 2019-10-14 11:11:40
+2019-10-14 11:11:40.183 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64439, start time: 2019-10-14 11:11:40
+2019-10-14 11:11:56.382 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55975, end time: 2019-10-14 11:11:56
+2019-10-14 11:11:56.382 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55976, start time: 2019-10-14 11:11:56
+2019-10-14 11:11:58.442 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3752, end time: 2019-10-14 11:11:58
+2019-10-14 11:11:58.442 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3753, start time: 2019-10-14 11:11:58
+2019-10-14 11:11:59.663 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29775, end time: 2019-10-14 11:11:59
+2019-10-14 11:11:59.663 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29776, start time: 2019-10-14 11:11:59
+2019-10-14 11:12:02.602 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29776, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:12:02.676 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29776, end time: 2019-10-14 11:12:02
+2019-10-14 11:12:02.676 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29777, start time: 2019-10-14 11:12:02
+2019-10-14 11:12:05.205 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36218, end time: 2019-10-14 11:12:05
+2019-10-14 11:12:05.206 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36219, start time: 2019-10-14 11:12:05
+2019-10-14 11:12:09.991 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29777, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:12:10.017 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29777, end time: 2019-10-14 11:12:10
+2019-10-14 11:12:10.018 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29778, start time: 2019-10-14 11:12:10
+2019-10-14 11:12:10.472 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70113, end time: 2019-10-14 11:12:10
+2019-10-14 11:12:10.473 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70114, start time: 2019-10-14 11:12:10
+2019-10-14 11:12:13.133 [shipping-crawler-15] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 70114, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:12:13.201 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70114, end time: 2019-10-14 11:12:13
+2019-10-14 11:12:13.201 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70115, start time: 2019-10-14 11:12:13
+2019-10-14 11:12:15.899 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7338, end time: 2019-10-14 11:12:15
+2019-10-14 11:12:15.900 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7339, start time: 2019-10-14 11:12:15
+2019-10-14 11:12:16.140 [shipping-crawler-15] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 70115, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:12:16.202 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70115, end time: 2019-10-14 11:12:16
+2019-10-14 11:12:16.203 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70116, start time: 2019-10-14 11:12:16
+2019-10-14 11:12:22.371 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54597, end time: 2019-10-14 11:12:22
+2019-10-14 11:12:22.372 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54598, start time: 2019-10-14 11:12:22
+2019-10-14 11:12:24.938 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54598, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:12:24.961 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54598, end time: 2019-10-14 11:12:24
+2019-10-14 11:12:24.961 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54599, start time: 2019-10-14 11:12:24
+2019-10-14 11:12:25.805 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49242, end time: 2019-10-14 11:12:25
+2019-10-14 11:12:25.806 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49243, start time: 2019-10-14 11:12:25
+2019-10-14 11:12:27.711 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54599, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:12:27.735 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54599, end time: 2019-10-14 11:12:27
+2019-10-14 11:12:27.735 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54600, start time: 2019-10-14 11:12:27
+2019-10-14 11:12:32.914 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58018, end time: 2019-10-14 11:12:32
+2019-10-14 11:12:32.914 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58019, start time: 2019-10-14 11:12:32
+2019-10-14 11:12:44.422 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25407, end time: 2019-10-14 11:12:44
+2019-10-14 11:12:44.423 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25408, start time: 2019-10-14 11:12:44
+2019-10-14 11:12:48.340 [shipping-crawler-3] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 25408, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:12:48.398 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25408, end time: 2019-10-14 11:12:48
+2019-10-14 11:12:48.398 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25409, start time: 2019-10-14 11:12:48
+2019-10-14 11:12:50.851 [shipping-crawler-3] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 25409, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:12:50.874 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25409, end time: 2019-10-14 11:12:50
+2019-10-14 11:12:50.875 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25410, start time: 2019-10-14 11:12:50
+2019-10-14 11:12:52.853 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45452, end time: 2019-10-14 11:12:52
+2019-10-14 11:12:52.854 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45453, start time: 2019-10-14 11:12:52
+2019-10-14 11:12:57.435 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17578, end time: 2019-10-14 11:12:57
+2019-10-14 11:12:57.435 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17579, start time: 2019-10-14 11:12:57
+2019-10-14 11:13:04.925 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80676, end time: 2019-10-14 11:13:04
+2019-10-14 11:13:04.925 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80677, start time: 2019-10-14 11:13:04
+2019-10-14 11:13:11.279 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17151, end time: 2019-10-14 11:13:11
+2019-10-14 11:13:11.281 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17152, start time: 2019-10-14 11:13:11
+2019-10-14 11:13:11.314 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11637, end time: 2019-10-14 11:13:11
+2019-10-14 11:13:11.315 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11638, start time: 2019-10-14 11:13:11
+2019-10-14 11:13:36.260 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55976, end time: 2019-10-14 11:13:36
+2019-10-14 11:13:36.261 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55977, start time: 2019-10-14 11:13:36
+2019-10-14 11:13:38.436 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64439, end time: 2019-10-14 11:13:38
+2019-10-14 11:13:38.437 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64440, start time: 2019-10-14 11:13:38
+2019-10-14 11:13:44.055 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3753, end time: 2019-10-14 11:13:44
+2019-10-14 11:13:44.056 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3754, start time: 2019-10-14 11:13:44
+2019-10-14 11:13:53.788 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29778, end time: 2019-10-14 11:13:53
+2019-10-14 11:13:53.789 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29779, start time: 2019-10-14 11:13:53
+2019-10-14 11:13:54.576 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49243, end time: 2019-10-14 11:13:54
+2019-10-14 11:13:54.577 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49244, start time: 2019-10-14 11:13:54
+2019-10-14 11:13:58.956 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36219, end time: 2019-10-14 11:13:58
+2019-10-14 11:13:58.956 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36220, start time: 2019-10-14 11:13:58
+2019-10-14 11:14:00.838 [shipping-crawler-6] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 36220, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:14:00.874 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36220, end time: 2019-10-14 11:14:00
+2019-10-14 11:14:00.874 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36221, start time: 2019-10-14 11:14:00
+2019-10-14 11:14:01.635 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70116, end time: 2019-10-14 11:14:01
+2019-10-14 11:14:01.635 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70117, start time: 2019-10-14 11:14:01
+2019-10-14 11:14:02.403 [shipping-crawler-6] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 36221, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:14:02.422 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36221, end time: 2019-10-14 11:14:02
+2019-10-14 11:14:02.423 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36222, start time: 2019-10-14 11:14:02
+2019-10-14 11:14:02.479 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7339, end time: 2019-10-14 11:14:02
+2019-10-14 11:14:02.480 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7340, start time: 2019-10-14 11:14:02
+2019-10-14 11:14:06.994 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58019, end time: 2019-10-14 11:14:06
+2019-10-14 11:14:06.995 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58020, start time: 2019-10-14 11:14:06
+2019-10-14 11:14:09.256 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54600, end time: 2019-10-14 11:14:09
+2019-10-14 11:14:09.257 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54601, start time: 2019-10-14 11:14:09
+2019-10-14 11:14:17.781 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45453, end time: 2019-10-14 11:14:17
+2019-10-14 11:14:17.782 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45454, start time: 2019-10-14 11:14:17
+2019-10-14 11:14:28.513 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17579, end time: 2019-10-14 11:14:28
+2019-10-14 11:14:28.513 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17580, start time: 2019-10-14 11:14:28
+2019-10-14 11:14:36.467 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25410, end time: 2019-10-14 11:14:36
+2019-10-14 11:14:36.467 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25411, start time: 2019-10-14 11:14:36
+2019-10-14 11:14:45.453 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80677, end time: 2019-10-14 11:14:45
+2019-10-14 11:14:45.454 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80678, start time: 2019-10-14 11:14:45
+2019-10-14 11:14:53.019 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11638, end time: 2019-10-14 11:14:53
+2019-10-14 11:14:53.019 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11639, start time: 2019-10-14 11:14:53
+2019-10-14 11:14:53.320 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17152, end time: 2019-10-14 11:14:53
+2019-10-14 11:14:53.321 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17153, start time: 2019-10-14 11:14:53
+2019-10-14 11:15:15.441 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55977, end time: 2019-10-14 11:15:15
+2019-10-14 11:15:15.441 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55978, start time: 2019-10-14 11:15:15
+2019-10-14 11:15:15.699 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64440, end time: 2019-10-14 11:15:15
+2019-10-14 11:15:15.702 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64441, start time: 2019-10-14 11:15:15
+2019-10-14 11:15:18.679 [shipping-crawler-13] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 55978, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:15:18.738 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55978, end time: 2019-10-14 11:15:18
+2019-10-14 11:15:18.738 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55979, start time: 2019-10-14 11:15:18
+2019-10-14 11:15:22.202 [shipping-crawler-13] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 55979, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:15:22.248 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 55979, end time: 2019-10-14 11:15:22
+2019-10-14 11:15:22.250 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57584, start time: 2019-10-14 11:15:22
+2019-10-14 11:15:23.126 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3754, end time: 2019-10-14 11:15:23
+2019-10-14 11:15:23.127 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3755, start time: 2019-10-14 11:15:23
+2019-10-14 11:15:33.746 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70117, end time: 2019-10-14 11:15:33
+2019-10-14 11:15:33.747 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70118, start time: 2019-10-14 11:15:33
+2019-10-14 11:15:38.258 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49244, end time: 2019-10-14 11:15:38
+2019-10-14 11:15:38.258 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49245, start time: 2019-10-14 11:15:38
+2019-10-14 11:15:47.834 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58020, end time: 2019-10-14 11:15:47
+2019-10-14 11:15:47.835 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58021, start time: 2019-10-14 11:15:47
+2019-10-14 11:15:47.992 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54601, end time: 2019-10-14 11:15:47
+2019-10-14 11:15:47.992 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54602, start time: 2019-10-14 11:15:47
+2019-10-14 11:15:56.452 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36222, end time: 2019-10-14 11:15:56
+2019-10-14 11:15:56.452 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36223, start time: 2019-10-14 11:15:56
+2019-10-14 11:16:04.347 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29779, end time: 2019-10-14 11:16:04
+2019-10-14 11:16:04.348 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29780, start time: 2019-10-14 11:16:04
+2019-10-14 11:16:11.716 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45454, end time: 2019-10-14 11:16:11
+2019-10-14 11:16:11.716 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45455, start time: 2019-10-14 11:16:11
+2019-10-14 11:16:11.732 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17580, end time: 2019-10-14 11:16:11
+2019-10-14 11:16:11.733 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17581, start time: 2019-10-14 11:16:11
+2019-10-14 11:16:17.056 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80678, end time: 2019-10-14 11:16:17
+2019-10-14 11:16:17.056 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80679, start time: 2019-10-14 11:16:17
+2019-10-14 11:16:22.438 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25411, end time: 2019-10-14 11:16:22
+2019-10-14 11:16:22.438 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25412, start time: 2019-10-14 11:16:22
+2019-10-14 11:16:23.523 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7340, end time: 2019-10-14 11:16:23
+2019-10-14 11:16:23.524 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7341, start time: 2019-10-14 11:16:23
+2019-10-14 11:16:34.570 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17153, end time: 2019-10-14 11:16:34
+2019-10-14 11:16:34.571 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17154, start time: 2019-10-14 11:16:34
+2019-10-14 11:17:00.421 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57584, end time: 2019-10-14 11:17:00
+2019-10-14 11:17:00.421 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57585, start time: 2019-10-14 11:17:00
+2019-10-14 11:17:09.175 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70118, end time: 2019-10-14 11:17:09
+2019-10-14 11:17:09.176 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70119, start time: 2019-10-14 11:17:09
+2019-10-14 11:17:15.555 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11639, end time: 2019-10-14 11:17:15
+2019-10-14 11:17:15.556 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11640, start time: 2019-10-14 11:17:15
+2019-10-14 11:17:15.988 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64441, end time: 2019-10-14 11:17:15
+2019-10-14 11:17:15.989 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64442, start time: 2019-10-14 11:17:15
+2019-10-14 11:17:21.466 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3755, end time: 2019-10-14 11:17:21
+2019-10-14 11:17:21.467 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3756, start time: 2019-10-14 11:17:21
+2019-10-14 11:17:23.836 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49245, end time: 2019-10-14 11:17:23
+2019-10-14 11:17:23.836 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49246, start time: 2019-10-14 11:17:23
+2019-10-14 11:17:30.122 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54602, end time: 2019-10-14 11:17:30
+2019-10-14 11:17:30.123 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54603, start time: 2019-10-14 11:17:30
+2019-10-14 11:17:32.771 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58021, end time: 2019-10-14 11:17:32
+2019-10-14 11:17:32.771 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58022, start time: 2019-10-14 11:17:32
+2019-10-14 11:17:36.557 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36223, end time: 2019-10-14 11:17:36
+2019-10-14 11:17:36.558 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36224, start time: 2019-10-14 11:17:36
+2019-10-14 11:17:40.344 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29780, end time: 2019-10-14 11:17:40
+2019-10-14 11:17:40.345 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29781, start time: 2019-10-14 11:17:40
+2019-10-14 11:17:57.648 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45455, end time: 2019-10-14 11:17:57
+2019-10-14 11:17:57.649 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45456, start time: 2019-10-14 11:17:57
+2019-10-14 11:18:03.739 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17581, end time: 2019-10-14 11:18:03
+2019-10-14 11:18:03.739 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17582, start time: 2019-10-14 11:18:03
+2019-10-14 11:18:07.531 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25412, end time: 2019-10-14 11:18:07
+2019-10-14 11:18:07.532 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25413, start time: 2019-10-14 11:18:07
+2019-10-14 11:18:12.760 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17154, end time: 2019-10-14 11:18:12
+2019-10-14 11:18:12.761 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17155, start time: 2019-10-14 11:18:12
+2019-10-14 11:18:17.791 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80679, end time: 2019-10-14 11:18:17
+2019-10-14 11:18:17.793 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80680, start time: 2019-10-14 11:18:17
+2019-10-14 11:18:28.933 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7341, end time: 2019-10-14 11:18:28
+2019-10-14 11:18:28.933 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7342, start time: 2019-10-14 11:18:28
+2019-10-14 11:18:53.326 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70119, end time: 2019-10-14 11:18:53
+2019-10-14 11:18:53.327 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70120, start time: 2019-10-14 11:18:53
+2019-10-14 11:18:54.955 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57585, end time: 2019-10-14 11:18:54
+2019-10-14 11:18:54.955 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57586, start time: 2019-10-14 11:18:54
+2019-10-14 11:19:06.759 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49246, end time: 2019-10-14 11:19:06
+2019-10-14 11:19:06.760 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49247, start time: 2019-10-14 11:19:06
+2019-10-14 11:19:12.370 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11640, end time: 2019-10-14 11:19:12
+2019-10-14 11:19:12.371 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11641, start time: 2019-10-14 11:19:12
+2019-10-14 11:19:16.088 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64442, end time: 2019-10-14 11:19:16
+2019-10-14 11:19:16.088 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64443, start time: 2019-10-14 11:19:16
+2019-10-14 11:19:22.504 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54603, end time: 2019-10-14 11:19:22
+2019-10-14 11:19:22.505 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54604, start time: 2019-10-14 11:19:22
+2019-10-14 11:19:24.045 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3756, end time: 2019-10-14 11:19:24
+2019-10-14 11:19:24.046 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3757, start time: 2019-10-14 11:19:24
+2019-10-14 11:19:25.589 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58022, end time: 2019-10-14 11:19:25
+2019-10-14 11:19:25.589 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58023, start time: 2019-10-14 11:19:25
+2019-10-14 11:19:31.837 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58023, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:19:31.902 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58023, end time: 2019-10-14 11:19:31
+2019-10-14 11:19:31.902 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58024, start time: 2019-10-14 11:19:31
+2019-10-14 11:19:34.373 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58024, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:19:34.440 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58024, end time: 2019-10-14 11:19:34
+2019-10-14 11:19:34.441 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58025, start time: 2019-10-14 11:19:34
+2019-10-14 11:19:34.935 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54604, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:19:34.980 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54604, end time: 2019-10-14 11:19:34
+2019-10-14 11:19:34.980 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54605, start time: 2019-10-14 11:19:34
+2019-10-14 11:19:37.710 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58025, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:19:38.698 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58025, end time: 2019-10-14 11:19:38
+2019-10-14 11:19:38.699 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58026, start time: 2019-10-14 11:19:38
+2019-10-14 11:19:41.788 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58026, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:19:42.031 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58026, end time: 2019-10-14 11:19:42
+2019-10-14 11:19:42.031 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58027, start time: 2019-10-14 11:19:42
+2019-10-14 11:19:42.091 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45456, end time: 2019-10-14 11:19:42
+2019-10-14 11:19:42.091 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45457, start time: 2019-10-14 11:19:42
+2019-10-14 11:19:43.410 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58027, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:19:43.468 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58027, end time: 2019-10-14 11:19:43
+2019-10-14 11:19:43.469 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58028, start time: 2019-10-14 11:19:43
+2019-10-14 11:19:44.277 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54605, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:19:44.293 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54605, end time: 2019-10-14 11:19:44
+2019-10-14 11:19:44.293 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54606, start time: 2019-10-14 11:19:44
+2019-10-14 11:19:55.608 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29781, end time: 2019-10-14 11:19:55
+2019-10-14 11:19:55.608 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29782, start time: 2019-10-14 11:19:55
+2019-10-14 11:20:00.215 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36224, end time: 2019-10-14 11:20:00
+2019-10-14 11:20:00.216 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36225, start time: 2019-10-14 11:20:00
+2019-10-14 11:20:01.733 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29782, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:20:01.780 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29782, end time: 2019-10-14 11:20:01
+2019-10-14 11:20:01.781 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29783, start time: 2019-10-14 11:20:01
+2019-10-14 11:20:06.012 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29783, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:20:06.027 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29783, end time: 2019-10-14 11:20:06
+2019-10-14 11:20:06.027 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29784, start time: 2019-10-14 11:20:06
+2019-10-14 11:20:10.517 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25413, end time: 2019-10-14 11:20:10
+2019-10-14 11:20:10.518 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25414, start time: 2019-10-14 11:20:10
+2019-10-14 11:20:10.890 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17155, end time: 2019-10-14 11:20:10
+2019-10-14 11:20:10.890 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17156, start time: 2019-10-14 11:20:10
+2019-10-14 11:20:12.279 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17582, end time: 2019-10-14 11:20:12
+2019-10-14 11:20:12.280 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17583, start time: 2019-10-14 11:20:12
+2019-10-14 11:20:20.634 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80680, end time: 2019-10-14 11:20:20
+2019-10-14 11:20:20.635 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80681, start time: 2019-10-14 11:20:20
+2019-10-14 11:20:29.759 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7342, end time: 2019-10-14 11:20:29
+2019-10-14 11:20:29.760 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7343, start time: 2019-10-14 11:20:29
+2019-10-14 11:20:49.602 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57586, end time: 2019-10-14 11:20:49
+2019-10-14 11:20:49.602 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57587, start time: 2019-10-14 11:20:49
+2019-10-14 11:20:50.007 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70120, end time: 2019-10-14 11:20:50
+2019-10-14 11:20:50.007 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70121, start time: 2019-10-14 11:20:50
+2019-10-14 11:20:50.857 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49247, end time: 2019-10-14 11:20:50
+2019-10-14 11:20:50.858 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49248, start time: 2019-10-14 11:20:50
+2019-10-14 11:21:10.572 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64443, end time: 2019-10-14 11:21:10
+2019-10-14 11:21:10.573 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64444, start time: 2019-10-14 11:21:10
+2019-10-14 11:21:12.138 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11641, end time: 2019-10-14 11:21:12
+2019-10-14 11:21:12.139 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11642, start time: 2019-10-14 11:21:12
+2019-10-14 11:21:12.840 [shipping-crawler-11] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 64444, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:21:12.856 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64444, end time: 2019-10-14 11:21:12
+2019-10-14 11:21:12.857 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64445, start time: 2019-10-14 11:21:12
+2019-10-14 11:21:19.311 [shipping-crawler-11] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 64445, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:21:19.384 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64445, end time: 2019-10-14 11:21:19
+2019-10-14 11:21:19.384 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64446, start time: 2019-10-14 11:21:19
+2019-10-14 11:21:24.683 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17156, end time: 2019-10-14 11:21:24
+2019-10-14 11:21:24.683 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17157, start time: 2019-10-14 11:21:24
+2019-10-14 11:21:25.462 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54606, end time: 2019-10-14 11:21:25
+2019-10-14 11:21:25.462 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54607, start time: 2019-10-14 11:21:25
+2019-10-14 11:21:28.196 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45457, end time: 2019-10-14 11:21:28
+2019-10-14 11:21:28.196 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45458, start time: 2019-10-14 11:21:28
+2019-10-14 11:21:30.909 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58028, end time: 2019-10-14 11:21:30
+2019-10-14 11:21:30.910 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58029, start time: 2019-10-14 11:21:30
+2019-10-14 11:21:33.493 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25414, end time: 2019-10-14 11:21:33
+2019-10-14 11:21:33.494 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25415, start time: 2019-10-14 11:21:33
+2019-10-14 11:21:38.472 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36225, end time: 2019-10-14 11:21:38
+2019-10-14 11:21:38.473 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36226, start time: 2019-10-14 11:21:38
+2019-10-14 11:21:40.530 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3757, end time: 2019-10-14 11:21:40
+2019-10-14 11:21:40.531 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3758, start time: 2019-10-14 11:21:40
+2019-10-14 11:21:45.034 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29784, end time: 2019-10-14 11:21:45
+2019-10-14 11:21:45.034 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29785, start time: 2019-10-14 11:21:45
+2019-10-14 11:21:53.756 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80681, end time: 2019-10-14 11:21:53
+2019-10-14 11:21:53.757 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80682, start time: 2019-10-14 11:21:53
+2019-10-14 11:21:54.752 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17583, end time: 2019-10-14 11:21:54
+2019-10-14 11:21:54.753 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17584, start time: 2019-10-14 11:21:54
+2019-10-14 11:22:04.853 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7343, end time: 2019-10-14 11:22:04
+2019-10-14 11:22:04.854 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7344, start time: 2019-10-14 11:22:04
+2019-10-14 11:22:18.990 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57587, end time: 2019-10-14 11:22:18
+2019-10-14 11:22:18.991 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57588, start time: 2019-10-14 11:22:18
+2019-10-14 11:22:22.045 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70121, end time: 2019-10-14 11:22:22
+2019-10-14 11:22:22.045 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70122, start time: 2019-10-14 11:22:22
+2019-10-14 11:22:24.366 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49248, end time: 2019-10-14 11:22:24
+2019-10-14 11:22:24.367 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49249, start time: 2019-10-14 11:22:24
+2019-10-14 11:22:46.033 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11642, end time: 2019-10-14 11:22:46
+2019-10-14 11:22:46.034 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11643, start time: 2019-10-14 11:22:46
+2019-10-14 11:22:54.886 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64446, end time: 2019-10-14 11:22:54
+2019-10-14 11:22:54.887 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64447, start time: 2019-10-14 11:22:54
+2019-10-14 11:22:57.693 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54607, end time: 2019-10-14 11:22:57
+2019-10-14 11:22:57.694 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54608, start time: 2019-10-14 11:22:57
+2019-10-14 11:22:58.431 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17157, end time: 2019-10-14 11:22:58
+2019-10-14 11:22:58.431 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17158, start time: 2019-10-14 11:22:58
+2019-10-14 11:22:59.510 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 45458, end time: 2019-10-14 11:22:59
+2019-10-14 11:22:59.510 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47162, start time: 2019-10-14 11:22:59
+2019-10-14 11:23:00.931 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58029, end time: 2019-10-14 11:23:00
+2019-10-14 11:23:00.931 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58030, start time: 2019-10-14 11:23:00
+2019-10-14 11:23:09.163 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3758, end time: 2019-10-14 11:23:09
+2019-10-14 11:23:09.164 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3759, start time: 2019-10-14 11:23:09
+2019-10-14 11:23:11.528 [shipping-crawler-0] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 3759, reply is error, message: Destination address not found. 
+2019-10-14 11:23:11.571 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3759, end time: 2019-10-14 11:23:11
+2019-10-14 11:23:11.573 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3760, start time: 2019-10-14 11:23:11
+2019-10-14 11:23:11.759 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36226, end time: 2019-10-14 11:23:11
+2019-10-14 11:23:11.760 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36227, start time: 2019-10-14 11:23:11
+2019-10-14 11:23:14.537 [shipping-crawler-0] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 3760, reply is error, message: Destination address not found. 
+2019-10-14 11:23:14.585 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3760, end time: 2019-10-14 11:23:14
+2019-10-14 11:23:14.585 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3761, start time: 2019-10-14 11:23:14
+2019-10-14 11:23:17.096 [shipping-crawler-0] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 3761, reply is error, message: Destination address not found. 
+2019-10-14 11:23:17.125 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3761, end time: 2019-10-14 11:23:17
+2019-10-14 11:23:17.126 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3762, start time: 2019-10-14 11:23:17
+2019-10-14 11:23:21.019 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29785, end time: 2019-10-14 11:23:21
+2019-10-14 11:23:21.021 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29786, start time: 2019-10-14 11:23:21
+2019-10-14 11:23:21.247 [shipping-crawler-0] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 3762, reply is error, message: Destination address not found. 
+2019-10-14 11:23:21.269 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3762, end time: 2019-10-14 11:23:21
+2019-10-14 11:23:21.269 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3763, start time: 2019-10-14 11:23:21
+2019-10-14 11:23:22.773 [shipping-crawler-0] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 3763, reply is error, message: Destination address not found. 
+2019-10-14 11:23:22.842 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3763, end time: 2019-10-14 11:23:22
+2019-10-14 11:23:22.843 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3764, start time: 2019-10-14 11:23:22
+2019-10-14 11:23:24.623 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25415, end time: 2019-10-14 11:23:24
+2019-10-14 11:23:24.623 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25416, start time: 2019-10-14 11:23:24
+2019-10-14 11:23:24.658 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17584, end time: 2019-10-14 11:23:24
+2019-10-14 11:23:24.659 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17585, start time: 2019-10-14 11:23:24
+2019-10-14 11:23:27.460 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80682, end time: 2019-10-14 11:23:27
+2019-10-14 11:23:27.461 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80683, start time: 2019-10-14 11:23:27
+2019-10-14 11:23:35.765 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7344, end time: 2019-10-14 11:23:35
+2019-10-14 11:23:35.766 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7345, start time: 2019-10-14 11:23:35
+2019-10-14 11:23:41.731 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70122, end time: 2019-10-14 11:23:41
+2019-10-14 11:23:41.732 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70123, start time: 2019-10-14 11:23:41
+2019-10-14 11:24:01.266 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57588, end time: 2019-10-14 11:24:01
+2019-10-14 11:24:01.267 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57589, start time: 2019-10-14 11:24:01
+2019-10-14 11:24:07.972 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49249, end time: 2019-10-14 11:24:07
+2019-10-14 11:24:07.973 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49250, start time: 2019-10-14 11:24:07
+2019-10-14 11:24:17.165 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11643, end time: 2019-10-14 11:24:17
+2019-10-14 11:24:17.166 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11644, start time: 2019-10-14 11:24:17
+2019-10-14 11:24:18.649 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58030, end time: 2019-10-14 11:24:18
+2019-10-14 11:24:18.649 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58031, start time: 2019-10-14 11:24:18
+2019-10-14 11:24:27.357 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64447, end time: 2019-10-14 11:24:27
+2019-10-14 11:24:27.358 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64448, start time: 2019-10-14 11:24:27
+2019-10-14 11:24:27.843 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47162, end time: 2019-10-14 11:24:27
+2019-10-14 11:24:27.844 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47163, start time: 2019-10-14 11:24:27
+2019-10-14 11:24:32.170 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17158, end time: 2019-10-14 11:24:32
+2019-10-14 11:24:32.170 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17159, start time: 2019-10-14 11:24:32
+2019-10-14 11:24:32.559 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54608, end time: 2019-10-14 11:24:32
+2019-10-14 11:24:32.561 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54609, start time: 2019-10-14 11:24:32
+2019-10-14 11:24:48.964 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3764, end time: 2019-10-14 11:24:48
+2019-10-14 11:24:48.964 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3765, start time: 2019-10-14 11:24:48
+2019-10-14 11:24:49.482 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36227, end time: 2019-10-14 11:24:49
+2019-10-14 11:24:49.483 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36228, start time: 2019-10-14 11:24:49
+2019-10-14 11:24:51.875 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17585, end time: 2019-10-14 11:24:51
+2019-10-14 11:24:51.876 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17586, start time: 2019-10-14 11:24:51
+2019-10-14 11:24:54.390 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29786, end time: 2019-10-14 11:24:54
+2019-10-14 11:24:54.390 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29787, start time: 2019-10-14 11:24:54
+2019-10-14 11:24:54.409 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25416, end time: 2019-10-14 11:24:54
+2019-10-14 11:24:54.410 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25417, start time: 2019-10-14 11:24:54
+2019-10-14 11:25:03.545 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80683, end time: 2019-10-14 11:25:03
+2019-10-14 11:25:03.546 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80684, start time: 2019-10-14 11:25:03
+2019-10-14 11:25:04.606 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7345, end time: 2019-10-14 11:25:04
+2019-10-14 11:25:04.607 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7346, start time: 2019-10-14 11:25:04
+2019-10-14 11:25:09.257 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70123, end time: 2019-10-14 11:25:09
+2019-10-14 11:25:09.258 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70124, start time: 2019-10-14 11:25:09
+2019-10-14 11:25:39.980 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49250, end time: 2019-10-14 11:25:39
+2019-10-14 11:25:39.981 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49251, start time: 2019-10-14 11:25:39
+2019-10-14 11:25:40.990 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57589, end time: 2019-10-14 11:25:40
+2019-10-14 11:25:40.990 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57590, start time: 2019-10-14 11:25:40
+2019-10-14 11:25:47.451 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11644, end time: 2019-10-14 11:25:47
+2019-10-14 11:25:47.451 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11645, start time: 2019-10-14 11:25:47
+2019-10-14 11:25:53.225 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58031, end time: 2019-10-14 11:25:53
+2019-10-14 11:25:53.226 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58032, start time: 2019-10-14 11:25:53
+2019-10-14 11:25:58.293 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47163, end time: 2019-10-14 11:25:58
+2019-10-14 11:25:58.294 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47164, start time: 2019-10-14 11:25:58
+2019-10-14 11:26:01.752 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17159, end time: 2019-10-14 11:26:01
+2019-10-14 11:26:01.753 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17160, start time: 2019-10-14 11:26:01
+2019-10-14 11:26:03.064 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64448, end time: 2019-10-14 11:26:03
+2019-10-14 11:26:03.065 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64449, start time: 2019-10-14 11:26:03
+2019-10-14 11:26:17.644 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54609, end time: 2019-10-14 11:26:17
+2019-10-14 11:26:17.644 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54610, start time: 2019-10-14 11:26:17
+2019-10-14 11:26:20.747 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54610, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:26:20.822 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54610, end time: 2019-10-14 11:26:20
+2019-10-14 11:26:20.822 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54611, start time: 2019-10-14 11:26:20
+2019-10-14 11:26:22.138 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54611, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:26:22.189 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54611, end time: 2019-10-14 11:26:22
+2019-10-14 11:26:22.189 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54612, start time: 2019-10-14 11:26:22
+2019-10-14 11:26:27.424 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36228, end time: 2019-10-14 11:26:27
+2019-10-14 11:26:27.424 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36229, start time: 2019-10-14 11:26:27
+2019-10-14 11:26:32.723 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3765, end time: 2019-10-14 11:26:32
+2019-10-14 11:26:32.724 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3766, start time: 2019-10-14 11:26:32
+2019-10-14 11:26:34.868 [shipping-crawler-0] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 3766, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:26:34.898 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3766, end time: 2019-10-14 11:26:34
+2019-10-14 11:26:34.898 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3767, start time: 2019-10-14 11:26:34
+2019-10-14 11:26:36.923 [shipping-crawler-0] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 3767, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:26:37.077 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70124, end time: 2019-10-14 11:26:37
+2019-10-14 11:26:37.078 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70125, start time: 2019-10-14 11:26:37
+2019-10-14 11:26:37.759 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3767, end time: 2019-10-14 11:26:37
+2019-10-14 11:26:37.760 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3768, start time: 2019-10-14 11:26:37
+2019-10-14 11:26:37.783 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80684, end time: 2019-10-14 11:26:37
+2019-10-14 11:26:37.784 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80685, start time: 2019-10-14 11:26:37
+2019-10-14 11:26:40.712 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29787, end time: 2019-10-14 11:26:40
+2019-10-14 11:26:40.715 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29788, start time: 2019-10-14 11:26:40
+2019-10-14 11:26:40.879 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17586, end time: 2019-10-14 11:26:40
+2019-10-14 11:26:40.880 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17587, start time: 2019-10-14 11:26:40
+2019-10-14 11:26:42.385 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29788, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:26:42.423 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29788, end time: 2019-10-14 11:26:42
+2019-10-14 11:26:42.424 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29789, start time: 2019-10-14 11:26:42
+2019-10-14 11:26:42.929 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7346, end time: 2019-10-14 11:26:42
+2019-10-14 11:26:42.929 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7347, start time: 2019-10-14 11:26:42
+2019-10-14 11:26:49.285 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25417, end time: 2019-10-14 11:26:49
+2019-10-14 11:26:49.286 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25418, start time: 2019-10-14 11:26:49
+2019-10-14 11:26:53.010 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29789, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:26:53.029 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29789, end time: 2019-10-14 11:26:53
+2019-10-14 11:26:53.030 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29790, start time: 2019-10-14 11:26:53
+2019-10-14 11:27:46.573 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57590, end time: 2019-10-14 11:27:46
+2019-10-14 11:27:46.575 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57591, start time: 2019-10-14 11:27:46
+2019-10-14 11:28:17.238 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58032, end time: 2019-10-14 11:28:17
+2019-10-14 11:28:17.238 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58033, start time: 2019-10-14 11:28:17
+2019-10-14 11:28:33.714 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47164, end time: 2019-10-14 11:28:33
+2019-10-14 11:28:33.714 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47165, start time: 2019-10-14 11:28:33
+2019-10-14 11:28:33.873 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17160, end time: 2019-10-14 11:28:33
+2019-10-14 11:28:33.874 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17161, start time: 2019-10-14 11:28:33
+2019-10-14 11:28:46.190 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49251, end time: 2019-10-14 11:28:46
+2019-10-14 11:28:46.191 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49252, start time: 2019-10-14 11:28:46
+2019-10-14 11:28:47.801 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64449, end time: 2019-10-14 11:28:47
+2019-10-14 11:28:47.803 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64450, start time: 2019-10-14 11:28:47
+2019-10-14 11:29:00.905 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11645, end time: 2019-10-14 11:29:00
+2019-10-14 11:29:00.906 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11646, start time: 2019-10-14 11:29:00
+2019-10-14 11:29:07.603 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36229, end time: 2019-10-14 11:29:07
+2019-10-14 11:29:07.603 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36230, start time: 2019-10-14 11:29:07
+2019-10-14 11:29:10.567 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29790, end time: 2019-10-14 11:29:10
+2019-10-14 11:29:10.568 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29791, start time: 2019-10-14 11:29:10
+2019-10-14 11:29:10.719 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54612, end time: 2019-10-14 11:29:10
+2019-10-14 11:29:10.720 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54613, start time: 2019-10-14 11:29:10
+2019-10-14 11:29:15.681 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70125, end time: 2019-10-14 11:29:15
+2019-10-14 11:29:15.682 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70126, start time: 2019-10-14 11:29:15
+2019-10-14 11:29:18.417 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80685, end time: 2019-10-14 11:29:18
+2019-10-14 11:29:18.417 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80686, start time: 2019-10-14 11:29:18
+2019-10-14 11:29:21.954 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25418, end time: 2019-10-14 11:29:21
+2019-10-14 11:29:21.955 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25419, start time: 2019-10-14 11:29:21
+2019-10-14 11:29:29.379 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3768, end time: 2019-10-14 11:29:29
+2019-10-14 11:29:29.380 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3769, start time: 2019-10-14 11:29:29
+2019-10-14 11:29:34.574 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17587, end time: 2019-10-14 11:29:34
+2019-10-14 11:29:34.574 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17588, start time: 2019-10-14 11:29:34
+2019-10-14 11:29:47.692 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58033, end time: 2019-10-14 11:29:47
+2019-10-14 11:29:47.693 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58034, start time: 2019-10-14 11:29:47
+2019-10-14 11:30:02.164 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57591, end time: 2019-10-14 11:30:02
+2019-10-14 11:30:02.165 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57592, start time: 2019-10-14 11:30:02
+2019-10-14 11:30:03.290 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47165, end time: 2019-10-14 11:30:03
+2019-10-14 11:30:03.291 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47166, start time: 2019-10-14 11:30:03
+2019-10-14 11:30:09.280 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7347, end time: 2019-10-14 11:30:09
+2019-10-14 11:30:09.281 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7348, start time: 2019-10-14 11:30:09
+2019-10-14 11:30:13.827 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17161, end time: 2019-10-14 11:30:13
+2019-10-14 11:30:13.827 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17162, start time: 2019-10-14 11:30:13
+2019-10-14 11:30:24.093 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64450, end time: 2019-10-14 11:30:24
+2019-10-14 11:30:24.093 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64451, start time: 2019-10-14 11:30:24
+2019-10-14 11:30:26.078 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49252, end time: 2019-10-14 11:30:26
+2019-10-14 11:30:26.079 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49253, start time: 2019-10-14 11:30:26
+2019-10-14 11:30:36.755 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11646, end time: 2019-10-14 11:30:36
+2019-10-14 11:30:36.756 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11647, start time: 2019-10-14 11:30:36
+2019-10-14 11:30:42.134 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29791, end time: 2019-10-14 11:30:42
+2019-10-14 11:30:42.135 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29792, start time: 2019-10-14 11:30:42
+2019-10-14 11:30:57.233 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36230, end time: 2019-10-14 11:30:57
+2019-10-14 11:30:57.235 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36231, start time: 2019-10-14 11:30:57
+2019-10-14 11:30:58.053 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54613, end time: 2019-10-14 11:30:58
+2019-10-14 11:30:58.054 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54614, start time: 2019-10-14 11:30:58
+2019-10-14 11:31:20.044 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 80686, end time: 2019-10-14 11:31:20
+2019-10-14 11:31:20.044 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81927, start time: 2019-10-14 11:31:20
+2019-10-14 11:31:20.675 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70126, end time: 2019-10-14 11:31:20
+2019-10-14 11:31:20.676 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70127, start time: 2019-10-14 11:31:20
+2019-10-14 11:31:26.556 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17588, end time: 2019-10-14 11:31:26
+2019-10-14 11:31:26.556 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17589, start time: 2019-10-14 11:31:26
+2019-10-14 11:31:27.274 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25419, end time: 2019-10-14 11:31:27
+2019-10-14 11:31:27.274 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25420, start time: 2019-10-14 11:31:27
+2019-10-14 11:31:46.191 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58034, end time: 2019-10-14 11:31:46
+2019-10-14 11:31:46.192 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58035, start time: 2019-10-14 11:31:46
+2019-10-14 11:31:48.198 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3769, end time: 2019-10-14 11:31:48
+2019-10-14 11:31:48.199 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3770, start time: 2019-10-14 11:31:48
+2019-10-14 11:32:12.678 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57592, end time: 2019-10-14 11:32:12
+2019-10-14 11:32:12.679 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57593, start time: 2019-10-14 11:32:12
+2019-10-14 11:32:16.827 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7348, end time: 2019-10-14 11:32:16
+2019-10-14 11:32:16.828 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7349, start time: 2019-10-14 11:32:16
+2019-10-14 11:32:22.261 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47166, end time: 2019-10-14 11:32:22
+2019-10-14 11:32:22.262 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47167, start time: 2019-10-14 11:32:22
+2019-10-14 11:32:27.859 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17162, end time: 2019-10-14 11:32:27
+2019-10-14 11:32:27.860 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17163, start time: 2019-10-14 11:32:27
+2019-10-14 11:32:45.641 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29792, end time: 2019-10-14 11:32:45
+2019-10-14 11:32:45.642 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29793, start time: 2019-10-14 11:32:45
+2019-10-14 11:32:46.012 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11647, end time: 2019-10-14 11:32:46
+2019-10-14 11:32:46.013 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11648, start time: 2019-10-14 11:32:46
+2019-10-14 11:32:57.418 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49253, end time: 2019-10-14 11:32:57
+2019-10-14 11:32:57.418 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49254, start time: 2019-10-14 11:32:57
+2019-10-14 11:33:08.745 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64451, end time: 2019-10-14 11:33:08
+2019-10-14 11:33:08.746 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64452, start time: 2019-10-14 11:33:08
+2019-10-14 11:33:10.344 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70127, end time: 2019-10-14 11:33:10
+2019-10-14 11:33:10.345 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70128, start time: 2019-10-14 11:33:10
+2019-10-14 11:33:10.387 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54614, end time: 2019-10-14 11:33:10
+2019-10-14 11:33:10.388 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54615, start time: 2019-10-14 11:33:10
+2019-10-14 11:33:18.210 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36231, end time: 2019-10-14 11:33:18
+2019-10-14 11:33:18.211 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36232, start time: 2019-10-14 11:33:18
+2019-10-14 11:33:21.107 [shipping-crawler-6] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 36232, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:33:22.389 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 36232, end time: 2019-10-14 11:33:22
+2019-10-14 11:33:22.390 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37828, start time: 2019-10-14 11:33:22
+2019-10-14 11:33:28.205 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3770, end time: 2019-10-14 11:33:28
+2019-10-14 11:33:28.205 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3771, start time: 2019-10-14 11:33:28
+2019-10-14 11:33:29.425 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25420, end time: 2019-10-14 11:33:29
+2019-10-14 11:33:29.426 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25421, start time: 2019-10-14 11:33:29
+2019-10-14 11:33:31.352 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58035, end time: 2019-10-14 11:33:31
+2019-10-14 11:33:31.352 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58036, start time: 2019-10-14 11:33:31
+2019-10-14 11:33:33.921 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81927, end time: 2019-10-14 11:33:33
+2019-10-14 11:33:33.921 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81928, start time: 2019-10-14 11:33:33
+2019-10-14 11:33:39.325 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17589, end time: 2019-10-14 11:33:39
+2019-10-14 11:33:39.326 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17590, start time: 2019-10-14 11:33:39
+2019-10-14 11:33:55.667 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47167, end time: 2019-10-14 11:33:55
+2019-10-14 11:33:55.667 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47168, start time: 2019-10-14 11:33:55
+2019-10-14 11:33:55.713 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57593, end time: 2019-10-14 11:33:55
+2019-10-14 11:33:55.713 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57594, start time: 2019-10-14 11:33:55
+2019-10-14 11:33:56.965 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7349, end time: 2019-10-14 11:33:56
+2019-10-14 11:33:56.966 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7350, start time: 2019-10-14 11:33:56
+2019-10-14 11:34:34.948 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17163, end time: 2019-10-14 11:34:34
+2019-10-14 11:34:34.948 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17164, start time: 2019-10-14 11:34:34
+2019-10-14 11:34:53.661 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11648, end time: 2019-10-14 11:34:53
+2019-10-14 11:34:53.661 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11649, start time: 2019-10-14 11:34:53
+2019-10-14 11:35:16.619 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49254, end time: 2019-10-14 11:35:16
+2019-10-14 11:35:16.620 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49255, start time: 2019-10-14 11:35:16
+2019-10-14 11:35:20.734 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29793, end time: 2019-10-14 11:35:20
+2019-10-14 11:35:20.734 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29794, start time: 2019-10-14 11:35:20
+2019-10-14 11:35:20.745 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64452, end time: 2019-10-14 11:35:20
+2019-10-14 11:35:20.745 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64453, start time: 2019-10-14 11:35:20
+2019-10-14 11:35:22.736 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29794, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:35:22.754 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29794, end time: 2019-10-14 11:35:22
+2019-10-14 11:35:22.755 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29795, start time: 2019-10-14 11:35:22
+2019-10-14 11:35:26.277 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29795, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:35:26.375 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29795, end time: 2019-10-14 11:35:26
+2019-10-14 11:35:26.375 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29796, start time: 2019-10-14 11:35:26
+2019-10-14 11:36:04.156 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58036, end time: 2019-10-14 11:36:04
+2019-10-14 11:36:04.157 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58037, start time: 2019-10-14 11:36:04
+2019-10-14 11:36:09.410 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81928, end time: 2019-10-14 11:36:09
+2019-10-14 11:36:09.411 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81929, start time: 2019-10-14 11:36:09
+2019-10-14 11:36:11.860 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3771, end time: 2019-10-14 11:36:11
+2019-10-14 11:36:11.860 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3772, start time: 2019-10-14 11:36:11
+2019-10-14 11:36:14.225 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37828, end time: 2019-10-14 11:36:14
+2019-10-14 11:36:14.225 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37829, start time: 2019-10-14 11:36:14
+2019-10-14 11:36:16.941 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17590, end time: 2019-10-14 11:36:16
+2019-10-14 11:36:16.942 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17591, start time: 2019-10-14 11:36:16
+2019-10-14 11:36:20.268 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57594, end time: 2019-10-14 11:36:20
+2019-10-14 11:36:20.268 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57595, start time: 2019-10-14 11:36:20
+2019-10-14 11:36:31.649 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70128, end time: 2019-10-14 11:36:31
+2019-10-14 11:36:31.650 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70129, start time: 2019-10-14 11:36:31
+2019-10-14 11:36:32.510 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54615, end time: 2019-10-14 11:36:32
+2019-10-14 11:36:32.511 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54616, start time: 2019-10-14 11:36:32
+2019-10-14 11:36:32.790 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47168, end time: 2019-10-14 11:36:32
+2019-10-14 11:36:32.790 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47169, start time: 2019-10-14 11:36:32
+2019-10-14 11:36:37.029 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54616, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:36:37.312 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54616, end time: 2019-10-14 11:36:37
+2019-10-14 11:36:37.312 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54617, start time: 2019-10-14 11:36:37
+2019-10-14 11:36:40.926 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54617, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:36:40.988 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54617, end time: 2019-10-14 11:36:40
+2019-10-14 11:36:40.988 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54618, start time: 2019-10-14 11:36:40
+2019-10-14 11:36:43.512 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25421, end time: 2019-10-14 11:36:43
+2019-10-14 11:36:43.512 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25422, start time: 2019-10-14 11:36:43
+2019-10-14 11:36:49.111 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7350, end time: 2019-10-14 11:36:49
+2019-10-14 11:36:49.112 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7351, start time: 2019-10-14 11:36:49
+2019-10-14 11:37:08.748 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11649, end time: 2019-10-14 11:37:08
+2019-10-14 11:37:08.748 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11650, start time: 2019-10-14 11:37:08
+2019-10-14 11:37:32.460 [shipping-crawler-14] ERROR com.example.demo.util.ShippingCostUtil - request exception: {}
+org.apache.axis.AxisFault: ; nested exception is: 
+	java.net.ConnectException: Connection timed out: connect
+	at org.apache.axis.AxisFault.makeFault(AxisFault.java:101)
+	at org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:154)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:165)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.example.demo.fedex.rate.stub.RateServiceSoapBindingStub.getRates(RateServiceSoapBindingStub.java:2343)
+	at com.example.demo.util.ShippingCostUtil.getShippingCostReply(ShippingCostUtil.java:79)
+	at getShippingCostAndInsertByServiceType(ShippingCostCrawlerServiceImpl.java:129)
+	at com.example.demo.service.impl.ShippingCostCrawlerServiceImpl.access$100(ShippingCostCrawlerServiceImpl.java:34)
+	at com.example.demo.service.impl.ShippingCostCrawlerServiceImpl$Task.run(ShippingCostCrawlerServiceImpl.java:267)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:432)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:88)
+	at org.apache.axis.components.net.JSSESocketFactory.create(JSSESocketFactory.java:92)
+	at org.apache.axis.transport.http.HTTPSender.getSocket(HTTPSender.java:191)
+	at org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:404)
+	at org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:138)
+	... 19 common frames omitted
+2019-10-14 11:37:32.462 [shipping-crawler-14] ERROR com.example.demo.util.ShippingCostUtil - service bei diao yong: 16023 ci
+2019-10-14 11:37:32.463 [shipping-crawler-14] ERROR com.example.demo.util.ShippingCostUtil - service unvailable sleep ten minutes!
+2019-10-14 11:37:39.830 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17164, end time: 2019-10-14 11:37:39
+2019-10-14 11:37:39.831 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17165, start time: 2019-10-14 11:37:39
+2019-10-14 11:38:06.687 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64453, end time: 2019-10-14 11:38:06
+2019-10-14 11:38:06.687 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64454, start time: 2019-10-14 11:38:06
+2019-10-14 11:38:19.266 [shipping-crawler-0] ERROR com.example.demo.util.ShippingCostUtil - request exception: {}
+org.apache.axis.AxisFault: ; nested exception is: 
+	java.net.ConnectException: Connection timed out: connect
+	at org.apache.axis.AxisFault.makeFault(AxisFault.java:101)
+	at org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:154)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:165)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.example.demo.fedex.rate.stub.RateServiceSoapBindingStub.getRates(RateServiceSoapBindingStub.java:2343)
+	at com.example.demo.util.ShippingCostUtil.getShippingCostReply(ShippingCostUtil.java:79)
+	at getShippingCostAndInsertByServiceType(ShippingCostCrawlerServiceImpl.java:129)
+	at com.example.demo.service.impl.ShippingCostCrawlerServiceImpl.access$100(ShippingCostCrawlerServiceImpl.java:34)
+	at com.example.demo.service.impl.ShippingCostCrawlerServiceImpl$Task.run(ShippingCostCrawlerServiceImpl.java:267)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:432)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:88)
+	at org.apache.axis.components.net.JSSESocketFactory.create(JSSESocketFactory.java:92)
+	at org.apache.axis.transport.http.HTTPSender.getSocket(HTTPSender.java:191)
+	at org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:404)
+	at org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:138)
+	... 19 common frames omitted
+2019-10-14 11:38:19.267 [shipping-crawler-0] ERROR com.example.demo.util.ShippingCostUtil - service bei diao yong: 49 ci
+2019-10-14 11:38:19.267 [shipping-crawler-0] ERROR com.example.demo.util.ShippingCostUtil - service unvailable sleep ten minutes!
+2019-10-14 11:38:52.418 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29796, end time: 2019-10-14 11:38:52
+2019-10-14 11:38:52.419 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29797, start time: 2019-10-14 11:38:52
+2019-10-14 11:39:18.092 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57595, end time: 2019-10-14 11:39:18
+2019-10-14 11:39:18.092 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57596, start time: 2019-10-14 11:39:18
+2019-10-14 11:39:40.783 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70129, end time: 2019-10-14 11:39:40
+2019-10-14 11:39:40.783 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70130, start time: 2019-10-14 11:39:40
+2019-10-14 11:39:53.187 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49255, end time: 2019-10-14 11:39:53
+2019-10-14 11:39:53.187 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49256, start time: 2019-10-14 11:39:53
+2019-10-14 11:40:03.727 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58037, end time: 2019-10-14 11:40:03
+2019-10-14 11:40:03.728 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58038, start time: 2019-10-14 11:40:03
+2019-10-14 11:40:35.292 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37829, end time: 2019-10-14 11:40:35
+2019-10-14 11:40:35.292 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37830, start time: 2019-10-14 11:40:35
+2019-10-14 11:40:42.972 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47169, end time: 2019-10-14 11:40:42
+2019-10-14 11:40:42.974 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47170, start time: 2019-10-14 11:40:42
+2019-10-14 11:41:01.614 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25422, end time: 2019-10-14 11:41:01
+2019-10-14 11:41:01.614 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25423, start time: 2019-10-14 11:41:01
+2019-10-14 11:41:03.794 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54618, end time: 2019-10-14 11:41:03
+2019-10-14 11:41:03.794 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54619, start time: 2019-10-14 11:41:03
+2019-10-14 11:41:32.061 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17165, end time: 2019-10-14 11:41:32
+2019-10-14 11:41:32.062 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17166, start time: 2019-10-14 11:41:32
+2019-10-14 11:41:46.419 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11650, end time: 2019-10-14 11:41:46
+2019-10-14 11:41:46.420 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11651, start time: 2019-10-14 11:41:46
+2019-10-14 11:41:47.738 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17591, end time: 2019-10-14 11:41:47
+2019-10-14 11:41:47.739 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17592, start time: 2019-10-14 11:41:47
+2019-10-14 11:42:01.259 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64454, end time: 2019-10-14 11:42:01
+2019-10-14 11:42:01.260 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64455, start time: 2019-10-14 11:42:01
+2019-10-14 11:42:16.304 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29797, end time: 2019-10-14 11:42:16
+2019-10-14 11:42:16.304 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29798, start time: 2019-10-14 11:42:16
+2019-10-14 11:42:28.850 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7351, end time: 2019-10-14 11:42:28
+2019-10-14 11:42:28.851 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7352, start time: 2019-10-14 11:42:28
+2019-10-14 11:42:55.229 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57596, end time: 2019-10-14 11:42:55
+2019-10-14 11:42:55.230 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57597, start time: 2019-10-14 11:42:55
+2019-10-14 11:42:59.424 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70130, end time: 2019-10-14 11:42:59
+2019-10-14 11:42:59.424 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70131, start time: 2019-10-14 11:42:59
+2019-10-14 11:43:11.723 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58038, end time: 2019-10-14 11:43:11
+2019-10-14 11:43:11.724 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58039, start time: 2019-10-14 11:43:11
+2019-10-14 11:43:27.818 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25423, end time: 2019-10-14 11:43:27
+2019-10-14 11:43:27.819 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25424, start time: 2019-10-14 11:43:27
+2019-10-14 11:43:30.078 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37830, end time: 2019-10-14 11:43:30
+2019-10-14 11:43:30.079 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37831, start time: 2019-10-14 11:43:30
+2019-10-14 11:43:30.859 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54619, end time: 2019-10-14 11:43:30
+2019-10-14 11:43:30.859 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54620, start time: 2019-10-14 11:43:30
+2019-10-14 11:43:31.649 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49256, end time: 2019-10-14 11:43:31
+2019-10-14 11:43:31.649 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49257, start time: 2019-10-14 11:43:31
+2019-10-14 11:43:42.597 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17166, end time: 2019-10-14 11:43:42
+2019-10-14 11:43:42.599 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17167, start time: 2019-10-14 11:43:42
+2019-10-14 11:43:46.186 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11651, end time: 2019-10-14 11:43:46
+2019-10-14 11:43:46.187 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11652, start time: 2019-10-14 11:43:46
+2019-10-14 11:43:50.229 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47170, end time: 2019-10-14 11:43:50
+2019-10-14 11:43:50.229 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47171, start time: 2019-10-14 11:43:50
+2019-10-14 11:44:08.505 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64455, end time: 2019-10-14 11:44:08
+2019-10-14 11:44:08.507 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64456, start time: 2019-10-14 11:44:08
+2019-10-14 11:44:16.655 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29798, end time: 2019-10-14 11:44:16
+2019-10-14 11:44:16.656 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29799, start time: 2019-10-14 11:44:16
+2019-10-14 11:44:20.841 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7352, end time: 2019-10-14 11:44:20
+2019-10-14 11:44:20.841 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7353, start time: 2019-10-14 11:44:20
+2019-10-14 11:44:30.582 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70131, end time: 2019-10-14 11:44:30
+2019-10-14 11:44:30.583 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70132, start time: 2019-10-14 11:44:30
+2019-10-14 11:44:32.057 [shipping-crawler-15] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 70132, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:44:32.087 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70132, end time: 2019-10-14 11:44:32
+2019-10-14 11:44:32.088 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70133, start time: 2019-10-14 11:44:32
+2019-10-14 11:44:35.094 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57597, end time: 2019-10-14 11:44:35
+2019-10-14 11:44:35.094 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57598, start time: 2019-10-14 11:44:35
+2019-10-14 11:44:36.786 [shipping-crawler-15] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 70133, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:44:36.926 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70133, end time: 2019-10-14 11:44:36
+2019-10-14 11:44:36.926 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70134, start time: 2019-10-14 11:44:36
+2019-10-14 11:44:38.340 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17592, end time: 2019-10-14 11:44:38
+2019-10-14 11:44:38.341 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17593, start time: 2019-10-14 11:44:38
+2019-10-14 11:44:40.077 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58039, end time: 2019-10-14 11:44:40
+2019-10-14 11:44:40.078 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58040, start time: 2019-10-14 11:44:40
+2019-10-14 11:44:55.459 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54620, end time: 2019-10-14 11:44:55
+2019-10-14 11:44:55.459 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54621, start time: 2019-10-14 11:44:55
+2019-10-14 11:45:01.547 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25424, end time: 2019-10-14 11:45:01
+2019-10-14 11:45:01.548 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25425, start time: 2019-10-14 11:45:01
+2019-10-14 11:45:04.076 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49257, end time: 2019-10-14 11:45:04
+2019-10-14 11:45:04.077 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49258, start time: 2019-10-14 11:45:04
+2019-10-14 11:45:12.644 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37831, end time: 2019-10-14 11:45:12
+2019-10-14 11:45:12.644 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37832, start time: 2019-10-14 11:45:12
+2019-10-14 11:45:15.870 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17167, end time: 2019-10-14 11:45:15
+2019-10-14 11:45:15.870 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17168, start time: 2019-10-14 11:45:15
+2019-10-14 11:45:16.756 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11652, end time: 2019-10-14 11:45:16
+2019-10-14 11:45:16.757 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11653, start time: 2019-10-14 11:45:16
+2019-10-14 11:45:19.203 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47171, end time: 2019-10-14 11:45:19
+2019-10-14 11:45:19.204 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47172, start time: 2019-10-14 11:45:19
+2019-10-14 11:45:28.337 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64456, end time: 2019-10-14 11:45:28
+2019-10-14 11:45:28.338 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64457, start time: 2019-10-14 11:45:28
+2019-10-14 11:45:38.194 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29799, end time: 2019-10-14 11:45:38
+2019-10-14 11:45:38.195 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29800, start time: 2019-10-14 11:45:38
+2019-10-14 11:45:39.556 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29800, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:45:39.589 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29800, end time: 2019-10-14 11:45:39
+2019-10-14 11:45:39.590 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29801, start time: 2019-10-14 11:45:39
+2019-10-14 11:45:40.646 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7353, end time: 2019-10-14 11:45:40
+2019-10-14 11:45:40.647 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7354, start time: 2019-10-14 11:45:40
+2019-10-14 11:45:40.986 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29801, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:45:41.050 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29801, end time: 2019-10-14 11:45:41
+2019-10-14 11:45:41.050 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29802, start time: 2019-10-14 11:45:41
+2019-10-14 11:45:42.422 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57598, end time: 2019-10-14 11:45:42
+2019-10-14 11:45:42.422 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57599, start time: 2019-10-14 11:45:42
+2019-10-14 11:45:44.629 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70134, end time: 2019-10-14 11:45:44
+2019-10-14 11:45:44.629 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70135, start time: 2019-10-14 11:45:44
+2019-10-14 11:45:50.483 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58040, end time: 2019-10-14 11:45:50
+2019-10-14 11:45:50.483 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58041, start time: 2019-10-14 11:45:50
+2019-10-14 11:45:51.531 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17593, end time: 2019-10-14 11:45:51
+2019-10-14 11:45:51.531 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17594, start time: 2019-10-14 11:45:51
+2019-10-14 11:46:05.873 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54621, end time: 2019-10-14 11:46:05
+2019-10-14 11:46:05.874 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54622, start time: 2019-10-14 11:46:05
+2019-10-14 11:46:06.597 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25425, end time: 2019-10-14 11:46:06
+2019-10-14 11:46:06.597 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25426, start time: 2019-10-14 11:46:06
+2019-10-14 11:46:08.279 [shipping-crawler-3] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 25426, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:46:08.305 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25426, end time: 2019-10-14 11:46:08
+2019-10-14 11:46:08.306 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25427, start time: 2019-10-14 11:46:08
+2019-10-14 11:46:09.593 [shipping-crawler-3] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 25427, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:46:09.628 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25427, end time: 2019-10-14 11:46:09
+2019-10-14 11:46:09.628 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25428, start time: 2019-10-14 11:46:09
+2019-10-14 11:46:19.374 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49258, end time: 2019-10-14 11:46:19
+2019-10-14 11:46:19.374 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49259, start time: 2019-10-14 11:46:19
+2019-10-14 11:46:24.737 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37832, end time: 2019-10-14 11:46:24
+2019-10-14 11:46:24.738 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37833, start time: 2019-10-14 11:46:24
+2019-10-14 11:46:25.215 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11653, end time: 2019-10-14 11:46:25
+2019-10-14 11:46:25.216 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11654, start time: 2019-10-14 11:46:25
+2019-10-14 11:46:27.417 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47172, end time: 2019-10-14 11:46:27
+2019-10-14 11:46:27.418 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47173, start time: 2019-10-14 11:46:27
+2019-10-14 11:46:27.994 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17168, end time: 2019-10-14 11:46:27
+2019-10-14 11:46:27.994 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17169, start time: 2019-10-14 11:46:27
+2019-10-14 11:46:35.456 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64457, end time: 2019-10-14 11:46:35
+2019-10-14 11:46:35.457 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64458, start time: 2019-10-14 11:46:35
+2019-10-14 11:46:44.453 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7354, end time: 2019-10-14 11:46:44
+2019-10-14 11:46:44.453 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7355, start time: 2019-10-14 11:46:44
+2019-10-14 11:46:48.344 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70135, end time: 2019-10-14 11:46:48
+2019-10-14 11:46:48.345 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70136, start time: 2019-10-14 11:46:48
+2019-10-14 11:46:49.854 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57599, end time: 2019-10-14 11:46:49
+2019-10-14 11:46:49.854 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57600, start time: 2019-10-14 11:46:49
+2019-10-14 11:46:52.831 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29802, end time: 2019-10-14 11:46:52
+2019-10-14 11:46:52.832 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29803, start time: 2019-10-14 11:46:52
+2019-10-14 11:46:57.082 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17594, end time: 2019-10-14 11:46:57
+2019-10-14 11:46:57.082 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17595, start time: 2019-10-14 11:46:57
+2019-10-14 11:47:07.845 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58041, end time: 2019-10-14 11:47:07
+2019-10-14 11:47:07.845 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58042, start time: 2019-10-14 11:47:07
+2019-10-14 11:47:16.126 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54622, end time: 2019-10-14 11:47:16
+2019-10-14 11:47:16.127 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54623, start time: 2019-10-14 11:47:16
+2019-10-14 11:47:16.742 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25428, end time: 2019-10-14 11:47:16
+2019-10-14 11:47:16.742 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25429, start time: 2019-10-14 11:47:16
+2019-10-14 11:47:27.299 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37833, end time: 2019-10-14 11:47:27
+2019-10-14 11:47:27.299 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37834, start time: 2019-10-14 11:47:27
+2019-10-14 11:47:29.210 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49259, end time: 2019-10-14 11:47:29
+2019-10-14 11:47:29.211 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49260, start time: 2019-10-14 11:47:29
+2019-10-14 11:47:29.246 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11654, end time: 2019-10-14 11:47:29
+2019-10-14 11:47:29.246 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11655, start time: 2019-10-14 11:47:29
+2019-10-14 11:47:29.836 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17169, end time: 2019-10-14 11:47:29
+2019-10-14 11:47:29.836 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17170, start time: 2019-10-14 11:47:29
+2019-10-14 11:47:30.871 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47173, end time: 2019-10-14 11:47:30
+2019-10-14 11:47:30.872 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47174, start time: 2019-10-14 11:47:30
+2019-10-14 11:47:32.461 [shipping-crawler-14] ERROR com.example.demo.util.ShippingCostUtil - service restart after sleep ten minutes!
+2019-10-14 11:47:32.461 [shipping-crawler-14] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 81929, reply is null, get data exception
+2019-10-14 11:47:32.493 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81929, end time: 2019-10-14 11:47:32
+2019-10-14 11:47:32.494 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81930, start time: 2019-10-14 11:47:32
+2019-10-14 11:47:39.221 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64458, end time: 2019-10-14 11:47:39
+2019-10-14 11:47:39.222 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64459, start time: 2019-10-14 11:47:39
+2019-10-14 11:47:45.598 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7355, end time: 2019-10-14 11:47:45
+2019-10-14 11:47:45.598 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7356, start time: 2019-10-14 11:47:45
+2019-10-14 11:47:51.272 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70136, end time: 2019-10-14 11:47:51
+2019-10-14 11:47:51.273 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70640, start time: 2019-10-14 11:47:51
+2019-10-14 11:47:56.504 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57600, end time: 2019-10-14 11:47:56
+2019-10-14 11:47:56.504 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57601, start time: 2019-10-14 11:47:56
+2019-10-14 11:48:02.213 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17595, end time: 2019-10-14 11:48:02
+2019-10-14 11:48:02.214 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17596, start time: 2019-10-14 11:48:02
+2019-10-14 11:48:04.587 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29803, end time: 2019-10-14 11:48:04
+2019-10-14 11:48:04.588 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29804, start time: 2019-10-14 11:48:04
+2019-10-14 11:48:15.323 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58042, end time: 2019-10-14 11:48:15
+2019-10-14 11:48:15.326 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58043, start time: 2019-10-14 11:48:15
+2019-10-14 11:48:19.265 [shipping-crawler-0] ERROR com.example.demo.util.ShippingCostUtil - service restart after sleep ten minutes!
+2019-10-14 11:48:19.265 [shipping-crawler-0] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 3772, reply is null, get data exception
+2019-10-14 11:48:19.325 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3772, end time: 2019-10-14 11:48:19
+2019-10-14 11:48:19.325 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3773, start time: 2019-10-14 11:48:19
+2019-10-14 11:48:21.238 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54623, end time: 2019-10-14 11:48:21
+2019-10-14 11:48:21.238 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54624, start time: 2019-10-14 11:48:21
+2019-10-14 11:48:25.099 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25429, end time: 2019-10-14 11:48:25
+2019-10-14 11:48:25.100 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25430, start time: 2019-10-14 11:48:25
+2019-10-14 11:48:29.139 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37834, end time: 2019-10-14 11:48:29
+2019-10-14 11:48:29.139 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37835, start time: 2019-10-14 11:48:29
+2019-10-14 11:48:33.403 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11655, end time: 2019-10-14 11:48:33
+2019-10-14 11:48:33.404 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11656, start time: 2019-10-14 11:48:33
+2019-10-14 11:48:35.460 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81930, end time: 2019-10-14 11:48:35
+2019-10-14 11:48:35.461 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81931, start time: 2019-10-14 11:48:35
+2019-10-14 11:48:37.046 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17170, end time: 2019-10-14 11:48:37
+2019-10-14 11:48:37.046 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17171, start time: 2019-10-14 11:48:37
+2019-10-14 11:48:38.532 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47174, end time: 2019-10-14 11:48:38
+2019-10-14 11:48:38.533 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47175, start time: 2019-10-14 11:48:38
+2019-10-14 11:48:40.732 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49260, end time: 2019-10-14 11:48:40
+2019-10-14 11:48:40.732 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49261, start time: 2019-10-14 11:48:40
+2019-10-14 11:48:44.766 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7356, end time: 2019-10-14 11:48:44
+2019-10-14 11:48:44.767 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7357, start time: 2019-10-14 11:48:44
+2019-10-14 11:48:49.855 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64459, end time: 2019-10-14 11:48:49
+2019-10-14 11:48:49.855 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64460, start time: 2019-10-14 11:48:49
+2019-10-14 11:48:50.562 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70640, end time: 2019-10-14 11:48:50
+2019-10-14 11:48:50.562 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70641, start time: 2019-10-14 11:48:50
+2019-10-14 11:49:07.385 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17596, end time: 2019-10-14 11:49:07
+2019-10-14 11:49:07.386 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17597, start time: 2019-10-14 11:49:07
+2019-10-14 11:49:11.107 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57601, end time: 2019-10-14 11:49:11
+2019-10-14 11:49:11.107 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57602, start time: 2019-10-14 11:49:11
+2019-10-14 11:49:15.598 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29804, end time: 2019-10-14 11:49:15
+2019-10-14 11:49:15.600 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29805, start time: 2019-10-14 11:49:15
+2019-10-14 11:49:23.292 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58043, end time: 2019-10-14 11:49:23
+2019-10-14 11:49:23.293 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58044, start time: 2019-10-14 11:49:23
+2019-10-14 11:49:24.939 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3773, end time: 2019-10-14 11:49:24
+2019-10-14 11:49:24.940 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3774, start time: 2019-10-14 11:49:24
+2019-10-14 11:49:31.822 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54624, end time: 2019-10-14 11:49:31
+2019-10-14 11:49:31.823 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54625, start time: 2019-10-14 11:49:31
+2019-10-14 11:49:41.319 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37835, end time: 2019-10-14 11:49:41
+2019-10-14 11:49:41.320 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37836, start time: 2019-10-14 11:49:41
+2019-10-14 11:49:44.059 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25430, end time: 2019-10-14 11:49:44
+2019-10-14 11:49:44.060 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25431, start time: 2019-10-14 11:49:44
+2019-10-14 11:49:45.183 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17171, end time: 2019-10-14 11:49:45
+2019-10-14 11:49:45.183 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17172, start time: 2019-10-14 11:49:45
+2019-10-14 11:49:46.611 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81931, end time: 2019-10-14 11:49:46
+2019-10-14 11:49:46.611 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81932, start time: 2019-10-14 11:49:46
+2019-10-14 11:49:47.230 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11656, end time: 2019-10-14 11:49:47
+2019-10-14 11:49:47.230 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11657, start time: 2019-10-14 11:49:47
+2019-10-14 11:49:47.638 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47175, end time: 2019-10-14 11:49:47
+2019-10-14 11:49:47.638 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47176, start time: 2019-10-14 11:49:47
+2019-10-14 11:49:52.386 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49261, end time: 2019-10-14 11:49:52
+2019-10-14 11:49:52.387 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49262, start time: 2019-10-14 11:49:52
+2019-10-14 11:50:03.370 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70641, end time: 2019-10-14 11:50:03
+2019-10-14 11:50:03.371 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70642, start time: 2019-10-14 11:50:03
+2019-10-14 11:50:04.862 [shipping-crawler-15] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 70642, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:50:04.913 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70642, end time: 2019-10-14 11:50:04
+2019-10-14 11:50:04.914 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70643, start time: 2019-10-14 11:50:04
+2019-10-14 11:50:07.798 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64460, end time: 2019-10-14 11:50:07
+2019-10-14 11:50:07.799 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64461, start time: 2019-10-14 11:50:07
+2019-10-14 11:50:08.123 [shipping-crawler-15] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 70643, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:50:08.168 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70643, end time: 2019-10-14 11:50:08
+2019-10-14 11:50:08.168 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70644, start time: 2019-10-14 11:50:08
+2019-10-14 11:50:08.689 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7357, end time: 2019-10-14 11:50:08
+2019-10-14 11:50:08.689 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7358, start time: 2019-10-14 11:50:08
+2019-10-14 11:50:24.186 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17597, end time: 2019-10-14 11:50:24
+2019-10-14 11:50:24.187 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17598, start time: 2019-10-14 11:50:24
+2019-10-14 11:50:32.650 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57602, end time: 2019-10-14 11:50:32
+2019-10-14 11:50:32.651 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57603, start time: 2019-10-14 11:50:32
+2019-10-14 11:50:38.230 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58044, end time: 2019-10-14 11:50:38
+2019-10-14 11:50:38.231 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58045, start time: 2019-10-14 11:50:38
+2019-10-14 11:50:40.928 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29805, end time: 2019-10-14 11:50:40
+2019-10-14 11:50:40.928 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29806, start time: 2019-10-14 11:50:40
+2019-10-14 11:50:42.515 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29806, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:50:42.538 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29806, end time: 2019-10-14 11:50:42
+2019-10-14 11:50:42.539 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29807, start time: 2019-10-14 11:50:42
+2019-10-14 11:50:45.076 [shipping-crawler-7] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 29807, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:50:45.114 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29807, end time: 2019-10-14 11:50:45
+2019-10-14 11:50:45.114 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29808, start time: 2019-10-14 11:50:45
+2019-10-14 11:50:50.515 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3774, end time: 2019-10-14 11:50:50
+2019-10-14 11:50:50.515 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3775, start time: 2019-10-14 11:50:50
+2019-10-14 11:50:55.025 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81932, end time: 2019-10-14 11:50:55
+2019-10-14 11:50:55.025 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81933, start time: 2019-10-14 11:50:55
+2019-10-14 11:50:56.976 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54625, end time: 2019-10-14 11:50:56
+2019-10-14 11:50:56.977 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54626, start time: 2019-10-14 11:50:56
+2019-10-14 11:50:57.445 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17172, end time: 2019-10-14 11:50:57
+2019-10-14 11:50:57.445 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17173, start time: 2019-10-14 11:50:57
+2019-10-14 11:51:02.193 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47176, end time: 2019-10-14 11:51:02
+2019-10-14 11:51:02.205 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47177, start time: 2019-10-14 11:51:02
+2019-10-14 11:51:09.191 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25431, end time: 2019-10-14 11:51:09
+2019-10-14 11:51:09.191 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25432, start time: 2019-10-14 11:51:09
+2019-10-14 11:51:09.506 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37836, end time: 2019-10-14 11:51:09
+2019-10-14 11:51:09.506 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37837, start time: 2019-10-14 11:51:09
+2019-10-14 11:51:09.554 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49262, end time: 2019-10-14 11:51:09
+2019-10-14 11:51:09.554 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49263, start time: 2019-10-14 11:51:09
+2019-10-14 11:51:12.412 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11657, end time: 2019-10-14 11:51:12
+2019-10-14 11:51:12.412 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11658, start time: 2019-10-14 11:51:12
+2019-10-14 11:51:21.709 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7358, end time: 2019-10-14 11:51:21
+2019-10-14 11:51:21.709 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7359, start time: 2019-10-14 11:51:21
+2019-10-14 11:51:22.929 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70644, end time: 2019-10-14 11:51:22
+2019-10-14 11:51:22.930 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70645, start time: 2019-10-14 11:51:22
+2019-10-14 11:51:24.927 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64461, end time: 2019-10-14 11:51:24
+2019-10-14 11:51:24.928 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64462, start time: 2019-10-14 11:51:24
+2019-10-14 11:51:42.956 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17598, end time: 2019-10-14 11:51:42
+2019-10-14 11:51:42.957 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17599, start time: 2019-10-14 11:51:42
+2019-10-14 11:51:55.267 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57603, end time: 2019-10-14 11:51:55
+2019-10-14 11:51:55.268 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57604, start time: 2019-10-14 11:51:55
+2019-10-14 11:52:08.883 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29808, end time: 2019-10-14 11:52:08
+2019-10-14 11:52:08.885 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29809, start time: 2019-10-14 11:52:08
+2019-10-14 11:52:09.621 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58045, end time: 2019-10-14 11:52:09
+2019-10-14 11:52:09.621 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58046, start time: 2019-10-14 11:52:09
+2019-10-14 11:52:27.263 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81933, end time: 2019-10-14 11:52:27
+2019-10-14 11:52:27.265 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81934, start time: 2019-10-14 11:52:27
+2019-10-14 11:52:27.713 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17173, end time: 2019-10-14 11:52:27
+2019-10-14 11:52:27.713 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 18772, start time: 2019-10-14 11:52:27
+2019-10-14 11:52:35.071 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54626, end time: 2019-10-14 11:52:35
+2019-10-14 11:52:35.072 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54627, start time: 2019-10-14 11:52:35
+2019-10-14 11:52:36.789 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47177, end time: 2019-10-14 11:52:36
+2019-10-14 11:52:36.789 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47178, start time: 2019-10-14 11:52:36
+2019-10-14 11:52:37.970 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3775, end time: 2019-10-14 11:52:37
+2019-10-14 11:52:37.970 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3776, start time: 2019-10-14 11:52:37
+2019-10-14 11:52:41.151 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25432, end time: 2019-10-14 11:52:41
+2019-10-14 11:52:41.151 [shipping-crawler-3] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 25433, start time: 2019-10-14 11:52:41
+2019-10-14 11:52:47.581 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37837, end time: 2019-10-14 11:52:47
+2019-10-14 11:52:47.582 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37838, start time: 2019-10-14 11:52:47
+2019-10-14 11:52:47.977 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11658, end time: 2019-10-14 11:52:47
+2019-10-14 11:52:47.977 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11659, start time: 2019-10-14 11:52:47
+2019-10-14 11:52:57.222 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70645, end time: 2019-10-14 11:52:57
+2019-10-14 11:52:57.222 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70646, start time: 2019-10-14 11:52:57
+2019-10-14 11:53:03.090 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49263, end time: 2019-10-14 11:53:03
+2019-10-14 11:53:03.090 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49264, start time: 2019-10-14 11:53:03
+2019-10-14 11:53:09.819 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64462, end time: 2019-10-14 11:53:09
+2019-10-14 11:53:09.819 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64463, start time: 2019-10-14 11:53:09
+2019-10-14 11:53:15.527 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7359, end time: 2019-10-14 11:53:15
+2019-10-14 11:53:15.528 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7360, start time: 2019-10-14 11:53:15
+2019-10-14 11:53:16.603 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57604, end time: 2019-10-14 11:53:16
+2019-10-14 11:53:16.604 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57605, start time: 2019-10-14 11:53:16
+2019-10-14 11:53:27.810 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17599, end time: 2019-10-14 11:53:27
+2019-10-14 11:53:27.812 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17600, start time: 2019-10-14 11:53:27
+2019-10-14 11:53:37.547 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58046, end time: 2019-10-14 11:53:37
+2019-10-14 11:53:37.547 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58047, start time: 2019-10-14 11:53:37
+2019-10-14 11:53:39.469 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58047, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:53:39.516 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58047, end time: 2019-10-14 11:53:39
+2019-10-14 11:53:39.516 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58048, start time: 2019-10-14 11:53:39
+2019-10-14 11:53:43.094 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58048, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:53:43.844 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58048, end time: 2019-10-14 11:53:43
+2019-10-14 11:53:43.844 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58049, start time: 2019-10-14 11:53:43
+2019-10-14 11:53:45.683 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58049, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:53:45.720 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58049, end time: 2019-10-14 11:53:45
+2019-10-14 11:53:45.721 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58050, start time: 2019-10-14 11:53:45
+2019-10-14 11:53:49.914 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58050, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:53:49.930 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58050, end time: 2019-10-14 11:53:49
+2019-10-14 11:53:49.930 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58051, start time: 2019-10-14 11:53:49
+2019-10-14 11:53:52.211 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29809, end time: 2019-10-14 11:53:52
+2019-10-14 11:53:52.211 [shipping-crawler-7] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 29810, start time: 2019-10-14 11:53:52
+2019-10-14 11:54:01.454 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58051, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:54:01.482 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58051, end time: 2019-10-14 11:54:01
+2019-10-14 11:54:01.483 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58052, start time: 2019-10-14 11:54:01
+2019-10-14 11:54:03.431 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47178, end time: 2019-10-14 11:54:03
+2019-10-14 11:54:03.432 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47179, start time: 2019-10-14 11:54:03
+2019-10-14 11:54:33.412 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3776, end time: 2019-10-14 11:54:33
+2019-10-14 11:54:33.413 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3777, start time: 2019-10-14 11:54:33
+2019-10-14 11:55:10.274 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11659, end time: 2019-10-14 11:55:10
+2019-10-14 11:55:10.275 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11660, start time: 2019-10-14 11:55:10
+2019-10-14 11:55:23.591 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 18772, end time: 2019-10-14 11:55:23
+2019-10-14 11:55:23.592 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 18773, start time: 2019-10-14 11:55:23
+2019-10-14 11:55:43.145 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70646, end time: 2019-10-14 11:55:43
+2019-10-14 11:55:43.146 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70647, start time: 2019-10-14 11:55:43
+2019-10-14 11:56:03.790 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37838, end time: 2019-10-14 11:56:03
+2019-10-14 11:56:03.791 [shipping-crawler-6] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 37839, start time: 2019-10-14 11:56:03
+2019-10-14 11:56:06.705 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54627, end time: 2019-10-14 11:56:06
+2019-10-14 11:56:06.706 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54628, start time: 2019-10-14 11:56:06
+2019-10-14 11:56:10.586 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54628, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:56:10.606 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54628, end time: 2019-10-14 11:56:10
+2019-10-14 11:56:10.606 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54629, start time: 2019-10-14 11:56:10
+2019-10-14 11:56:41.437 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7360, end time: 2019-10-14 11:56:41
+2019-10-14 11:56:41.438 [shipping-crawler-1] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 7361, start time: 2019-10-14 11:56:41
+2019-10-14 11:57:10.842 [shipping-crawler-8] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 54629, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:57:10.894 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54629, end time: 2019-10-14 11:57:10
+2019-10-14 11:57:10.895 [shipping-crawler-8] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 54630, start time: 2019-10-14 11:57:10
+2019-10-14 11:57:17.589 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17600, end time: 2019-10-14 11:57:17
+2019-10-14 11:57:17.589 [shipping-crawler-4] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 17601, start time: 2019-10-14 11:57:17
+2019-10-14 11:57:21.987 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57605, end time: 2019-10-14 11:57:21
+2019-10-14 11:57:21.987 [shipping-crawler-13] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 57606, start time: 2019-10-14 11:57:21
+2019-10-14 11:57:27.671 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81934, end time: 2019-10-14 11:57:27
+2019-10-14 11:57:27.672 [shipping-crawler-14] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 81935, start time: 2019-10-14 11:57:27
+2019-10-14 11:57:41.395 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49264, end time: 2019-10-14 11:57:41
+2019-10-14 11:57:41.395 [shipping-crawler-9] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 49265, start time: 2019-10-14 11:57:41
+2019-10-14 11:57:46.633 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58052, end time: 2019-10-14 11:57:46
+2019-10-14 11:57:46.634 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58053, start time: 2019-10-14 11:57:46
+2019-10-14 11:57:49.543 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58053, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:57:49.610 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58053, end time: 2019-10-14 11:57:49
+2019-10-14 11:57:49.610 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58054, start time: 2019-10-14 11:57:49
+2019-10-14 11:57:51.639 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58054, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:57:51.680 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58054, end time: 2019-10-14 11:57:51
+2019-10-14 11:57:51.681 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58055, start time: 2019-10-14 11:57:51
+2019-10-14 11:57:53.058 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47179, end time: 2019-10-14 11:57:53
+2019-10-14 11:57:53.059 [shipping-crawler-10] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 47180, start time: 2019-10-14 11:57:53
+2019-10-14 11:57:54.494 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58055, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:57:54.543 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58055, end time: 2019-10-14 11:57:54
+2019-10-14 11:57:54.543 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58056, start time: 2019-10-14 11:57:54
+2019-10-14 11:57:56.071 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58056, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:57:56.130 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58056, end time: 2019-10-14 11:57:56
+2019-10-14 11:57:56.131 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58057, start time: 2019-10-14 11:57:56
+2019-10-14 11:57:58.668 [shipping-crawler-12] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 58057, reply is error, message: Destination postal code is not serviced. 
+2019-10-14 11:57:58.970 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58057, end time: 2019-10-14 11:57:58
+2019-10-14 11:57:58.970 [shipping-crawler-12] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 58058, start time: 2019-10-14 11:57:58
+2019-10-14 11:58:01.653 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 18773, end time: 2019-10-14 11:58:01
+2019-10-14 11:58:01.654 [shipping-crawler-5] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 18774, start time: 2019-10-14 11:58:01
+2019-10-14 11:58:02.596 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64463, end time: 2019-10-14 11:58:02
+2019-10-14 11:58:02.597 [shipping-crawler-11] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 64464, start time: 2019-10-14 11:58:02
+2019-10-14 11:58:08.307 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11660, end time: 2019-10-14 11:58:08
+2019-10-14 11:58:08.307 [shipping-crawler-2] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 11661, start time: 2019-10-14 11:58:08
+2019-10-14 11:58:17.720 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3777, end time: 2019-10-14 11:58:17
+2019-10-14 11:58:17.721 [shipping-crawler-0] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 3778, start time: 2019-10-14 11:58:17
+2019-10-14 11:59:14.641 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70647, end time: 2019-10-14 11:59:14
+2019-10-14 11:59:14.642 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70648, start time: 2019-10-14 11:59:14
+2019-10-14 11:59:14.872 [shipping-crawler-7] ERROR com.example.demo.util.ShippingCostUtil - request exception: {}
+org.apache.axis.AxisFault: ; nested exception is: 
+	java.net.SocketTimeoutException: Read timed out
+	at org.apache.axis.AxisFault.makeFault(AxisFault.java:101)
+	at org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:154)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+	at org.apache.axis.client.AxisClient.invoke(AxisClient.java:165)
+	at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+	at org.apache.axis.client.Call.invoke(Call.java:2767)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.example.demo.fedex.rate.stub.RateServiceSoapBindingStub.getRates(RateServiceSoapBindingStub.java:2343)
+	at com.example.demo.util.ShippingCostUtil.getShippingCostReply(ShippingCostUtil.java:79)
+	at getShippingCostAndInsertByServiceType(ShippingCostCrawlerServiceImpl.java:129)
+	at com.example.demo.service.impl.ShippingCostCrawlerServiceImpl.access$100(ShippingCostCrawlerServiceImpl.java:34)
+	at com.example.demo.service.impl.ShippingCostCrawlerServiceImpl$Task.run(ShippingCostCrawlerServiceImpl.java:267)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at org.apache.axis.components.net.JSSESocketFactory.create(JSSESocketFactory.java:186)
+	at org.apache.axis.transport.http.HTTPSender.getSocket(HTTPSender.java:191)
+	at org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:404)
+	at org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:138)
+	... 19 common frames omitted
+2019-10-14 11:59:14.872 [shipping-crawler-7] ERROR com.example.demo.util.ShippingCostUtil - service bei diao yong: 5043 ci
+2019-10-14 11:59:14.873 [shipping-crawler-7] ERROR com.example.demo.util.ShippingCostUtil - service unvailable sleep ten minutes!
+2019-10-14 11:59:18.490 [shipping-crawler-15] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 70648, reply is error, message: STANDARD_OVERNIGHT is not supported for the destination.
+2019-10-14 11:59:18.507 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70648, end time: 2019-10-14 11:59:18
+2019-10-14 11:59:18.507 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70649, start time: 2019-10-14 11:59:18
+2019-10-14 11:59:21.664 [shipping-crawler-15] INFO  c.e.d.service.impl.ShippingCostCrawlerServiceImpl - area id: 70649, reply is error, message: FEDEX_2_DAY_AM is not supported for the destination.
+2019-10-14 11:59:21.686 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70649, end time: 2019-10-14 11:59:21
+2019-10-14 11:59:21.687 [shipping-crawler-15] ERROR c.e.d.service.impl.ShippingCostCrawlerServiceImpl -  areaId: 70650, start time: 2019-10-14 11:59:21
