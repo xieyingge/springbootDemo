@@ -314,6 +314,11 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
         if (StringUtils.isNotBlank(acceptableCities)) {
             String[] cities = acceptableCities.split(",");
             for (String city : cities) {
+                // 主城市没有跑完，acceptable 城市跑了一些了， postalcode 可以查出来，但是area查不出来，所以这里要验证
+                List<ShippingCostCrawler> result = selectListByParam(ShippingCostArea.builder().shippingToZipcode(des.getZip()).shippingToCity(city).build());
+                if (!result.isEmpty()) {
+                    continue;
+                }
                 getAllServiceTypeShippingCost(getShippingCostAreaByPostCode(des, city), desServiceType);
             }
         }
@@ -449,7 +454,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
             }
         }
         if (!notSupportServiceArea.isEmpty()) {
-            log.info("service type,{} is not supported for the destination.", str.toString());
+            log.info("toZipcode: {}, toCity: {}, service type: {} is not supported for the destination.", area.getShippingToZipcode(), area.getShippingToCity(), str.toString());
             shippingCostAreaService.updateNoSupportErrorMessage(notSupportServiceArea);
         }
     }
@@ -540,5 +545,10 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
             }
             log.info("{}, records is finished!", destinations.size());
         }
+    }
+
+    @Override
+    public List<ShippingCostCrawler> selectListByParam(ShippingCostArea param) {
+        return dao.selectListByParam(param);
     }
 }

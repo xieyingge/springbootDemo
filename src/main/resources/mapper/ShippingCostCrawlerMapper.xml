@@ -127,5 +127,16 @@
     </insert>
 
 
+    <select id="selectListByParam" resultType="com.example.demo.entity.ShippingCostCrawler">
+        SELECT
+          *
+        FROM
+          SHIPPING_COST_CRAWLER
+        where
+          SHIPPING_COST_AREA_ID in (
+            select id from SHIPPING_COST_AREA where SHIPPING_TO_ZIPCODE = #{shippingToZipcode} and SHIPPING_TO_CITY = #{shippingToCity}
+          )
+    </select>
+
 
 </mapper>

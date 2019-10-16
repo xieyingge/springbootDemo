@@ -13,6 +13,8 @@ spring:
       pool-name: MyHikariCP
       max-lifetime: 0
       connection-timeout: 30000
+  profiles:
+    active: dev
 #      driver-class-name: oracle.jdbc.pool.OracleDataSource
 server:
   port: 4099
