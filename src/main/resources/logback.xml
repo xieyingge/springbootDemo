@@ -25,9 +25,10 @@
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--我的理解：下面的rollingPolicy应该是保存10个小时的日志文件，就是这样的名字的日志文件为十个，超过就会替换旧的-->
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-            <fileNamePattern>${LOG_HOME}/consumer.%d{yyyy-MM-dd-HH}.%i.log</fileNamePattern>
+            <fileNamePattern>${LOG_HOME}/consumer.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <maxFileSize>50MB</maxFileSize>
-            <maxHistory>10</maxHistory>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>2GB</totalSizeCap>
         </rollingPolicy>
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>

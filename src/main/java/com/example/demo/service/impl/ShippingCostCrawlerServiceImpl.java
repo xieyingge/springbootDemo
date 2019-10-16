@@ -537,8 +537,8 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
                 } catch (Exception e) {
                     log.error("destination zipcode: {}, Exception: {}!", des.getZip(), e);
                 }
-                log.info("{}, records is finished!", destinations.size());
             }
+            log.info("{}, records is finished!", destinations.size());
         }
     }
 }
