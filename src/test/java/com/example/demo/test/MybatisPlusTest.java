@@ -3,6 +3,7 @@ package com.example.demo.test;
 
 import com.example.demo.dao.UserMapper;
 import com.example.demo.entity.User;
+import com.example.demo.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,16 +16,21 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 public class MybatisPlusTest {
 
+
     @Autowired
     private UserMapper userMapper;
+
+
+    @Autowired
+    private UserService userService;
 
     @Test
     public void testSelectList() {
 
         System.out.println(("----- selectAll method test ------"));
-        List<User> userList = userMapper.selectList(null);
-
-        userList.forEach(System.out::println);
+        List<User> list = userService.list(null);
+//        User one = userService.getOne(Wrappers.().eq(User::getId, 199));
+//        System.out.println(one);
     }
 
 }
