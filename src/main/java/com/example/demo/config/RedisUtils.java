@@ -21,7 +21,7 @@ import java.util.stream.Stream;
  * @author chunhui.tan
  * @version 创建时间：2018年10月8日 下午3:31:00
  */
-@Component
+//@Component
 public class RedisUtils {
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;

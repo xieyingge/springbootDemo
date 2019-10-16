@@ -26,4 +26,8 @@ public interface ShippingCostAreaDao {
 
 
     void updateNoSupportErrorMessage(ShippingCostArea notSupportServiceArea);
+
+    void updateErrorCodeAndMesageAllServiceType(@Param("code") String code, @Param("message") String message,
+                                                @Param("toZipcode") String toZipcode, @Param("toCity") String toCity,
+                                                @Param("crawlerNeedFedexCompany") List<Long> crawlerNeedFedexCompany);
 }

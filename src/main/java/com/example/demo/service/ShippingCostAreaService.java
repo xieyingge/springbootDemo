@@ -10,6 +10,8 @@ public interface ShippingCostAreaService {
 
     void generateAllAreaFromCA();
 
+    void multiGenerateAllAreaFromCA();
+
     /**
      *  select by type
      * @param fedex
@@ -26,4 +28,7 @@ public interface ShippingCostAreaService {
 
 
     void updateNoSupportErrorMessage(List<ShippingCostArea> notSupportServiceArea);
+
+    void updateErrorCodeAndMesageAllServiceType(ShippingCostArea area, List<Long> crawlerNeedFedexCompany);
+
 }

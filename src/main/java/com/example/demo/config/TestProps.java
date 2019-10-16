@@ -1,22 +1,17 @@
 package com.example.demo.config;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.PropertySource;
-import org.springframework.stereotype.Component;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-import java.util.*;
-
-@Component
-@PropertySource(value = {"classpath:config/myProps.yml"}, factory = YamlConfigFactory.class)
-@ConfigurationProperties(prefix = "testprops", ignoreInvalidFields = true)
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString
+//@Component
+//@PropertySource(value = {"classpath:config/myProps.yml"}, factory = YamlConfigFactory.class)
+//@ConfigurationProperties(prefix = "testprops", ignoreInvalidFields = true)
+//@Data
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@ToString
 public class TestProps {
     private String simpleProps;
     private String[] arrayProps;

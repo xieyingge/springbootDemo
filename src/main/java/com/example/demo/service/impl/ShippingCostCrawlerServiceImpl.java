@@ -1,10 +1,7 @@
 package com.example.demo.service.impl;
 
 import com.example.demo.dao.ShippingCostCrawlerDao;
-import com.example.demo.entity.CountryPostalCode;
-import com.example.demo.entity.ShippingCostArea;
-import com.example.demo.entity.ShippingCostCrawler;
-import com.example.demo.entity.ShippingCostFeeDetail;
+import com.example.demo.entity.*;
 import com.example.demo.fedex.rate.stub.*;
 import com.example.demo.service.CountryPostalCodeService;
 import com.example.demo.service.ShippingCostAreaService;
@@ -201,7 +198,11 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
     }
 
     private boolean isPriceChange(ShippingCostFeeDetail currentShippingCost, ShippingCostFeeDetail preShippingCost) {
-        return preShippingCost.getTotalNetCharge() != null && currentShippingCost.getTotalNetCharge().compareTo(preShippingCost.getTotalNetCharge()) != 0;
+        if (currentShippingCost != null && preShippingCost != null && currentShippingCost.getTotalNetCharge() != null) {
+
+            return preShippingCost.getTotalNetCharge() != null && currentShippingCost.getTotalNetCharge().compareTo(preShippingCost.getTotalNetCharge()) != 0;
+        }
+        return false;
     }
 
     private ShippingCostCrawler getShippingCostCrawler(ShippingCostArea area, ShippingCostFeeDetail preShippingCost, BigDecimal startW, BigDecimal endW) {
@@ -353,13 +354,15 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
             if (isResponseOk(reply.getHighestSeverity())) {
                 currentAllTypeShippingCost = ShippingCostUtil.getAllServiceTypeShippingCost(reply);
             } else {
-                boolean b = allServiceTypeDealErrorReply(reply);
+                boolean b = allServiceTypeDealErrorReply(reply, area);
                 if (b) {
-                    log.info("temporarily unavailable sleep 5 minutes");
+                    log.error("temporarily unavailable sleep 5 minutes");
                     sleep(5, TimeUnit.MINUTES);
-                    log.info("sleep end restart!");
+                    log.error("sleep end restart!");
+                    continue;
+                } else {
+                    break;
                 }
-                continue;
             }
 
             if (preAllTypeShippingCost != null) {
@@ -399,7 +402,7 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
         }
     }
 
-    private boolean allServiceTypeDealErrorReply(RateReply reply) {
+    private boolean allServiceTypeDealErrorReply(RateReply reply, ShippingCostArea area) {
         try {
             Notification[] notifications = reply.getNotifications();
             if (notifications != null && notifications.length > 0) {
@@ -412,7 +415,13 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
                     if (message.contains("temporarily unavailable")) {
                         return true;
                     } else {
-                        log.error(message + "**********************************");
+                        // 插入错误信息
+                        area.setErrorCode(n.getCode());
+                        area.setErrorMessage(message);
+                        shippingCostAreaService.updateErrorCodeAndMesageAllServiceType(area, ShippingCompany.getCrawlerNeedFedexCompany());
+
+                        log.info("message: {}, area to zipcode: {}, to city: {} for all service type is response not success!"
+                                , message, area.getShippingToZipcode(), area.getShippingToCity());
                     }
                     break;
                 }
@@ -497,14 +506,14 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
     public void multiProcessGetShippingCostAllServiceType() {
         log.info("all service multi process get start, select postalcode!");
         List<CountryPostalCode> crawlerNeedDes = countryPostalCodeService.selectNotCrawlerPostalCode();
-        log.info("postalcode data size: {} piece", crawlerNeedDes.size());
-        List<List<CountryPostalCode>> splitDatas = splitData(crawlerNeedDes, 4000);//除以线程数
+        log.info("postalcode data size: {} ", crawlerNeedDes.size());
+        List<List<CountryPostalCode>> splitDatas = splitData(crawlerNeedDes, crawlerNeedDes.size() / (PROCESS_NUM * 2 - 1));
         int i = 0;
         for (List<CountryPostalCode> destinations : splitDatas) {
-            log.error("submit task: {}", (++i));
+            log.info("submit task: {}", (++i));
             allServicePool.submit(new AllServiceTask(destinations));
         }
-        log.info("all service multi process get end!");
+        log.info("all service multi process submit end!");
     }
 
     private class AllServiceTask implements Runnable {
@@ -518,16 +527,17 @@ public class ShippingCostCrawlerServiceImpl implements ShippingCostCrawlerServic
         public void run() {
             for (CountryPostalCode des : destinations) {
                 try {
-                    log.error(" destination zipcode: {}, start time: {}", des.getZip(), LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+                    log.info(" destination zipcode: {}, start time: {}", des.getZip(), LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
 
                     List<ShippingCostArea> shippingCostAreaList = shippingCostAreaService.selectByShippingCompanyAndZipcode(FEDEX, des.getZip());
                     dealAcceptableCities(des, shippingCostAreaList);
                     getAllServiceTypeShippingCost(getShippingCostAreaByPostCode(des), shippingCostAreaList);
 
-                    log.error(" destination zipcode: {}, end time: {}", des.getZip(), LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+                    log.info(" destination zipcode: {}, end time: {}", des.getZip(), LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
                 } catch (Exception e) {
                     log.error("destination zipcode: {}, Exception: {}!", des.getZip(), e);
                 }
+                log.info("{}, records is finished!", destinations.size());
             }
         }
     }

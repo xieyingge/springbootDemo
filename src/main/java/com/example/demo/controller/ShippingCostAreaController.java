@@ -22,7 +22,15 @@ public class ShippingCostAreaController {
     @ResponseBody
     public Object generateAllAreaFromCA(){
         shippingCostAreaService.generateAllAreaFromCA();
-        log.error("end area!");
+
+        return toResult();
+    }
+
+
+    @RequestMapping("/multiGenerateAllAreaFromCA")
+    @ResponseBody
+    public Object multiGenerateAllAreaFromCA(){
+        shippingCostAreaService.multiGenerateAllAreaFromCA();
 
         return toResult();
     }

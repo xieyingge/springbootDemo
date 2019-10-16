@@ -154,6 +154,21 @@
              SHIPPING_TO_ZIPCODE = #{shippingToZipcode} and SHIPPING_TO_CITY = #{shippingToCity} and SHIPPING_METHOD_ID = #{shippingMethodId}
     </update>
 
+    <update id="updateErrorCodeAndMesageAllServiceType">
+        update
+         SHIPPING_COST_AREA
+          set
+            ERROR_CODE = #{code},
+            ERROR_MESSAGE = #{message},
+             UPDATE_DATE = sysdate
+          where
+             SHIPPING_TO_ZIPCODE = #{toZipcode} and SHIPPING_TO_CITY = #{toCity} and SHIPPING_METHOD_ID in (
+                <foreach collection="crawlerNeedFedexCompany" item="item" separator=",">
+                    #{item}
+                </foreach>
+             )
+    </update>
+
 
     <select id="selectByShippingCompany" resultType="com.example.demo.entity.ShippingCostArea">
         select
