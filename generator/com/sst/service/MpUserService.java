@@ -1,6 +1,6 @@
 package com.sst.service;
 
-import com.sst.entity.db.SysUser;
+import com.sst.entity.db.MpUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author ${author}
- * @since 2019-10-16
+ * @since 2019-10-18
  */
-public interface SysUserService extends IService<SysUser> {
+public interface MpUserService extends IService<MpUser> {
 
 }

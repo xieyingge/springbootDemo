@@ -1,6 +1,6 @@
 package com.sst.mapper;
 
-import com.sst.entity.db.SysUser;
+import com.sst.entity.db.MpUser;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author ${author}
- * @since 2019-10-16
+ * @since 2019-10-18
  */
-public interface SysUserMapper extends BaseMapper<SysUser> {
+public interface MpUserMapper extends BaseMapper<MpUser> {
 
 }
