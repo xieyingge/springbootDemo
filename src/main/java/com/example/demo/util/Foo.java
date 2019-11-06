@@ -15,9 +15,13 @@ import java.util.Map;
 public class Foo {
 
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
+//    private static final String DRIVER = "oracle.jdbc.driver.OracleDriver";
     private static final String DATA_URL = "jdbc:mysql://127.0.0.1:3306/xyg";
+//    private static final String DATA_URL = "jdbc:oracle:thin:@szoraqa01.skystartrade.com:1521/sstqa01";
     private static final String USERNAME = "root";
+//    private static final String USERNAME = "skystar";
     private static final String PASSWORD = "root";
+//    private static final String PASSWORD = "skystar2018";
     private static final String projectPath = System.getProperty("user.dir");//获取项目路劲
     private static final String ROOT_DIR = projectPath + "/generator"; //生成文件输出路劲，会在项目路劲下，生成一个generator文件夹，然后对应下面配置的报名，xml文件下生产文件
 
@@ -46,7 +50,7 @@ public class Foo {
         StrategyConfig strategy = new StrategyConfig();
         strategy.setTablePrefix(new String[]{"T_"});// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
-        strategy.setInclude(new String[]{"t_mp_user"}); // 需要生成的表   上面加了前缀 那生成的 实体等名字为 SysUser,没设置前缀属性就是 TsysUser
+        strategy.setInclude(new String[]{"COUNTRIES"}); // 需要生成的表   上面加了前缀 那生成的 实体等名字为 SysUser,没设置前缀属性就是 TsysUser
 
         PackageConfig pc = new PackageConfig();
         pc.setParent("com.sst");

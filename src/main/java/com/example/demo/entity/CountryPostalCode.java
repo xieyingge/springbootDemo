@@ -1,6 +1,7 @@
 package com.example.demo.entity;
 
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.*;
 
 @Data
@@ -8,6 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 @ToString
+@TableName("COUNTRYPOSTALCODE")
 public class CountryPostalCode {
     private String zip;
     private String city;

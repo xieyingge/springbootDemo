@@ -1,0 +1,39 @@
+1、外卖平台上的某家店铺为了促销，设置了多种会员优惠，其中超级会员八折，普通会员九折，普通用户没有折扣
+2、希望用户在付款的时候根据用户会员的等级，就可以知道用户符合那种折扣策略，进而进行打折，计算出应付的金额
+3、随着业务发展，新的需求，要求专属会员要在店铺下单金额大于30元的时候才可以享受优惠。
+4、接着又有一个需求，如果用户超级会员已经带起了，并且到期时间在一周内，那么就对用户的单笔订单按照超级会员进行折扣
+    ，并在收银台进行强提醒，引导用户再次开通会员，而且折扣只进行一次
+
+
+    public BigDecimal calPrice(BigDecimal orderPrice,String buyerType){
+        if (buyerTyp 超级会员){
+            if(金额大于三十){
+                return 7折价格
+            }
+        }
+        .....
+    }
+
+    public static void main(String[] args) {
+            UserPayService strategy = new VipPayService();
+            BigDecimal quote = strategy.quote(BigDecimal.valueOf(300));
+            System.out.println("普通会员的商品的最终价格为： " +  quote);
+
+            strategy = new SuperVipPayService();
+            quote = strategy.quote(BigDecimal.valueOf(300));
+            System.out.println("超级会员的商品的最终价格为： " +  quote);
+        }
+
+        像这种用main方法 结合多态的编码方式 在一个web项目中使用是不可以的，还是要根据不同类型来获取不同的具体类来获取价格。
+        并没有减少if else，要结合spring的托管，吧这些类型缓存起来。
+        加多一个工厂用来根据类型获取，具体的类对象。
+
+        public BigDecimal calPrice(BigDecimal orderPrice, User user) {
+                String type = user.getType();
+                UserPayService byUserType = UserPayServiceStrategyFactory.getByUserType(type);
+                return byUserType.quote(orderPrice);
+            }
+        这样可以简化我们的代码，提升了可读性，和可维护性
+
+    像这种，根据不同类型的事务，来获取不同的结果，这类需求，我们都可以定义一个接口，接口为获取这类结果，
+然后不同的类型的事务实现该接口，来实现其方法。

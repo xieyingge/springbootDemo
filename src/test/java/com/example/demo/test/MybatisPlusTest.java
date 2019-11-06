@@ -1,11 +1,16 @@
 package com.example.demo.test;
 
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.demo.dao.UserMapper;
+import com.example.demo.entity.CountryPostalCode;
 import com.example.demo.entity.MpUser;
 import com.example.demo.entity.User;
+import com.example.demo.service.CountryPostalCodeService;
 import com.example.demo.service.MpUserService;
 import com.example.demo.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -32,6 +37,9 @@ public class MybatisPlusTest {
 
     @Autowired
     private MpUserService mpUserService;
+
+    @Autowired
+    private CountryPostalCodeService countryPostalCodeService;
 
     @Test
     public void testQueryWrapper() {
@@ -66,9 +74,10 @@ public class MybatisPlusTest {
 //        queryWrapper.lambda().eq(MpUser::getId, 1).or(t -> t.eq(MpUser::getId, 6).or().like(MpUser::getName, "ja"));
 
 //        queryWrapper.lambda().exists("select 1 from t_mp_user a where a.age = t_mp_user.id");
-        queryWrapper.lambda().notExists("select 1 from t_mp_user a where a.age = t_mp_user.id");
 
-        List<MpUser> list = mpUserService.list(queryWrapper);
+//        queryWrapper.lambda().notExists("select 1 from t_mp_user a where a.age = t_mp_user.id");
+
+        List<MpUser> list = mpUserService.list(new LambdaQueryWrapper<MpUser>().ne(MpUser::getAge,18).ne(MpUser::getId,1));
         System.out.println(list);
     }
 
@@ -82,7 +91,7 @@ public class MybatisPlusTest {
     @Test
     public void testUpdate() {
         UpdateWrapper<MpUser> updateWrapper = new UpdateWrapper<>();
-        updateWrapper.lambda().set(MpUser::getName, "ooopppoo").eq(MpUser::getId,7);
+        updateWrapper.lambda().set(MpUser::getEmail, "ppp@195-email.com").eq(MpUser::getName,"Jack").eq(MpUser::getAge,20);
         boolean update = mpUserService.update(MpUser.builder().build(), updateWrapper);
 //        boolean b = mpUserService.updateById(MpUser.builder().name("lwx").id(7L).build());
         System.out.println(update);
@@ -90,8 +99,19 @@ public class MybatisPlusTest {
 
     @Test
     public void testMpMpUse() {
-        List<MpUser> list = mpUserService.list();
-        System.out.println(list);
+
+        Page<MpUser> page = new Page<>(2,2);
+        page.setAsc("id");
+        IPage<MpUser> page1 = mpUserService.page(page);
+        System.out.println(page1.getRecords());
+    }
+
+    @Test
+    public void testOraclePage() {
+
+        Page<CountryPostalCode> page = new Page<>(1,2);
+        page.setAsc("zip");
+        countryPostalCodeService.page(page);
     }
 
 
