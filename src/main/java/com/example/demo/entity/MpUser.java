@@ -3,6 +3,8 @@ package com.example.demo.entity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.*;
 
+import java.io.Serializable;
+
 /**
  * <p>
  *
@@ -17,7 +19,7 @@ import lombok.*;
 @Builder
 @ToString
 @TableName("t_mp_user")
-public class MpUser {
+public class MpUser implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

@@ -14,6 +14,8 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
+//        SpringApplication boot = new SpringApplication(DemoApplication.class);
+//        boot.run(args);
         //关闭启动的时候的 banner图显示
 //        SpringApplication app = new SpringApplication(DemoApplication.class);
 //        app.setBannerMode(Banner.Mode.OFF);
