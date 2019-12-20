@@ -1,0 +1,18 @@
+GET http://{{host}}/sst-mobile-m/sst/api/getMostPopularArticles.json?categoryId=10020&pageSize=100&pageNum=1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://szwebqa01.skystartrade.com:8480/sst-mobile-m/sst/api/admin/chooseWarehouseForItems.json?categoryId=10020&pageSize=100&pageNum=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "data": [{     "billingAddressId": 496789,     "createBy": 1,     "customerId": 105975,     "orderPayment": 2,     "productIdAndQtyVos": [{       "orderProductId": 1569,       "orderProductQty": 2     }     ],     "shippingAddressId": 496789   }] }
+
+###
+
+GET {{host}}
+
+###
