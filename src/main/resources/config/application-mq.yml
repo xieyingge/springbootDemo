@@ -42,3 +42,9 @@ server:
 myProp:
  name: myname
 
+management:
+  endpoint:
+    beans:
+      enabled: true
+    info:
+      enabled: false

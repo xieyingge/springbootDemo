@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "billingAddressId": 496789,
+      "createBy": 1,
+      "customerId": 105975,
+      "orderPayment": 2,
+      "productIdAndQtyVos": [
+        {
+          "orderProductId": 1569,
+          "orderProductQty": 2
+        }
+      ],
+      "shippingAddressId": 496789
+    }
+  ]
+}
