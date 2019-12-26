@@ -1,0 +1,5 @@
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#  com.example.demo.autoconfig.Test
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.example.demo.autoconfig.Test

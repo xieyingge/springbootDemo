@@ -14,7 +14,7 @@ spring:
       max-lifetime: 0
       connection-timeout: 30000
   profiles:
-    active: mq
+    active: cloud
 #      driver-class-name: oracle.jdbc.pool.OracleDataSource
 server:
   port: 4099

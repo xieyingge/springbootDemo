@@ -32,6 +32,8 @@ spring:
        concurrency: 5
        max-concurrency: 10
        prefetch: 1
+ application:
+   name: hello-service
 
 mybatis:
     type-aliases-package: com.example.demo.entity
@@ -42,9 +44,13 @@ server:
 myProp:
  name: myname
 
-management:
-  endpoint:
-    beans:
-      enabled: true
-    info:
-      enabled: false
+#management:
+#  endpoint:
+#    beans:
+#      enabled: true
+#    info:
+#      enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
