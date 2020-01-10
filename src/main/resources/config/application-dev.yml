@@ -20,11 +20,11 @@ spring:
   testOnReturn: false
   poolPreparedStatements: true
   maxOpenPreparedStatements: 20
- devtools:
-   restart:
-     additional-paths: src/main/java
-     enabled: true
-     exclude: ../static/js/plugins/highcharts/css/js/themes
+# devtools:
+#   restart:
+#     additional-paths: src/main/java
+#     enabled: true
+#     exclude: ../static/js/plugins/highcharts/css/js/themes
  thymeleaf:
      cache: false
      prefix: classpath:/templates/

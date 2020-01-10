@@ -13,4 +13,7 @@ import com.example.demo.entity.MpUser;
  */
 public interface MpUserService extends IService<MpUser> {
 
+    void updateTran();
+
+    void updateTran1();
 }

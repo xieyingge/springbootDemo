@@ -13,4 +13,5 @@ import com.example.demo.entity.MpUser;
  */
 public interface MpUserMapper extends BaseMapper<MpUser> {
 
+    void updateTran(MpUser build);
 }

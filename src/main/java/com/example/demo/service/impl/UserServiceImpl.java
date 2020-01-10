@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper,User> implements UserService {
-
-
+    @Override
+    public void testParam(String test1, int i, String test2) {
+        baseMapper.testParam(test1, i, test2);
+    }
 }

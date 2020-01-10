@@ -4,4 +4,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.demo.entity.User;
 
 public interface UserMapper extends BaseMapper<User> {
+
+    void testParam( String test1, int i, String test2);
 }

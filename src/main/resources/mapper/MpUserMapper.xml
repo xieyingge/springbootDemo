@@ -15,4 +15,8 @@
         id, name, age, email
     </sql>
 
+    <update id="updateTran">
+        update t_mp_user set age = #{age} where id = #{id}
+    </update>
+
 </mapper>
